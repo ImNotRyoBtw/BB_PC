@@ -1,0 +1,217 @@
+{
+  "complete": true,
+  "sourceVersion": "6.0.6",
+  "files": [
+    {
+      "path": "dialogs.json",
+      "sha256": "c46a3ee6b6552150c59967eed7adeb405d21611d111abab47afa7ff829776bbb"
+    },
+    {
+      "path": "Fonts/CAB-62586c4f7f88efe0e5bcce4ee70be241_-1728366689007755146.ttf",
+      "sha256": "7407f0814d04a4cc45127933df1d6ffab5c90e5e888d33a7279cd82c36426b30"
+    },
+    {
+      "path": "Fonts/CAB-62586c4f7f88efe0e5bcce4ee70be241_-8002349129444488859.ttf",
+      "sha256": "8afb4da281e19745d582814bdc66006bd56f43eb2fd0d2f88d854771472420b3"
+    },
+    {
+      "path": "Fonts/CAB-62586c4f7f88efe0e5bcce4ee70be241_8205276534984544055.ttf",
+      "sha256": "0cd1b13e35f124676d9e1de885249abebe6cbb2222a6bbf7f531d5bd37209829"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_-1066879722078336997.png",
+      "sha256": "1550ed6a88d4a8d7cee61414a0558932925d4347d9643c8ac17ff77c02d6ea46"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_-1066879722078336997.png.meta",
+      "sha256": "361a72b968123a781d555e85ade5e928bfa67e06564b2031798e7d293be6e5e7"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_-8758801304134894840.png",
+      "sha256": "133443e606d4d1b524b5ddd17380b72f57d4062647fc91aa01177260b392aeee"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_-8758801304134894840.png.meta",
+      "sha256": "5e607e7be47420154ec203742aac7d1c6faf81b1d4ece51b67e773493ed2c477"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_-9005729306063195331.png",
+      "sha256": "8947e739851c0ef330cac8fbbb89a5c7bb8b79dbe563ef1ebcb74dc30971d973"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_-9005729306063195331.png.meta",
+      "sha256": "a2560d60fe27094b173dd5ac31cc7496bd953a3588bf7892b87161c2aeac8479"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_2192232178573932904.png",
+      "sha256": "b9fd8bc1aa41dfcef0f16075d1ce44cc3782f4bb4037fb2cfecc8ac7ed85438a"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_2192232178573932904.png.meta",
+      "sha256": "58d7c137461621404ecec9e4813dd841b96743864773598a4e0a4401c62e3609"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_4097082705410186026.png",
+      "sha256": "8ab50dbc36170db904939ad96cc217b3fdf40a4f02c8fccdf684420bb6eebe58"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_4097082705410186026.png.meta",
+      "sha256": "ab793e7553b95aba098c5a27b2b0db11171d0e2393d9536950b3f2154d60abf9"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_5190587098678609905.png",
+      "sha256": "9b5adb8d83c27bf7344745f21e041bb5a1a628c23865582e114ca2373278f1a6"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_5190587098678609905.png.meta",
+      "sha256": "48d617b87a6b2ceaed33cd153552e2b0dac43646a11a31ff166b5a5533495f33"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_6637328766818709931.png",
+      "sha256": "0c413cc55b3ec4c383a9e93db09c7b70f0079d904fe8fb897d8e9eded7a486fb"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_6637328766818709931.png.meta",
+      "sha256": "cd966c5a4961bf79771372ffca7f31045629f4bf16b54a8459468d8d903b1cb2"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_6901270383998202774.png",
+      "sha256": "0801a91d80928a5d38ff0d380252ed64d0f3940760ca80c086752480bf1ed9ab"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_6901270383998202774.png.meta",
+      "sha256": "eba15942888e067213aca50e25b8dd2415762817af549f90fb2b067a3b59e637"
+    },
+    {
+      "path": "Sprites/CAB-cd0c7d14ff2899f26393089537f88d0b_-2016879117657221535.png",
+      "sha256": "eac99eca399fdae04e7a1a386e331c3b967d48a912c990d93a998d62af0c8313"
+    },
+    {
+      "path": "Sprites/CAB-cd0c7d14ff2899f26393089537f88d0b_-2016879117657221535.png.meta",
+      "sha256": "34d30cc4d9689472ebc2e60c0d2523feb07b49d9a88c73f57b2f4da122e2e16f"
+    },
+    {
+      "path": "Sprites/CAB-cd0c7d14ff2899f26393089537f88d0b_-2320101112833093935.png",
+      "sha256": "9510f9bbd05695d1c0eabfe440cd4db0abcc7162ec1f73202dda5e1cbe1bdccf"
+    },
+    {
+      "path": "Sprites/CAB-cd0c7d14ff2899f26393089537f88d0b_-2320101112833093935.png.meta",
+      "sha256": "e56cfde638bf257917dca98a4ebdaa3a83f08b90e4ac285a783be602b81c4cd3"
+    },
+    {
+      "path": "Sprites/CAB-cd0c7d14ff2899f26393089537f88d0b_-2380882833744820839.png",
+      "sha256": "e9144cb2d8d794c68f0c7ed694e1dda1dc7f3d7ced61371274482cd95ba077a3"
+    },
+    {
+      "path": "Sprites/CAB-cd0c7d14ff2899f26393089537f88d0b_-2380882833744820839.png.meta",
+      "sha256": "20c805a8804cbaabf21a410aeab7a64bda77be072bd095ed7300ef7d2be89ea7"
+    },
+    {
+      "path": "Sprites/CAB-cd0c7d14ff2899f26393089537f88d0b_-326585753505158145.png",
+      "sha256": "c248ab782401e24263a1364bd1361c5fb5415eb9a72e008483a1b76a3aee557f"
+    },
+    {
+      "path": "Sprites/CAB-cd0c7d14ff2899f26393089537f88d0b_-326585753505158145.png.meta",
+      "sha256": "c33bd868bcc63dd9f7e67d0f421dfa7a2539422bd622d51aee7bfcc394618f22"
+    },
+    {
+      "path": "Sprites/CAB-cd0c7d14ff2899f26393089537f88d0b_-4625822498617754533.png",
+      "sha256": "157c8deb944bebeada41ea4c3cb27b6dec211db04ee490405dc5afd6240bcef0"
+    },
+    {
+      "path": "Sprites/CAB-cd0c7d14ff2899f26393089537f88d0b_-4625822498617754533.png.meta",
+      "sha256": "e8720547ab9df765665c5ace43965c80f96c4f3990c437c2559acbcaf84ea7d5"
+    },
+    {
+      "path": "Sprites/CAB-cd0c7d14ff2899f26393089537f88d0b_-4790161913726880098.png",
+      "sha256": "6cf1b1523d56d04957943c0d1d94de4cca38dfa0172e546dec981c43ad01a11a"
+    },
+    {
+      "path": "Sprites/CAB-cd0c7d14ff2899f26393089537f88d0b_-4790161913726880098.png.meta",
+      "sha256": "0c130415f36074464ee948d09eb261795f53a8afe22177ceefa4e41e1c4504c6"
+    },
+    {
+      "path": "Sprites/CAB-cd0c7d14ff2899f26393089537f88d0b_-6932470282978226757.png",
+      "sha256": "4d400955061c9ce925249ee44d72857631fbb622de757cd9c1bc13b63a6df575"
+    },
+    {
+      "path": "Sprites/CAB-cd0c7d14ff2899f26393089537f88d0b_-6932470282978226757.png.meta",
+      "sha256": "ac5ad1391d91dee20948caf1c168cf03739e3b25592951d29d7aa6f3d3e0b0ac"
+    },
+    {
+      "path": "Sprites/CAB-cd0c7d14ff2899f26393089537f88d0b_-8796792606536705854.png",
+      "sha256": "968f73e2c926aa4f8242448df4072cfa3f62b91f9d826012b87cf14adf7eb4bb"
+    },
+    {
+      "path": "Sprites/CAB-cd0c7d14ff2899f26393089537f88d0b_-8796792606536705854.png.meta",
+      "sha256": "63d506e80ff9358cea99499afcd8621ddb5a90727f2a87e97792ec0702265671"
+    },
+    {
+      "path": "Sprites/CAB-cd0c7d14ff2899f26393089537f88d0b_5807157394859647630.png",
+      "sha256": "076d6907e26a3065f9dc2cce8e068662efe5774b6002367b2367e102f0ba3874"
+    },
+    {
+      "path": "Sprites/CAB-cd0c7d14ff2899f26393089537f88d0b_5807157394859647630.png.meta",
+      "sha256": "f25dfc8d1d3d50ab7c25b646b45e32ba4c33d8b49e23fc6d5cd75245c3453af8"
+    },
+    {
+      "path": "Sprites/CAB-cd0c7d14ff2899f26393089537f88d0b_64878057799197323.png",
+      "sha256": "d65e6e610b5819dd39ee0ebe3438d8f1bfbad4794683c4482bf59cb3111a2bab"
+    },
+    {
+      "path": "Sprites/CAB-cd0c7d14ff2899f26393089537f88d0b_64878057799197323.png.meta",
+      "sha256": "2829dd11e1d5524f92d10110679966c1ded77a753d166571b41bc28aeafc19cf"
+    },
+    {
+      "path": "Sprites/CAB-cd0c7d14ff2899f26393089537f88d0b_7665516458472535466.png",
+      "sha256": "2313c0c0bb1efea918fc2b2a6df717196ccb34121b5e5191479ba13c7d3bde2a"
+    },
+    {
+      "path": "Sprites/CAB-cd0c7d14ff2899f26393089537f88d0b_7665516458472535466.png.meta",
+      "sha256": "1ac3282b51a6df25aef71b383648cc21637ebf5d6b837507cef732776a625d5b"
+    },
+    {
+      "path": "Sprites/CAB-cd0c7d14ff2899f26393089537f88d0b_7804426648314978258.png",
+      "sha256": "5bc81ef611543e86b026c815921a9889964e922117d391f2873890f197bf8efd"
+    },
+    {
+      "path": "Sprites/CAB-cd0c7d14ff2899f26393089537f88d0b_7804426648314978258.png.meta",
+      "sha256": "1ffff4a62a10e20f6794d037cef6574c37cbf1ef66436cea131e9674daff5791"
+    },
+    {
+      "path": "Textures/CAB-cd0c7d14ff2899f26393089537f88d0b_-9116772427873344128.png",
+      "sha256": "28356f83743a2bcb7fa5ca4d1d5eef8246ba7085175cc9a5f2afb4c462533d0e"
+    }
+  ],
+  "objects": 49,
+  "assets": 24,
+  "pendingComponents": [
+    {
+      "id": "CAB-cd0c7d14ff2899f26393089537f88d0b:7647568470746443171",
+      "script": "Coffee.UIEffects.UIShiny",
+      "error": null,
+      "bytes": 84,
+      "consumed": 84
+    },
+    {
+      "id": "CAB-cd0c7d14ff2899f26393089537f88d0b:-2754705773679550978",
+      "script": "EnhancedUI.EnhancedScroller.EnhancedScroller",
+      "error": null,
+      "bytes": 112,
+      "consumed": 112
+    },
+    {
+      "id": "CAB-cd0c7d14ff2899f26393089537f88d0b:6165172623924751060",
+      "script": "EnhancedUI.EnhancedScroller.EnhancedScroller",
+      "error": null,
+      "bytes": 112,
+      "consumed": 112
+    }
+  ],
+  "gameplayVerified": false,
+  "animationsVerified": false,
+  "limits": [
+    "Partial controller fields are excluded from bindings.",
+    "Toggle behavior, UIShiny and original animations remain pending."
+  ]
+}

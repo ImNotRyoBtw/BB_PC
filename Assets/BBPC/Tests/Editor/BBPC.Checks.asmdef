@@ -1,0 +1,9 @@
+{
+  "name": "BBPC.Checks",
+  "references": [
+    "BBPC.Core"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ]
+}

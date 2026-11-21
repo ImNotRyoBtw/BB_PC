@@ -1,0 +1,1488 @@
+{
+ "sourceVersion": "6.0.6",
+ "scenes": [
+  {
+   "name": "Get10RewardDialog",
+   "objects": [
+    {
+     "id": "Get10RewardDialog:1",
+     "name": "Get10RewardDialog",
+     "active": true,
+     "transformId": "Get10RewardDialog:2",
+     "parent": "",
+     "children": [
+      "Get10RewardDialog:4"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      0.0,
+      0.0,
+      1
+     ],
+     "canvas": true,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "Canvas",
+      "UnityEngine.UI.CanvasScaler",
+      "UnityEngine.UI.GraphicRaycaster",
+      "Get10RewardDialog"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "canvasSettings": {
+      "enabled": true,
+      "overrideSorting": false,
+      "sortingOrder": 0,
+      "mode": 0,
+      "cameraFile": 0,
+      "targetDisplay": 0,
+      "cameraId": 0,
+      "planeDistance": 100
+     },
+     "scaler": {
+      "mode": 1,
+      "resolution": [
+       828.0,
+       1792.0
+      ],
+      "match": 1.0,
+      "ppu": 100.0
+     }
+    },
+    {
+     "id": "Get10RewardDialog:3",
+     "name": "MaskImage",
+     "active": true,
+     "transformId": "Get10RewardDialog:4",
+     "parent": "Get10RewardDialog:2",
+     "children": [
+      "Get10RewardDialog:6"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "",
+      "color": [
+       0.0,
+       0.0,
+       0.0,
+       0.6
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "Get10RewardDialog:5",
+     "name": "Scroll View",
+     "active": true,
+     "transformId": "Get10RewardDialog:6",
+     "parent": "Get10RewardDialog:4",
+     "children": [
+      "Get10RewardDialog:8",
+      "Get10RewardDialog:12"
+     ],
+     "position": [
+      0.0,
+      45.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "UnityEngine.UI.ScrollRect"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      45.0,
+      0.0,
+      -490.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-7fb75970ee8d73faa513856c96562fd9:Sprite:Background",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 1,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     },
+     "scroll": {
+      "content": "Get10RewardDialog:14",
+      "viewport": "Get10RewardDialog:12",
+      "horizontal": false,
+      "vertical": true,
+      "inertia": true,
+      "movement": 2,
+      "elasticity": 0.10000000149011612,
+      "deceleration": 0.13500000536441803,
+      "sensitivity": 1.0
+     }
+    },
+    {
+     "id": "Get10RewardDialog:7",
+     "name": "GetButton",
+     "active": true,
+     "transformId": "Get10RewardDialog:8",
+     "parent": "Get10RewardDialog:6",
+     "children": [
+      "Get10RewardDialog:10"
+     ],
+     "position": [
+      0.0,
+      -80.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": true,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "UnityEngine.UI.Button"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.0,
+      0.5,
+      0.0,
+      0.0,
+      -80.0,
+      327.0,
+      106.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-7fb75970ee8d73faa513856c96562fd9:Sprite:dcanniu",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "Get10RewardDialog:9",
+     "name": "Text",
+     "active": true,
+     "transformId": "Get10RewardDialog:10",
+     "parent": "Get10RewardDialog:8",
+     "children": [],
+     "position": [
+      0.64,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow",
+      "Universal.Modules.Base.LocalizedText"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.64,
+      0.0,
+      -75.82,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "Get",
+      "key": "receive",
+      "font": "unity default resources:10102",
+      "size": 60,
+      "style": 0,
+      "alignment": 4,
+      "minSize": 5,
+      "maxSize": 60,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        4.0,
+        -4.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "Get10RewardDialog:11",
+     "name": "Viewport",
+     "active": true,
+     "transformId": "Get10RewardDialog:12",
+     "parent": "Get10RewardDialog:6",
+     "children": [
+      "Get10RewardDialog:14"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": true,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "UnityEngine.UI.Mask"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "image": {
+      "sprite": "CAB-7fb75970ee8d73faa513856c96562fd9:Sprite:UIMask",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 1,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "Get10RewardDialog:13",
+     "name": "Content",
+     "active": true,
+     "transformId": "Get10RewardDialog:14",
+     "parent": "Get10RewardDialog:12",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "UnityEngine.UI.GridLayoutGroup"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1300.0,
+      0.0,
+      1.0
+     ],
+     "layout": {
+      "enabled": true,
+      "kind": 2,
+      "alignment": 1,
+      "startCorner": 0,
+      "startAxis": 0,
+      "constraint": 0,
+      "constraintCount": 2,
+      "padding": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "spacing": [
+       20.0,
+       80.0
+      ],
+      "cellSize": [
+       250.0,
+       250.0
+      ],
+      "flags": [
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "RewardPanel",
+   "objects": [
+    {
+     "id": "RewardPanel:1",
+     "name": "RewardPanel",
+     "active": true,
+     "transformId": "RewardPanel:2",
+     "parent": "",
+     "children": [
+      "RewardPanel:4",
+      "RewardPanel:6",
+      "RewardPanel:8",
+      "RewardPanel:10",
+      "RewardPanel:22"
+     ],
+     "position": [
+      414.0,
+      -125.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "RewardPanel"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      414.0,
+      -125.0,
+      250.0,
+      250.0,
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "id": "RewardPanel:3",
+     "name": "Lighting",
+     "active": true,
+     "transformId": "RewardPanel:4",
+     "parent": "RewardPanel:2",
+     "children": [],
+     "position": [
+      0.0,
+      -7.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      3.0,
+      3.0,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "Animator"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      -7.0,
+      120.0,
+      120.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-7fb75970ee8d73faa513856c96562fd9:Sprite:beiguang_0",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       0.698
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "RewardPanel:5",
+     "name": "bgImage",
+     "active": true,
+     "transformId": "RewardPanel:6",
+     "parent": "RewardPanel:2",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      0.0,
+      256.5,
+      246.05,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-7fb75970ee8d73faa513856c96562fd9:Sprite:siwk",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "RewardPanel:7",
+     "name": "NameText",
+     "active": true,
+     "transformId": "RewardPanel:8",
+     "parent": "RewardPanel:2",
+     "children": [],
+     "position": [
+      0.0,
+      -160.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      -160.0,
+      260.0,
+      50.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "BF Name",
+      "key": "",
+      "font": "unity default resources:10102",
+      "size": 30,
+      "style": 1,
+      "alignment": 4,
+      "minSize": 3,
+      "maxSize": 30,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        3.0,
+        -3.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "RewardPanel:9",
+     "name": "BFCover",
+     "active": false,
+     "transformId": "RewardPanel:10",
+     "parent": "RewardPanel:2",
+     "children": [
+      "RewardPanel:12",
+      "RewardPanel:14",
+      "RewardPanel:16"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "BFCoverComponent"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      0.0,
+      270.0,
+      260.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-7fb75970ee8d73faa513856c96562fd9:Sprite:bk",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "RewardPanel:11",
+     "name": "BFIcon",
+     "active": false,
+     "transformId": "RewardPanel:12",
+     "parent": "RewardPanel:10",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.RawImage"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      0.0,
+      250.0,
+      250.0,
+      0.5,
+      0.5
+     ],
+     "rawImage": {
+      "texture": "",
+      "pending": "",
+      "enabled": true,
+      "raycast": true,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "uv": [
+       0.0,
+       0.0,
+       1.0,
+       1.0
+      ]
+     }
+    },
+    {
+     "id": "RewardPanel:13",
+     "name": "RarityIcon",
+     "active": true,
+     "transformId": "RewardPanel:14",
+     "parent": "RewardPanel:10",
+     "children": [],
+     "position": [
+      90.0,
+      -90.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      0.7,
+      0.7,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      90.0,
+      -90.0,
+      125.0,
+      125.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-7fb75970ee8d73faa513856c96562fd9:Sprite:r",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "RewardPanel:15",
+     "name": "UpgradeIcon",
+     "active": false,
+     "transformId": "RewardPanel:16",
+     "parent": "RewardPanel:10",
+     "children": [
+      "RewardPanel:18",
+      "RewardPanel:20"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-7fb75970ee8d73faa513856c96562fd9:Sprite:empty",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": false,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "RewardPanel:17",
+     "name": "Upgrade",
+     "active": false,
+     "transformId": "RewardPanel:18",
+     "parent": "RewardPanel:16",
+     "children": [],
+     "position": [
+      -76.5,
+      30.6,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      -76.5,
+      30.6,
+      47.34,
+      63.12,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-7fb75970ee8d73faa513856c96562fd9:Sprite:shengjijiantou",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "RewardPanel:19",
+     "name": "MAX",
+     "active": false,
+     "transformId": "RewardPanel:20",
+     "parent": "RewardPanel:16",
+     "children": [],
+     "position": [
+      -106.5,
+      28.62,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      -106.5,
+      28.62,
+      100.0,
+      53.49,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "MAX",
+      "key": "",
+      "font": "unity default resources:10102",
+      "size": 14,
+      "style": 0,
+      "alignment": 5,
+      "minSize": 10,
+      "maxSize": 40,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        3.0,
+        -3.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "RewardPanel:21",
+     "name": "DecorCover",
+     "active": false,
+     "transformId": "RewardPanel:22",
+     "parent": "RewardPanel:2",
+     "children": [
+      "RewardPanel:24",
+      "RewardPanel:26"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "DecorCoverComponent"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      0.0,
+      270.0,
+      260.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-7fb75970ee8d73faa513856c96562fd9:Sprite:bk",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": false,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "RewardPanel:23",
+     "name": "DecorIcon",
+     "active": false,
+     "transformId": "RewardPanel:24",
+     "parent": "RewardPanel:22",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.RawImage"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      0.0,
+      250.0,
+      250.0,
+      0.5,
+      0.5
+     ],
+     "rawImage": {
+      "texture": "",
+      "pending": "",
+      "enabled": true,
+      "raycast": true,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "uv": [
+       0.0,
+       0.0,
+       1.0,
+       1.0
+      ]
+     }
+    },
+    {
+     "id": "RewardPanel:25",
+     "name": "IconImage",
+     "active": true,
+     "transformId": "RewardPanel:26",
+     "parent": "RewardPanel:22",
+     "children": [],
+     "position": [
+      -45.0,
+      45.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      -45.0,
+      45.0,
+      88.0,
+      88.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": false,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    }
+   ]
+  }
+ ],
+ "assets": [
+  {
+   "id": "CAB-7fb75970ee8d73faa513856c96562fd9:Sprite:Background",
+   "name": "Background",
+   "type": "Sprite",
+   "path": "Sprites/Background.png",
+   "sha256": "7bf2ecf061df211489a9cdca7ddceb0ed40161401d40277404ee06764dded8e7",
+   "resource": "RecoveredRewards606/Sprites/Background"
+  },
+  {
+   "id": "CAB-7fb75970ee8d73faa513856c96562fd9:Sprite:dcanniu",
+   "name": "dcanniu",
+   "type": "Sprite",
+   "path": "Sprites/dcanniu.png",
+   "sha256": "d258aa5d227cbfc1a8f88cfabd06ac8f164a35bbe75eeeecdc7bdce9ed707273",
+   "resource": "RecoveredRewards606/Sprites/dcanniu"
+  },
+  {
+   "id": "CAB-7fb75970ee8d73faa513856c96562fd9:Sprite:UIMask",
+   "name": "UIMask",
+   "type": "Sprite",
+   "path": "Sprites/UIMask.png",
+   "sha256": "89a0ec7e3cf6ce0de93392bdf6d43f6b0e92286aa77780f49df8d5167ba1d334",
+   "resource": "RecoveredRewards606/Sprites/UIMask"
+  },
+  {
+   "id": "CAB-7fb75970ee8d73faa513856c96562fd9:Sprite:beiguang_0",
+   "name": "beiguang_0",
+   "type": "Sprite",
+   "path": "Sprites/beiguang_0.png",
+   "sha256": "c0bdc0f524f9d5ab30d5dbb35dc18c426aab7d2a94b6e8c8682022e893b22875",
+   "resource": "RecoveredRewards606/Sprites/beiguang_0"
+  },
+  {
+   "id": "CAB-7fb75970ee8d73faa513856c96562fd9:Sprite:siwk",
+   "name": "siwk",
+   "type": "Sprite",
+   "path": "Sprites/siwk.png",
+   "sha256": "73d5b6c4adba763682ce8bad6685c9d4edb57afae79c24b96fe4d598af48a606",
+   "resource": "RecoveredRewards606/Sprites/siwk"
+  },
+  {
+   "id": "CAB-7fb75970ee8d73faa513856c96562fd9:Sprite:bk",
+   "name": "bk",
+   "type": "Sprite",
+   "path": "Sprites/bk.png",
+   "sha256": "7c63cc39e6e0eda45305b953d058b45c81659137cb8c57bc07048daf91e57aec",
+   "resource": "RecoveredRewards606/Sprites/bk"
+  },
+  {
+   "id": "CAB-7fb75970ee8d73faa513856c96562fd9:Sprite:r",
+   "name": "r",
+   "type": "Sprite",
+   "path": "Sprites/r.png",
+   "sha256": "7b5aacba4f8d963e44bb69ea5dae076159086141f34deccc799977658f2f5e84",
+   "resource": "RecoveredRewards606/Sprites/r"
+  },
+  {
+   "id": "CAB-7fb75970ee8d73faa513856c96562fd9:Sprite:empty",
+   "name": "empty",
+   "type": "Sprite",
+   "path": "Sprites/empty.png",
+   "sha256": "0ac4f07beb5c3b4d89626e06ddb5aaa52f02337a459f10b4a1f2b79768955751",
+   "resource": "RecoveredRewards606/Sprites/empty"
+  },
+  {
+   "id": "CAB-7fb75970ee8d73faa513856c96562fd9:Sprite:shengjijiantou",
+   "name": "shengjijiantou",
+   "type": "Sprite",
+   "path": "Sprites/shengjijiantou.png",
+   "sha256": "2cfa275bf243a0cd7cb38e8fbe5f9007a9db6b1a04218d424daf072c1e5509da",
+   "resource": "RecoveredRewards606/Sprites/shengjijiantou"
+  }
+ ]
+}

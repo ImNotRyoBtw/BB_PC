@@ -1,0 +1,33 @@
+{
+  "version": "6.0.6",
+  "items": [
+    {
+      "variant": "normal",
+      "sid": "beginner_guider",
+      "aid": "beginner_guider",
+      "title": "Tutorial",
+      "artist": "Beat Stage",
+      "hp": 10,
+      "difficulty": 1,
+      "chartResource": "Tutorial606/normal",
+      "chartSha256": "6410627b19664983e29214cd6f2908fac236d833fe24b49566d1b22652823dfe",
+      "audioFile": "defbpmd.mp3",
+      "audioSha256": "2cf163355ea9226cb85c84e85c53b533e63d0a4030b205518dfb0758a0d420f9",
+      "actions": 46
+    },
+    {
+      "variant": "fnf",
+      "sid": "beginner_guider",
+      "aid": "beginner_guider",
+      "title": "Tutorial",
+      "artist": "Beat Stage",
+      "hp": 10,
+      "difficulty": 1,
+      "chartResource": "Tutorial606/fnf",
+      "chartSha256": "c0d05c3442cbc98b594a8660aafe6817e71f250fd87fa7e7f201dec7cb7454ee",
+      "audioFile": "defbpmd_fnf.mp3",
+      "audioSha256": "dc6ba866e0f853e83c694316e4960882d2984bfbcb558c7c5229f80145302845",
+      "actions": 56
+    }
+  ]
+}

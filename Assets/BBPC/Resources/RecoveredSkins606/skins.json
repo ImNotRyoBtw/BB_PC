@@ -1,0 +1,3374 @@
+{
+ "sourceVersion": "6.0.6",
+ "scenes": [
+  {
+   "name": "TripleCell",
+   "objects": [
+    {
+     "id": "TripleCell:1",
+     "name": "TripleCell",
+     "active": true,
+     "transformId": "TripleCell:2",
+     "parent": "",
+     "children": [
+      "TripleCell:4"
+     ],
+     "position": [
+      414.5,
+      -191.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "Pages.MainRoom.TripletCellView",
+      "UnityEngine.UI.HorizontalLayoutGroup"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      414.5,
+      -191.0,
+      819.0,
+      362.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     },
+     "layout": {
+      "enabled": true,
+      "kind": 0,
+      "alignment": 1,
+      "startCorner": 0,
+      "startAxis": 0,
+      "constraint": 0,
+      "constraintCount": 0,
+      "padding": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "spacing": [
+       0.0,
+       0.0
+      ],
+      "cellSize": [
+       0,
+       0
+      ],
+      "flags": [
+       false,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "id": "TripleCell:3",
+     "name": "LayoutGroup",
+     "active": true,
+     "transformId": "TripleCell:4",
+     "parent": "TripleCell:2",
+     "children": [
+      "TripleCell:6",
+      "TripleCell:30",
+      "TripleCell:54",
+      "TripleCell:78"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.HorizontalLayoutGroup"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      819.0,
+      362.0,
+      0.5,
+      0.5
+     ],
+     "layout": {
+      "enabled": true,
+      "kind": 0,
+      "alignment": 0,
+      "startCorner": 0,
+      "startAxis": 0,
+      "constraint": 0,
+      "constraintCount": 0,
+      "padding": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "spacing": [
+       0.0,
+       0.0
+      ],
+      "cellSize": [
+       0,
+       0
+      ],
+      "flags": [
+       false,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "id": "TripleCell:5",
+     "name": "IconButton0",
+     "active": true,
+     "transformId": "TripleCell:6",
+     "parent": "TripleCell:4",
+     "children": [
+      "TripleCell:8",
+      "TripleCell:10",
+      "TripleCell:22",
+      "TripleCell:24",
+      "TripleCell:26",
+      "TripleCell:28"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": true,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "UnityEngine.UI.Button",
+      "Pages.MainRoom.IconButton"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      273.0,
+      362.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "sharedassets3.assets:Sprite:fuhuod",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "TripleCell:7",
+     "name": "SelectImage",
+     "active": true,
+     "transformId": "TripleCell:8",
+     "parent": "TripleCell:6",
+     "children": [],
+     "position": [
+      100.0,
+      128.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      100.0,
+      128.0,
+      64.0,
+      60.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "sharedassets3.assets:Sprite:yl",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": false,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "TripleCell:9",
+     "name": "BFCover",
+     "active": true,
+     "transformId": "TripleCell:10",
+     "parent": "TripleCell:6",
+     "children": [
+      "TripleCell:12",
+      "TripleCell:14",
+      "TripleCell:16"
+     ],
+     "position": [
+      -1.8,
+      -17.5,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "BFCoverComponent"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      -1.8,
+      -17.5,
+      189.0,
+      181.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "sharedassets3.assets:Sprite:bk",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "TripleCell:11",
+     "name": "BFIcon",
+     "active": false,
+     "transformId": "TripleCell:12",
+     "parent": "TripleCell:10",
+     "children": [],
+     "position": [
+      1.8,
+      7.5,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.RawImage"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      1.8,
+      7.5,
+      200.0,
+      200.0,
+      0.5,
+      0.5
+     ],
+     "rawImage": {
+      "texture": "",
+      "pending": "",
+      "enabled": true,
+      "raycast": true,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "uv": [
+       0.0,
+       0.0,
+       1.0,
+       1.0
+      ]
+     }
+    },
+    {
+     "id": "TripleCell:13",
+     "name": "RarityIcon",
+     "active": true,
+     "transformId": "TripleCell:14",
+     "parent": "TripleCell:10",
+     "children": [],
+     "position": [
+      70.0,
+      -60.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      0.7,
+      0.7,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      70.0,
+      -60.0,
+      100.0,
+      100.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "sharedassets3.assets:Sprite:r",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "TripleCell:15",
+     "name": "UpgradeIcon",
+     "active": false,
+     "transformId": "TripleCell:16",
+     "parent": "TripleCell:10",
+     "children": [
+      "TripleCell:18",
+      "TripleCell:20"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "sharedassets3.assets:Sprite:empty",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "TripleCell:17",
+     "name": "Upgrade",
+     "active": false,
+     "transformId": "TripleCell:18",
+     "parent": "TripleCell:16",
+     "children": [],
+     "position": [
+      -76.5,
+      30.6,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      -76.5,
+      30.6,
+      47.34,
+      63.12,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "sharedassets3.assets:Sprite:shengjijiantou",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "TripleCell:19",
+     "name": "MAX",
+     "active": false,
+     "transformId": "TripleCell:20",
+     "parent": "TripleCell:16",
+     "children": [],
+     "position": [
+      -106.5,
+      28.62,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      -106.5,
+      28.62,
+      100.0,
+      53.49,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "MAX",
+      "key": "",
+      "font": "CAB-62586c4f7f88efe0e5bcce4ee70be241:8205276534984544055",
+      "size": 14,
+      "style": 0,
+      "alignment": 5,
+      "minSize": 10,
+      "maxSize": 40,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        3.0,
+        -3.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "TripleCell:21",
+     "name": "RoleChallenge",
+     "active": true,
+     "transformId": "TripleCell:22",
+     "parent": "TripleCell:6",
+     "children": [],
+     "position": [
+      -79.1,
+      99.2,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "Pages.MainRoom.RoleChallenge.RoleChallengeDisplay"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      -79.1,
+      99.2,
+      58.51,
+      67.37,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "sharedassets3.assets:Sprite:entrance_01",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": false,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "TripleCell:23",
+     "name": "NewImage",
+     "active": true,
+     "transformId": "TripleCell:24",
+     "parent": "TripleCell:6",
+     "children": [],
+     "position": [
+      -70.0,
+      118.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      -70.0,
+      118.0,
+      128.0,
+      128.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "sharedassets3.assets:Sprite:NEW",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": false,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "TripleCell:25",
+     "name": "BfNameText",
+     "active": true,
+     "transformId": "TripleCell:26",
+     "parent": "TripleCell:6",
+     "children": [],
+     "position": [
+      0.0,
+      -143.5,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      -143.5,
+      -40.0,
+      -317.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "Button",
+      "key": "",
+      "font": "CAB-62586c4f7f88efe0e5bcce4ee70be241:8205276534984544055",
+      "size": 35,
+      "style": 0,
+      "alignment": 4,
+      "minSize": 10,
+      "maxSize": 35,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        2.0,
+        -2.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "TripleCell:27",
+     "name": "StateIconImage",
+     "active": true,
+     "transformId": "TripleCell:28",
+     "parent": "TripleCell:6",
+     "children": [],
+     "position": [
+      25.0,
+      -20.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      25.0,
+      -20.0,
+      44.0,
+      38.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "sharedassets3.assets:Sprite:hideicon",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "TripleCell:29",
+     "name": "IconButton1",
+     "active": true,
+     "transformId": "TripleCell:30",
+     "parent": "TripleCell:4",
+     "children": [
+      "TripleCell:32",
+      "TripleCell:34",
+      "TripleCell:46",
+      "TripleCell:48",
+      "TripleCell:50",
+      "TripleCell:52"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": true,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "UnityEngine.UI.Button",
+      "Pages.MainRoom.IconButton"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      273.0,
+      362.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "sharedassets3.assets:Sprite:fuhuod",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "TripleCell:31",
+     "name": "SelectImage",
+     "active": true,
+     "transformId": "TripleCell:32",
+     "parent": "TripleCell:30",
+     "children": [],
+     "position": [
+      100.0,
+      128.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      100.0,
+      128.0,
+      64.0,
+      60.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "sharedassets3.assets:Sprite:yl",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": false,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "TripleCell:33",
+     "name": "BFCover",
+     "active": true,
+     "transformId": "TripleCell:34",
+     "parent": "TripleCell:30",
+     "children": [
+      "TripleCell:36",
+      "TripleCell:38",
+      "TripleCell:40"
+     ],
+     "position": [
+      -1.8,
+      -17.5,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "BFCoverComponent"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      -1.8,
+      -17.5,
+      189.0,
+      181.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "sharedassets3.assets:Sprite:bk",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "TripleCell:35",
+     "name": "BFIcon",
+     "active": false,
+     "transformId": "TripleCell:36",
+     "parent": "TripleCell:34",
+     "children": [],
+     "position": [
+      1.8,
+      7.5,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.RawImage"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      1.8,
+      7.5,
+      200.0,
+      200.0,
+      0.5,
+      0.5
+     ],
+     "rawImage": {
+      "texture": "",
+      "pending": "",
+      "enabled": true,
+      "raycast": true,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "uv": [
+       0.0,
+       0.0,
+       1.0,
+       1.0
+      ]
+     }
+    },
+    {
+     "id": "TripleCell:37",
+     "name": "RarityIcon",
+     "active": true,
+     "transformId": "TripleCell:38",
+     "parent": "TripleCell:34",
+     "children": [],
+     "position": [
+      70.0,
+      -60.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      0.7,
+      0.7,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      70.0,
+      -60.0,
+      100.0,
+      100.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "sharedassets3.assets:Sprite:r",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "TripleCell:39",
+     "name": "UpgradeIcon",
+     "active": false,
+     "transformId": "TripleCell:40",
+     "parent": "TripleCell:34",
+     "children": [
+      "TripleCell:42",
+      "TripleCell:44"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "sharedassets3.assets:Sprite:empty",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "TripleCell:41",
+     "name": "Upgrade",
+     "active": false,
+     "transformId": "TripleCell:42",
+     "parent": "TripleCell:40",
+     "children": [],
+     "position": [
+      -76.5,
+      30.6,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      -76.5,
+      30.6,
+      47.34,
+      63.12,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "sharedassets3.assets:Sprite:shengjijiantou",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "TripleCell:43",
+     "name": "MAX",
+     "active": false,
+     "transformId": "TripleCell:44",
+     "parent": "TripleCell:40",
+     "children": [],
+     "position": [
+      -106.5,
+      28.62,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      -106.5,
+      28.62,
+      100.0,
+      53.49,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "MAX",
+      "key": "",
+      "font": "CAB-62586c4f7f88efe0e5bcce4ee70be241:8205276534984544055",
+      "size": 14,
+      "style": 0,
+      "alignment": 5,
+      "minSize": 10,
+      "maxSize": 40,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        3.0,
+        -3.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "TripleCell:45",
+     "name": "RoleChallenge",
+     "active": true,
+     "transformId": "TripleCell:46",
+     "parent": "TripleCell:30",
+     "children": [],
+     "position": [
+      -79.1,
+      99.2,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "Pages.MainRoom.RoleChallenge.RoleChallengeDisplay"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      -79.1,
+      99.2,
+      58.51,
+      67.37,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "sharedassets3.assets:Sprite:entrance_01",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": false,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "TripleCell:47",
+     "name": "NewImage",
+     "active": true,
+     "transformId": "TripleCell:48",
+     "parent": "TripleCell:30",
+     "children": [],
+     "position": [
+      -70.0,
+      118.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      -70.0,
+      118.0,
+      128.0,
+      128.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "sharedassets3.assets:Sprite:NEW",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": false,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "TripleCell:49",
+     "name": "BfNameText",
+     "active": true,
+     "transformId": "TripleCell:50",
+     "parent": "TripleCell:30",
+     "children": [],
+     "position": [
+      0.0,
+      -143.5,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      -143.5,
+      -40.0,
+      -317.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "Button",
+      "key": "",
+      "font": "CAB-62586c4f7f88efe0e5bcce4ee70be241:8205276534984544055",
+      "size": 35,
+      "style": 0,
+      "alignment": 4,
+      "minSize": 10,
+      "maxSize": 35,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        2.0,
+        -2.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "TripleCell:51",
+     "name": "StateIconImage",
+     "active": true,
+     "transformId": "TripleCell:52",
+     "parent": "TripleCell:30",
+     "children": [],
+     "position": [
+      25.0,
+      -20.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      25.0,
+      -20.0,
+      44.0,
+      38.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "sharedassets3.assets:Sprite:hideicon",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "TripleCell:53",
+     "name": "IconButton2",
+     "active": true,
+     "transformId": "TripleCell:54",
+     "parent": "TripleCell:4",
+     "children": [
+      "TripleCell:56",
+      "TripleCell:58",
+      "TripleCell:70",
+      "TripleCell:72",
+      "TripleCell:74",
+      "TripleCell:76"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": true,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "UnityEngine.UI.Button",
+      "Pages.MainRoom.IconButton"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      273.0,
+      362.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "sharedassets3.assets:Sprite:fuhuod",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "TripleCell:55",
+     "name": "SelectImage",
+     "active": true,
+     "transformId": "TripleCell:56",
+     "parent": "TripleCell:54",
+     "children": [],
+     "position": [
+      100.0,
+      128.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      100.0,
+      128.0,
+      64.0,
+      60.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "sharedassets3.assets:Sprite:yl",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": false,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "TripleCell:57",
+     "name": "BFCover",
+     "active": true,
+     "transformId": "TripleCell:58",
+     "parent": "TripleCell:54",
+     "children": [
+      "TripleCell:60",
+      "TripleCell:62",
+      "TripleCell:64"
+     ],
+     "position": [
+      -1.8,
+      -17.5,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "BFCoverComponent"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      -1.8,
+      -17.5,
+      189.0,
+      181.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "sharedassets3.assets:Sprite:bk",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "TripleCell:59",
+     "name": "BFIcon",
+     "active": false,
+     "transformId": "TripleCell:60",
+     "parent": "TripleCell:58",
+     "children": [],
+     "position": [
+      1.8,
+      7.5,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.RawImage"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      1.8,
+      7.5,
+      200.0,
+      200.0,
+      0.5,
+      0.5
+     ],
+     "rawImage": {
+      "texture": "",
+      "pending": "",
+      "enabled": true,
+      "raycast": true,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "uv": [
+       0.0,
+       0.0,
+       1.0,
+       1.0
+      ]
+     }
+    },
+    {
+     "id": "TripleCell:61",
+     "name": "RarityIcon",
+     "active": true,
+     "transformId": "TripleCell:62",
+     "parent": "TripleCell:58",
+     "children": [],
+     "position": [
+      70.0,
+      -60.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      0.7,
+      0.7,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      70.0,
+      -60.0,
+      100.0,
+      100.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "sharedassets3.assets:Sprite:r",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "TripleCell:63",
+     "name": "UpgradeIcon",
+     "active": false,
+     "transformId": "TripleCell:64",
+     "parent": "TripleCell:58",
+     "children": [
+      "TripleCell:66",
+      "TripleCell:68"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "sharedassets3.assets:Sprite:empty",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "TripleCell:65",
+     "name": "Upgrade",
+     "active": false,
+     "transformId": "TripleCell:66",
+     "parent": "TripleCell:64",
+     "children": [],
+     "position": [
+      -76.5,
+      30.6,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      -76.5,
+      30.6,
+      47.34,
+      63.12,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "sharedassets3.assets:Sprite:shengjijiantou",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "TripleCell:67",
+     "name": "MAX",
+     "active": false,
+     "transformId": "TripleCell:68",
+     "parent": "TripleCell:64",
+     "children": [],
+     "position": [
+      -106.5,
+      28.62,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      -106.5,
+      28.62,
+      100.0,
+      53.49,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "MAX",
+      "key": "",
+      "font": "CAB-62586c4f7f88efe0e5bcce4ee70be241:8205276534984544055",
+      "size": 14,
+      "style": 0,
+      "alignment": 5,
+      "minSize": 10,
+      "maxSize": 40,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        3.0,
+        -3.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "TripleCell:69",
+     "name": "RoleChallenge",
+     "active": true,
+     "transformId": "TripleCell:70",
+     "parent": "TripleCell:54",
+     "children": [],
+     "position": [
+      -79.1,
+      99.2,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "Pages.MainRoom.RoleChallenge.RoleChallengeDisplay"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      -79.1,
+      99.2,
+      58.51,
+      67.37,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "sharedassets3.assets:Sprite:entrance_01",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": false,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "TripleCell:71",
+     "name": "NewImage",
+     "active": true,
+     "transformId": "TripleCell:72",
+     "parent": "TripleCell:54",
+     "children": [],
+     "position": [
+      -70.0,
+      118.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      -70.0,
+      118.0,
+      128.0,
+      128.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "sharedassets3.assets:Sprite:NEW",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": false,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "TripleCell:73",
+     "name": "BfNameText",
+     "active": true,
+     "transformId": "TripleCell:74",
+     "parent": "TripleCell:54",
+     "children": [],
+     "position": [
+      0.0,
+      -143.5,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      -143.5,
+      -40.0,
+      -317.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "Button",
+      "key": "",
+      "font": "CAB-62586c4f7f88efe0e5bcce4ee70be241:8205276534984544055",
+      "size": 35,
+      "style": 0,
+      "alignment": 4,
+      "minSize": 10,
+      "maxSize": 35,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        2.0,
+        -2.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "TripleCell:75",
+     "name": "StateIconImage",
+     "active": true,
+     "transformId": "TripleCell:76",
+     "parent": "TripleCell:54",
+     "children": [],
+     "position": [
+      25.0,
+      -20.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      25.0,
+      -20.0,
+      44.0,
+      38.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "sharedassets3.assets:Sprite:hideicon",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "TripleCell:77",
+     "name": "MoreGfButton",
+     "active": false,
+     "transformId": "TripleCell:78",
+     "parent": "TripleCell:4",
+     "children": [
+      "TripleCell:80",
+      "TripleCell:82"
+     ],
+     "position": [
+      955.5,
+      -181.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": true,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "UnityEngine.UI.Button",
+      "Pages.MainRoom.IconButton"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      955.5,
+      -181.0,
+      273.0,
+      362.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "sharedassets3.assets:Sprite:fuhuod",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": false,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "TripleCell:79",
+     "name": "BfIcon",
+     "active": true,
+     "transformId": "TripleCell:80",
+     "parent": "TripleCell:78",
+     "children": [],
+     "position": [
+      0.0,
+      30.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      30.0,
+      172.0,
+      252.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "sharedassets3.assets:Sprite:default_gf",
+      "color": [
+       0.0,
+       0.0,
+       0.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "TripleCell:81",
+     "name": "BfNameText",
+     "active": true,
+     "transformId": "TripleCell:82",
+     "parent": "TripleCell:78",
+     "children": [],
+     "position": [
+      0.0,
+      -121.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow",
+      "Universal.Modules.Base.LocalizedText"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      -121.0,
+      -40.0,
+      -278.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "Get More",
+      "key": "get_more_to_shop",
+      "font": "CAB-62586c4f7f88efe0e5bcce4ee70be241:8205276534984544055",
+      "size": 40,
+      "style": 0,
+      "alignment": 4,
+      "minSize": 3,
+      "maxSize": 40,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        2.0,
+        -2.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "MoreGfButton",
+   "objects": [
+    {
+     "id": "MoreGfButton:1",
+     "name": "MoreGfButton",
+     "active": true,
+     "transformId": "MoreGfButton:2",
+     "parent": "",
+     "children": [
+      "MoreGfButton:4",
+      "MoreGfButton:6"
+     ],
+     "position": [
+      141.5,
+      -191.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": true,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "UnityEngine.UI.Button",
+      "Pages.MainRoom.IconButton"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      141.5,
+      -191.0,
+      273.0,
+      362.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "sharedassets3.assets:Sprite:fuhuod",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": false,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "MoreGfButton:3",
+     "name": "BfIcon",
+     "active": true,
+     "transformId": "MoreGfButton:4",
+     "parent": "MoreGfButton:2",
+     "children": [],
+     "position": [
+      0.0,
+      30.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      30.0,
+      233.0,
+      212.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "sharedassets3.assets:Sprite:gfjy",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "MoreGfButton:5",
+     "name": "BfNameText",
+     "active": true,
+     "transformId": "MoreGfButton:6",
+     "parent": "MoreGfButton:2",
+     "children": [],
+     "position": [
+      0.0,
+      -121.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow",
+      "Universal.Modules.Base.LocalizedText"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      -121.0,
+      -40.0,
+      -278.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "Get More",
+      "key": "get_more_to_shop",
+      "font": "CAB-62586c4f7f88efe0e5bcce4ee70be241:8205276534984544055",
+      "size": 40,
+      "style": 0,
+      "alignment": 4,
+      "minSize": 3,
+      "maxSize": 40,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        2.0,
+        -2.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "assets": [
+  {
+   "id": "sharedassets3.assets:Sprite:fuhuod",
+   "name": "fuhuod",
+   "type": "Sprite",
+   "path": "Sprites/fuhuod.png",
+   "sha256": "78e87911343f73eacbf5f00eaa38b54540c5474141e41f4ed20ad70b248aa6bf",
+   "resource": "RecoveredSkins606/Sprites/fuhuod"
+  },
+  {
+   "id": "sharedassets3.assets:Sprite:yl",
+   "name": "yl",
+   "type": "Sprite",
+   "path": "Sprites/yl.png",
+   "sha256": "5758922548225b64c46ebb70730ae7adbcad56363dae9fe16a30b70fce23ecf9",
+   "resource": "RecoveredSkins606/Sprites/yl"
+  },
+  {
+   "id": "sharedassets3.assets:Sprite:bk",
+   "name": "bk",
+   "type": "Sprite",
+   "path": "Sprites/bk.png",
+   "sha256": "7c63cc39e6e0eda45305b953d058b45c81659137cb8c57bc07048daf91e57aec",
+   "resource": "RecoveredSkins606/Sprites/bk"
+  },
+  {
+   "id": "sharedassets3.assets:Sprite:r",
+   "name": "r",
+   "type": "Sprite",
+   "path": "Sprites/r.png",
+   "sha256": "7b5aacba4f8d963e44bb69ea5dae076159086141f34deccc799977658f2f5e84",
+   "resource": "RecoveredSkins606/Sprites/r"
+  },
+  {
+   "id": "sharedassets3.assets:Sprite:empty",
+   "name": "empty",
+   "type": "Sprite",
+   "path": "Sprites/empty.png",
+   "sha256": "0ac4f07beb5c3b4d89626e06ddb5aaa52f02337a459f10b4a1f2b79768955751",
+   "resource": "RecoveredSkins606/Sprites/empty"
+  },
+  {
+   "id": "sharedassets3.assets:Sprite:shengjijiantou",
+   "name": "shengjijiantou",
+   "type": "Sprite",
+   "path": "Sprites/shengjijiantou.png",
+   "sha256": "2cfa275bf243a0cd7cb38e8fbe5f9007a9db6b1a04218d424daf072c1e5509da",
+   "resource": "RecoveredSkins606/Sprites/shengjijiantou"
+  },
+  {
+   "id": "sharedassets3.assets:Sprite:entrance_01",
+   "name": "entrance_01",
+   "type": "Sprite",
+   "path": "Sprites/entrance_01.png",
+   "sha256": "f98f2f19873565161e6805a12c939f2a7c06e89242659173229821b0553d10d3",
+   "resource": "RecoveredSkins606/Sprites/entrance_01"
+  },
+  {
+   "id": "sharedassets3.assets:Sprite:NEW",
+   "name": "NEW",
+   "type": "Sprite",
+   "path": "Sprites/NEW.png",
+   "sha256": "1903e56964498c4ecf89b200baf3f997fc0878b0457baf8a8f6c57e01e2c03ad",
+   "resource": "RecoveredSkins606/Sprites/NEW"
+  },
+  {
+   "id": "sharedassets3.assets:Sprite:hideicon",
+   "name": "hideicon",
+   "type": "Sprite",
+   "path": "Sprites/hideicon.png",
+   "sha256": "6ecafea1cc057f5d69d0d2c2929202ee80d9035c777856aa468ad27eb3f3d506",
+   "resource": "RecoveredSkins606/Sprites/hideicon"
+  },
+  {
+   "id": "sharedassets3.assets:Sprite:default_gf",
+   "name": "default_gf",
+   "type": "Sprite",
+   "path": "Sprites/default_gf.png",
+   "sha256": "9f74d656a7337aeeebce06819a872b3f7ccb681e51b82629ea714e6706d766d6",
+   "resource": "RecoveredSkins606/Sprites/default_gf"
+  },
+  {
+   "id": "sharedassets3.assets:Sprite:gfjy",
+   "name": "gfjy",
+   "type": "Sprite",
+   "path": "Sprites/gfjy.png",
+   "sha256": "e5f1559f3efceb9af212a56890bae2a30bc3880c7dcf9f9b3daa4004bbd2261a",
+   "resource": "RecoveredSkins606/Sprites/gfjy"
+  },
+  {
+   "id": "sharedassets3.assets:Sprite:1k",
+   "name": "1k",
+   "type": "Sprite",
+   "path": "Sprites/1k.png",
+   "sha256": "6f9356d357b3057f08ae42c0afe0ee03e2db6f6b4af308d4bafeaf4fa235a7f1",
+   "resource": "RecoveredSkins606/Sprites/1k"
+  },
+  {
+   "id": "sharedassets3.assets:Sprite:2k",
+   "name": "2k",
+   "type": "Sprite",
+   "path": "Sprites/2k.png",
+   "sha256": "beb795e124c300c812ba15b83470138f9ec9025c4ec3d887488a16476b4f7956",
+   "resource": "RecoveredSkins606/Sprites/2k"
+  },
+  {
+   "id": "sharedassets3.assets:Sprite:3k",
+   "name": "3k",
+   "type": "Sprite",
+   "path": "Sprites/3k.png",
+   "sha256": "40fe5b018a18bd4b929f590b27eadf506d88ec40d6ab6b381bd4869edd411a36",
+   "resource": "RecoveredSkins606/Sprites/3k"
+  },
+  {
+   "id": "sharedassets3.assets:Sprite:s",
+   "name": "s",
+   "type": "Sprite",
+   "path": "Sprites/s.png",
+   "sha256": "04d5d60233e3e24c8d8c07ea49287dee8ef5ddb3c4b7677d4876f9681af22651",
+   "resource": "RecoveredSkins606/Sprites/s"
+  },
+  {
+   "id": "sharedassets3.assets:Sprite:u",
+   "name": "u",
+   "type": "Sprite",
+   "path": "Sprites/u.png",
+   "sha256": "9022f4580627c61b5ce109d6a00b13c3cec811336838c297f2b940784b4329c3",
+   "resource": "RecoveredSkins606/Sprites/u"
+  },
+  {
+   "id": "sharedassets3.assets:Sprite:ex1",
+   "name": "ex1",
+   "type": "Sprite",
+   "path": "Sprites/ex1.png",
+   "sha256": "a1190262f4120bd9a4b6e29f4c7a5fab21de9adcfc6117b533e7f59a6adaf6f3",
+   "resource": "RecoveredSkins606/Sprites/ex1"
+  },
+  {
+   "id": "sharedassets3.assets:Sprite:ex2",
+   "name": "ex2",
+   "type": "Sprite",
+   "path": "Sprites/ex2.png",
+   "sha256": "2c06cd38c2b32771dafff987374e8e3b7c5cf112ebec4334d952a0f974d213ca",
+   "resource": "RecoveredSkins606/Sprites/ex2"
+  },
+  {
+   "id": "sharedassets3.assets:Sprite:ex3",
+   "name": "ex3",
+   "type": "Sprite",
+   "path": "Sprites/ex3.png",
+   "sha256": "f906dd1f2d58e63e76906257d77303d4f97b21697edf48bff62b1e2d7f6f16f4",
+   "resource": "RecoveredSkins606/Sprites/ex3"
+  },
+  {
+   "id": "sharedassets3.assets:Sprite:ex4",
+   "name": "ex4",
+   "type": "Sprite",
+   "path": "Sprites/ex4.png",
+   "sha256": "16238568ac135998fe8315a81e9fb14a65a9da50007e3ac6b793ceeb24fe46df",
+   "resource": "RecoveredSkins606/Sprites/ex4"
+  },
+  {
+   "id": "sharedassets3.assets:Sprite:ex5",
+   "name": "ex5",
+   "type": "Sprite",
+   "path": "Sprites/ex5.png",
+   "sha256": "98d404f538216836048fcfe2873365e0441c597751df70906c54a89690a977a8",
+   "resource": "RecoveredSkins606/Sprites/ex5"
+  },
+  {
+   "id": "sharedassets3.assets:Sprite:ex6",
+   "name": "ex6",
+   "type": "Sprite",
+   "path": "Sprites/ex6.png",
+   "sha256": "7b06ea5b36e6f7ad114415232da1be7dd5a4de99a02677b4e089fa09c3aa6f35",
+   "resource": "RecoveredSkins606/Sprites/ex6"
+  },
+  {
+   "id": "sharedassets3.assets:Sprite:topicon",
+   "name": "topicon",
+   "type": "Sprite",
+   "path": "Sprites/topicon.png",
+   "sha256": "59dcd1bca3f2ed8d735f2750b2ba988f65c658dc7716dd4e0c9e66cab5566426",
+   "resource": "RecoveredSkins606/Sprites/topicon"
+  },
+  {
+   "id": "sharedassets3.assets:Sprite:xuanzhongdi",
+   "name": "xuanzhongdi",
+   "type": "Sprite",
+   "path": "Sprites/xuanzhongdi.png",
+   "sha256": "ca17f962f968dbbb029075c359265f7835723beb2e5933eaa43f2dafb69f5687",
+   "resource": "RecoveredSkins606/Sprites/xuanzhongdi"
+  },
+  {
+   "id": "sharedassets3.assets:Sprite:bfd",
+   "name": "bfd",
+   "type": "Sprite",
+   "path": "Sprites/bfd.png",
+   "sha256": "0a3335febf5d5add9ed572717dd2a305f9982a6b68b0e4feffa7e62151b8ecb8",
+   "resource": "RecoveredSkins606/Sprites/bfd"
+  },
+  {
+   "id": "CAB-62586c4f7f88efe0e5bcce4ee70be241:8205276534984544055",
+   "name": "CLASH FONT_CN_REGULAR FINAL",
+   "type": "Font",
+   "path": "Fonts/CAB-62586c4f7f88efe0e5bcce4ee70be241_8205276534984544055.ttf",
+   "sha256": "0cd1b13e35f124676d9e1de885249abebe6cbb2222a6bbf7f531d5bd37209829",
+   "resource": "RecoveredLeaderboard606/Fonts/CAB-62586c4f7f88efe0e5bcce4ee70be241_8205276534984544055"
+  }
+ ]
+}

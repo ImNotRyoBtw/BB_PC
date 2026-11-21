@@ -1,0 +1,90 @@
+{
+  "complete": true,
+  "sourceVersion": "6.0.6",
+  "files": [
+    {
+      "path": "dialogs.json",
+      "sha256": "f2452064ad62eea4c53b8f0e032c9f0102d3dd3aa228659e4b7cee8a1d14b1c6"
+    },
+    {
+      "path": "Fonts/CAB-62586c4f7f88efe0e5bcce4ee70be241_-1728366689007755146.ttf",
+      "sha256": "7407f0814d04a4cc45127933df1d6ffab5c90e5e888d33a7279cd82c36426b30"
+    },
+    {
+      "path": "Fonts/CAB-62586c4f7f88efe0e5bcce4ee70be241_8205276534984544055.ttf",
+      "sha256": "0cd1b13e35f124676d9e1de885249abebe6cbb2222a6bbf7f531d5bd37209829"
+    },
+    {
+      "path": "Sprites/CAB-4f267793085e37d3f54bbd283d5a09ba_-1625346122813485261.png",
+      "sha256": "32222082d53125bdf8b51f179048e6b85b29e2033b44a947d20a07f068772346"
+    },
+    {
+      "path": "Sprites/CAB-4f267793085e37d3f54bbd283d5a09ba_-1625346122813485261.png.meta",
+      "sha256": "96e5b5125072ff5bac6be16ec731de8062d52fba469dca514ec37eaedbfcd48f"
+    },
+    {
+      "path": "Sprites/CAB-4f267793085e37d3f54bbd283d5a09ba_-9155981551599697757.png",
+      "sha256": "65e62e5c9e4082bd684943af5f905c2bae4d4af4f472ea9656a9695ea62872ff"
+    },
+    {
+      "path": "Sprites/CAB-4f267793085e37d3f54bbd283d5a09ba_-9155981551599697757.png.meta",
+      "sha256": "ea9602c13ec8f60f50dfa742a59d08f9e76cacc50e8c42836c37d4d658fa3086"
+    },
+    {
+      "path": "Sprites/CAB-4f267793085e37d3f54bbd283d5a09ba_287269702203854365.png",
+      "sha256": "6988258d4f4973f08dc9026a350b3ce3ee3e128e3534b109d1c99fc9134a0531"
+    },
+    {
+      "path": "Sprites/CAB-4f267793085e37d3f54bbd283d5a09ba_287269702203854365.png.meta",
+      "sha256": "dc9b50bf85402f72c43e0a221c1fd7f0800d24d16313ef300f8499802b797be2"
+    },
+    {
+      "path": "Sprites/CAB-4f267793085e37d3f54bbd283d5a09ba_3205420759337366382.png",
+      "sha256": "963032712181cdab9135adffaf0f6ad644ce68f019fee1f04a72b834f0f32fb7"
+    },
+    {
+      "path": "Sprites/CAB-4f267793085e37d3f54bbd283d5a09ba_3205420759337366382.png.meta",
+      "sha256": "3cc9ebb755e1310978816410e2199df04f71219ee614fdcd4bc5c78a91dac967"
+    },
+    {
+      "path": "Sprites/CAB-4f267793085e37d3f54bbd283d5a09ba_3399617617999202680.png",
+      "sha256": "3bcf4012c6b62000c044089a94a9053cf2a46bd896980fb7ae4b795fe7b30dc8"
+    },
+    {
+      "path": "Sprites/CAB-4f267793085e37d3f54bbd283d5a09ba_3399617617999202680.png.meta",
+      "sha256": "63255e0542938b2026a4801886fbcbf0838e267a466603a0e569479cb1d014e7"
+    },
+    {
+      "path": "Sprites/CAB-4f267793085e37d3f54bbd283d5a09ba_8279283662092024315.png",
+      "sha256": "208b91fe15f1bb87f50a2a2bb004ed2ca1bb5ca14e3fd92a6b81234d7dbdea86"
+    },
+    {
+      "path": "Sprites/CAB-4f267793085e37d3f54bbd283d5a09ba_8279283662092024315.png.meta",
+      "sha256": "68b97b8e925059d1d726cb1c52600bf2613b0b0505f71ef58b52a8c7597f3830"
+    }
+  ],
+  "objects": 21,
+  "assets": 8,
+  "pendingComponents": [
+    {
+      "id": "CAB-4f267793085e37d3f54bbd283d5a09ba:-2958838377590859804",
+      "script": "Pages.MainRoom.ChallengeRewardDialog",
+      "error": "Exception: Parsed 156 of 168",
+      "bytes": 168,
+      "consumed": 156
+    },
+    {
+      "id": "CAB-4f267793085e37d3f54bbd283d5a09ba:5926754209027547823",
+      "script": "Pages.MainRoom.LeaderRulesDialog",
+      "error": "Exception: Parsed 144 of 156",
+      "bytes": 156,
+      "consumed": 144
+    }
+  ],
+  "gameplayVerified": false,
+  "animationsVerified": false,
+  "limits": [
+    "Partial controller fields are excluded from bindings.",
+    "Toggle behavior, UIShiny and original animations remain pending."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "BBPC.Editor",
+  "references": [
+    "BBPC.Core",
+    "BBPC.Unity",
+    "BBPC.Checks",
+    "UnityEngine.UI"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ]
+}

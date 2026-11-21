@@ -1,0 +1,71 @@
+{
+  "complete": true,
+  "sourceVersion": "6.0.6",
+  "files": [
+    {
+      "path": "dialogs.json",
+      "sha256": "2ed89e3e2768ceb9423cf7baf8babb43d9c81200f351bd007c9b96c5e65eddb3"
+    },
+    {
+      "path": "Fonts/CAB-62586c4f7f88efe0e5bcce4ee70be241_8205276534984544055.ttf",
+      "sha256": "0cd1b13e35f124676d9e1de885249abebe6cbb2222a6bbf7f531d5bd37209829"
+    },
+    {
+      "path": "Sprites/CAB-fc4ad835af77a0fdba838a4924a9c9bd_-2167691532648794727.png",
+      "sha256": "1e30fca2bc06bd9781dea39e8d3e79d65da3249a6385963a70c2fffc7c28384d"
+    },
+    {
+      "path": "Sprites/CAB-fc4ad835af77a0fdba838a4924a9c9bd_-2167691532648794727.png.meta",
+      "sha256": "bd037974e53f5984a08904446572fce5f826699798831d500ced6420a123f08f"
+    },
+    {
+      "path": "Sprites/CAB-fc4ad835af77a0fdba838a4924a9c9bd_-7099668833663386260.png",
+      "sha256": "767f0dc2ae438a4206f6ded2f3c720f72d6effc1fa9d784abf55fc00e0c3a1f7"
+    },
+    {
+      "path": "Sprites/CAB-fc4ad835af77a0fdba838a4924a9c9bd_-7099668833663386260.png.meta",
+      "sha256": "75c1c7c5cdca1bdb232f815b5e2a60768f800c11431d13605b556e74a0733c48"
+    },
+    {
+      "path": "Sprites/CAB-fc4ad835af77a0fdba838a4924a9c9bd_1804935111768813053.png",
+      "sha256": "4985f99baa1b5f3e7f891c98b7928d16e49a9f3e32be1f76e374f1ef7b78168a"
+    },
+    {
+      "path": "Sprites/CAB-fc4ad835af77a0fdba838a4924a9c9bd_1804935111768813053.png.meta",
+      "sha256": "61d5ae2973a27b3cdc9e4ce4908a02cf5d3894b871008e5bf0dd28b3019b34f5"
+    },
+    {
+      "path": "Sprites/CAB-fc4ad835af77a0fdba838a4924a9c9bd_2424544928032781294.png",
+      "sha256": "8a1d595271dc2368debfa6e8585f0b15cd7f287840391ae4199d1ff7f7b74f0b"
+    },
+    {
+      "path": "Sprites/CAB-fc4ad835af77a0fdba838a4924a9c9bd_2424544928032781294.png.meta",
+      "sha256": "e1dd8eb4fd8ba479678e460d425642c8b403433366be2f827f638609e0e2fa53"
+    },
+    {
+      "path": "Sprites/CAB-fc4ad835af77a0fdba838a4924a9c9bd_2591036223314462767.png",
+      "sha256": "d83ef4f94429968dfc7e6ba402c6ac5aee9096dd0e5dc0cea71ce64c85756a10"
+    },
+    {
+      "path": "Sprites/CAB-fc4ad835af77a0fdba838a4924a9c9bd_2591036223314462767.png.meta",
+      "sha256": "78f727f2f7e983e385ba1e19881826cc06cfdb506fc6a31e49a69c4ab1081313"
+    },
+    {
+      "path": "Sprites/CAB-fc4ad835af77a0fdba838a4924a9c9bd_7573309058799122462.png",
+      "sha256": "378133905658ae22854f6ead5a9655fb422b0b0978bd02b0e0aa85e789c4f3f0"
+    },
+    {
+      "path": "Sprites/CAB-fc4ad835af77a0fdba838a4924a9c9bd_7573309058799122462.png.meta",
+      "sha256": "47338eab492d9c1244dda0398c57da82f736576f9ee22c8532f3c75fc01494c5"
+    }
+  ],
+  "objects": 11,
+  "assets": 7,
+  "pendingComponents": [],
+  "gameplayVerified": false,
+  "animationsVerified": false,
+  "limits": [
+    "Partial controller fields are excluded from bindings.",
+    "Toggle behavior, UIShiny and original animations remain pending."
+  ]
+}

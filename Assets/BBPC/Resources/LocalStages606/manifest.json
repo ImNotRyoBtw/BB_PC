@@ -1,0 +1,21 @@
+{
+  "version": "6.0.6",
+  "items": [
+    {
+      "variant": "elastic",
+      "sid": "gEYv",
+      "aid": "9m6w",
+      "title": "Elastic Destruction",
+      "artist": "Pibby Full Week",
+      "hp": 1,
+      "difficulty": 5,
+      "playType": 0,
+      "declaredDurationMs": 184000,
+      "chartResource": "LocalStages606/elastic",
+      "chartSha256": "6fdc16f23a95e2a1c4a67196dd3b3331c0032c10d71b69ad6504731ad0e8b2fa",
+      "audioFile": "ElasticDestruction_6.mp3",
+      "audioSha256": "fd438fda9470a6f70687914e7ad3230314b9cf2b08c251d38cfb3b3695b8be44",
+      "actions": 1319
+    }
+  ]
+}

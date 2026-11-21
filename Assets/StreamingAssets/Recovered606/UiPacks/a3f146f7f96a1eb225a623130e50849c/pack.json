@@ -1,0 +1,1592 @@
+{
+ "sourceVersion": "6.0.6",
+ "scenes": [
+  {
+   "name": "RoleExhibition",
+   "objects": [
+    {
+     "id": "RoleExhibition:1",
+     "name": "RoleExhibition",
+     "active": true,
+     "transformId": "RoleExhibition:2",
+     "parent": "",
+     "children": [
+      "RoleExhibition:4",
+      "RoleExhibition:6",
+      "RoleExhibition:28",
+      "RoleExhibition:30",
+      "RoleExhibition:32",
+      "RoleExhibition:34"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "Pages.MainRoom.Collection.RoleExhibitionComponent"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      0.0,
+      843.0,
+      657.0,
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "id": "RoleExhibition:3",
+     "name": "BgImage",
+     "active": true,
+     "transformId": "RoleExhibition:4",
+     "parent": "RoleExhibition:2",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.0,
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      824.0,
+      608.0,
+      0.5,
+      0.0
+     ],
+     "image": {
+      "sprite": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:banner",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "RoleExhibition:5",
+     "name": "CellObjects",
+     "active": true,
+     "transformId": "RoleExhibition:6",
+     "parent": "RoleExhibition:2",
+     "children": [
+      "RoleExhibition:8",
+      "RoleExhibition:10",
+      "RoleExhibition:12",
+      "RoleExhibition:14",
+      "RoleExhibition:16",
+      "RoleExhibition:18",
+      "RoleExhibition:20",
+      "RoleExhibition:22",
+      "RoleExhibition:24",
+      "RoleExhibition:26"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "id": "RoleExhibition:7",
+     "name": "bf_s16_insane",
+     "active": true,
+     "transformId": "RoleExhibition:8",
+     "parent": "RoleExhibition:6",
+     "children": [],
+     "position": [
+      -238.0,
+      142.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      -1.0,
+      1.0,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "RoleExhibitionCell"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      -238.0,
+      142.0,
+      272.0,
+      256.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:bf_s16_insane_z",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "RoleExhibition:9",
+     "name": "bf_s16_mentalsonic",
+     "active": true,
+     "transformId": "RoleExhibition:10",
+     "parent": "RoleExhibition:6",
+     "children": [],
+     "position": [
+      83.0,
+      142.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "RoleExhibitionCell"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      83.0,
+      142.0,
+      400.0,
+      284.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:bf_s16_mentalsonic_z",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "RoleExhibition:11",
+     "name": "bf_s16_tco",
+     "active": true,
+     "transformId": "RoleExhibition:12",
+     "parent": "RoleExhibition:6",
+     "children": [],
+     "position": [
+      207.0,
+      88.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "RoleExhibitionCell"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      207.0,
+      88.0,
+      296.0,
+      148.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:bf_s16_tco_z",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "RoleExhibition:13",
+     "name": "bf_s16_benson",
+     "active": true,
+     "transformId": "RoleExhibition:14",
+     "parent": "RoleExhibition:6",
+     "children": [],
+     "position": [
+      -128.0,
+      9.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "RoleExhibitionCell"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      -128.0,
+      9.0,
+      220.0,
+      224.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:bf_s16_benson_z",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "RoleExhibition:15",
+     "name": "bf_s16_blackimpostor",
+     "active": true,
+     "transformId": "RoleExhibition:16",
+     "parent": "RoleExhibition:6",
+     "children": [],
+     "position": [
+      -295.5,
+      -17.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      -1.0,
+      1.0,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "RoleExhibitionCell"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      -295.5,
+      -17.0,
+      252.0,
+      276.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:bf_s16_blackimpostor_z",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "RoleExhibition:17",
+     "name": "bf_s16_skarlet",
+     "active": true,
+     "transformId": "RoleExhibition:18",
+     "parent": "RoleExhibition:6",
+     "children": [],
+     "position": [
+      306.0,
+      -71.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "RoleExhibitionCell"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      306.0,
+      -71.0,
+      228.0,
+      292.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:bf_s16_skarlet_z",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "RoleExhibition:19",
+     "name": "bf_s16_blaze",
+     "active": true,
+     "transformId": "RoleExhibition:20",
+     "parent": "RoleExhibition:6",
+     "children": [],
+     "position": [
+      -269.0,
+      -148.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      -1.0,
+      1.0,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "RoleExhibitionCell"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      -269.0,
+      -148.0,
+      252.0,
+      296.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:bf_s16_blaze_z",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "RoleExhibition:21",
+     "name": "bf_s16_goku",
+     "active": true,
+     "transformId": "RoleExhibition:22",
+     "parent": "RoleExhibition:6",
+     "children": [],
+     "position": [
+      15.0,
+      -110.25,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "RoleExhibitionCell"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      15.0,
+      -110.25,
+      211.75,
+      423.5,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:bf_s16_goku_z",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "RoleExhibition:23",
+     "name": "bf_s16_melody",
+     "active": true,
+     "transformId": "RoleExhibition:24",
+     "parent": "RoleExhibition:6",
+     "children": [],
+     "position": [
+      163.0,
+      -160.5,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "RoleExhibitionCell"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      163.0,
+      -160.5,
+      208.0,
+      336.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:bf_s16_melody_z",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "RoleExhibition:25",
+     "name": "bf_s16_cigarettegirl",
+     "active": true,
+     "transformId": "RoleExhibition:26",
+     "parent": "RoleExhibition:6",
+     "children": [],
+     "position": [
+      -179.0,
+      -198.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      -1.0,
+      1.0,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "RoleExhibitionCell"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      -179.0,
+      -198.0,
+      220.0,
+      248.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:bf_s16_cigarettegirl_z",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "RoleExhibition:27",
+     "name": "TitleImage",
+     "active": true,
+     "transformId": "RoleExhibition:28",
+     "parent": "RoleExhibition:2",
+     "children": [],
+     "position": [
+      0.0,
+      -37.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      1.0,
+      0.5,
+      1.0,
+      0.0,
+      -37.0,
+      492.0,
+      92.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:title",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "RoleExhibition:29",
+     "name": "BFIconImage",
+     "active": true,
+     "transformId": "RoleExhibition:30",
+     "parent": "RoleExhibition:2",
+     "children": [],
+     "position": [
+      -16.0,
+      -193.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      -16.0,
+      -193.0,
+      94.0,
+      56.0,
+      1.0,
+      1.0
+     ],
+     "image": {
+      "sprite": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:anbf",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "RoleExhibition:31",
+     "name": "OwnedText",
+     "active": true,
+     "transformId": "RoleExhibition:32",
+     "parent": "RoleExhibition:2",
+     "children": [],
+     "position": [
+      -130.0,
+      60.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      -130.0,
+      60.0,
+      180.0,
+      60.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "0/6",
+      "key": "",
+      "font": "CAB-62586c4f7f88efe0e5bcce4ee70be241:8205276534984544055",
+      "size": 50,
+      "style": 0,
+      "alignment": 5,
+      "minSize": 2,
+      "maxSize": 50,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": false,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        3.0,
+        -3.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "RoleExhibition:33",
+     "name": "GetRolesText",
+     "active": false,
+     "transformId": "RoleExhibition:34",
+     "parent": "RoleExhibition:2",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow",
+      "Universal.Modules.Base.LocalizedText"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.0,
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      700.0,
+      80.0,
+      0.5,
+      1.0
+     ],
+     "text": {
+      "value": "",
+      "key": "",
+      "font": "CAB-62586c4f7f88efe0e5bcce4ee70be241:8205276534984544055",
+      "size": 50,
+      "style": 0,
+      "alignment": 4,
+      "minSize": 30,
+      "maxSize": 50,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        3.0,
+        -3.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "assets": [
+  {
+   "id": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:banner",
+   "name": "banner",
+   "type": "Sprite",
+   "path": "Sprites/banner.png",
+   "sha256": "c254dc51031fc31c6338b9fc89a617b9118978ba123ce2e3b8451143944e6cdf",
+   "resource": "file:a3f146f7f96a1eb225a623130e50849c/Sprites/banner.png",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:bf_s16_insane_z",
+   "name": "bf_s16_insane_z",
+   "type": "Sprite",
+   "path": "Sprites/bf_s16_insane_z.png",
+   "sha256": "bd2f4d82e0df627e728f74869712e5ca0d479ca1715082f2fe33b118d327743f",
+   "resource": "file:a3f146f7f96a1eb225a623130e50849c/Sprites/bf_s16_insane_z.png",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:bf_s16_mentalsonic_z",
+   "name": "bf_s16_mentalsonic_z",
+   "type": "Sprite",
+   "path": "Sprites/bf_s16_mentalsonic_z.png",
+   "sha256": "3710bad73d21789f3005cfd120241fc74aa81eb7d1dc43800f447b62184b0124",
+   "resource": "file:a3f146f7f96a1eb225a623130e50849c/Sprites/bf_s16_mentalsonic_z.png",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:bf_s16_tco_z",
+   "name": "bf_s16_tco_z",
+   "type": "Sprite",
+   "path": "Sprites/bf_s16_tco_z.png",
+   "sha256": "1f596f2caad26731e38be07790d85e9e9f762380b30827e1f73a94d8b4f80e50",
+   "resource": "file:a3f146f7f96a1eb225a623130e50849c/Sprites/bf_s16_tco_z.png",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:bf_s16_benson_z",
+   "name": "bf_s16_benson_z",
+   "type": "Sprite",
+   "path": "Sprites/bf_s16_benson_z.png",
+   "sha256": "88e0596c3019fc5901fe514a142e727f9801f09ec80da75872b15cdf8ba05c10",
+   "resource": "file:a3f146f7f96a1eb225a623130e50849c/Sprites/bf_s16_benson_z.png",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:bf_s16_blackimpostor_z",
+   "name": "bf_s16_blackimpostor_z",
+   "type": "Sprite",
+   "path": "Sprites/bf_s16_blackimpostor_z.png",
+   "sha256": "eb7ff3afdea4732f8cba3e9324b212f7385f7203367f386738cc11e85564ae26",
+   "resource": "file:a3f146f7f96a1eb225a623130e50849c/Sprites/bf_s16_blackimpostor_z.png",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:bf_s16_skarlet_z",
+   "name": "bf_s16_skarlet_z",
+   "type": "Sprite",
+   "path": "Sprites/bf_s16_skarlet_z.png",
+   "sha256": "719e44f87d57bb7d4113d7b410cc724cdbc0c445d52eda91800e6ccafb1d3bcc",
+   "resource": "file:a3f146f7f96a1eb225a623130e50849c/Sprites/bf_s16_skarlet_z.png",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:bf_s16_blaze_z",
+   "name": "bf_s16_blaze_z",
+   "type": "Sprite",
+   "path": "Sprites/bf_s16_blaze_z.png",
+   "sha256": "3621984a784a5e06156c3f8faf85813007ed0041fc208ef4459f93e40a4784aa",
+   "resource": "file:a3f146f7f96a1eb225a623130e50849c/Sprites/bf_s16_blaze_z.png",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:bf_s16_goku_z",
+   "name": "bf_s16_goku_z",
+   "type": "Sprite",
+   "path": "Sprites/bf_s16_goku_z.png",
+   "sha256": "3978e41535a28ca1b67587d44bef16de220b0f5fdf5f3507113b2c7e5eff433c",
+   "resource": "file:a3f146f7f96a1eb225a623130e50849c/Sprites/bf_s16_goku_z.png",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:bf_s16_melody_z",
+   "name": "bf_s16_melody_z",
+   "type": "Sprite",
+   "path": "Sprites/bf_s16_melody_z.png",
+   "sha256": "5491b834ee76f97722ec001cba8cb22596150bb39d4b6936084847a5ec4dd80b",
+   "resource": "file:a3f146f7f96a1eb225a623130e50849c/Sprites/bf_s16_melody_z.png",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:bf_s16_cigarettegirl_z",
+   "name": "bf_s16_cigarettegirl_z",
+   "type": "Sprite",
+   "path": "Sprites/bf_s16_cigarettegirl_z.png",
+   "sha256": "1b15a887f7ad78b8f8aabc06dc76b5464e9fbbddfc33d70814d302e2993c55d0",
+   "resource": "file:a3f146f7f96a1eb225a623130e50849c/Sprites/bf_s16_cigarettegirl_z.png",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:title",
+   "name": "title",
+   "type": "Sprite",
+   "path": "Sprites/title.png",
+   "sha256": "cb6782cd4c66549afeb640b6105fae417de312cf0371a63ac535fce5952004fa",
+   "resource": "file:a3f146f7f96a1eb225a623130e50849c/Sprites/title.png",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:anbf",
+   "name": "anbf",
+   "type": "Sprite",
+   "path": "Sprites/anbf.png",
+   "sha256": "a6bdcdd614aec1cbd2273f3d788c8b1a8d459ebe4e101bc53680bdd1c07bff69",
+   "resource": "file:a3f146f7f96a1eb225a623130e50849c/Sprites/anbf.png",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:bf_s16_insane_a",
+   "name": "bf_s16_insane_a",
+   "type": "Sprite",
+   "path": "Sprites/bf_s16_insane_a.png",
+   "sha256": "0ed51b6492877b90465f696bc6ce4083900b08023d9f0e6242aceb6c7354c85a",
+   "resource": "file:a3f146f7f96a1eb225a623130e50849c/Sprites/bf_s16_insane_a.png",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:bf_s16_mentalsonic_a",
+   "name": "bf_s16_mentalsonic_a",
+   "type": "Sprite",
+   "path": "Sprites/bf_s16_mentalsonic_a.png",
+   "sha256": "577a2f2a824aa88adeaf29caab0e59c9b171f1f55f0ac7af581cd4270ddfead4",
+   "resource": "file:a3f146f7f96a1eb225a623130e50849c/Sprites/bf_s16_mentalsonic_a.png",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:bf_s16_tco_a",
+   "name": "bf_s16_tco_a",
+   "type": "Sprite",
+   "path": "Sprites/bf_s16_tco_a.png",
+   "sha256": "ea8c42961d76594463a2e3edf45a6c777953b685bd9611abe0823bf009d6290d",
+   "resource": "file:a3f146f7f96a1eb225a623130e50849c/Sprites/bf_s16_tco_a.png",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:bf_s16_benson_a",
+   "name": "bf_s16_benson_a",
+   "type": "Sprite",
+   "path": "Sprites/bf_s16_benson_a.png",
+   "sha256": "fc81eb1ba6c26707afc3ee5af7cc558d9fd60a25664cfa58c345e76264513e78",
+   "resource": "file:a3f146f7f96a1eb225a623130e50849c/Sprites/bf_s16_benson_a.png",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:bf_s16_blackimpostor_a",
+   "name": "bf_s16_blackimpostor_a",
+   "type": "Sprite",
+   "path": "Sprites/bf_s16_blackimpostor_a.png",
+   "sha256": "367ee45522530bd5ef7fdcaef942037c91000173059c8fdea4364f6a0863afce",
+   "resource": "file:a3f146f7f96a1eb225a623130e50849c/Sprites/bf_s16_blackimpostor_a.png",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:bf_s16_skarlet_a",
+   "name": "bf_s16_skarlet_a",
+   "type": "Sprite",
+   "path": "Sprites/bf_s16_skarlet_a.png",
+   "sha256": "ac90a0b4b3d662c9b6cb6ac5ce66a30cc9bd6a1fa05714f7e017790533457c47",
+   "resource": "file:a3f146f7f96a1eb225a623130e50849c/Sprites/bf_s16_skarlet_a.png",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:bf_s16_blaze_a",
+   "name": "bf_s16_blaze_a",
+   "type": "Sprite",
+   "path": "Sprites/bf_s16_blaze_a.png",
+   "sha256": "05dba4d4e4172e50a172beafd284e486c1122d76fead6cd9f2c2bc200a676cc7",
+   "resource": "file:a3f146f7f96a1eb225a623130e50849c/Sprites/bf_s16_blaze_a.png",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:bf_s16_goku_a",
+   "name": "bf_s16_goku_a",
+   "type": "Sprite",
+   "path": "Sprites/bf_s16_goku_a.png",
+   "sha256": "c92772b9566e4ea8153db8cc6bc3a91ef294cf270c96cbe681228d4225f3cd7d",
+   "resource": "file:a3f146f7f96a1eb225a623130e50849c/Sprites/bf_s16_goku_a.png",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:bf_s16_melody_a",
+   "name": "bf_s16_melody_a",
+   "type": "Sprite",
+   "path": "Sprites/bf_s16_melody_a.png",
+   "sha256": "14849e6ef05add647cb80815d26ac9c04e5258a6e68ac738cf1bb450d9f25b60",
+   "resource": "file:a3f146f7f96a1eb225a623130e50849c/Sprites/bf_s16_melody_a.png",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-99bf5c73e28a90bc1d2814f6138c322e:Sprite:bf_s16_cigarettegirl_a",
+   "name": "bf_s16_cigarettegirl_a",
+   "type": "Sprite",
+   "path": "Sprites/bf_s16_cigarettegirl_a.png",
+   "sha256": "f57ea39f5649331326c987edee17d8bc1a61f686de0decad296a83bf28e82b0f",
+   "resource": "file:a3f146f7f96a1eb225a623130e50849c/Sprites/bf_s16_cigarettegirl_a.png",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-62586c4f7f88efe0e5bcce4ee70be241:8205276534984544055",
+   "name": "CLASH FONT_CN_REGULAR FINAL",
+   "type": "Font",
+   "path": "Fonts/CAB-62586c4f7f88efe0e5bcce4ee70be241_8205276534984544055.ttf",
+   "sha256": "0cd1b13e35f124676d9e1de885249abebe6cbb2222a6bbf7f531d5bd37209829",
+   "resource": "RecoveredLeaderboard606/Fonts/CAB-62586c4f7f88efe0e5bcce4ee70be241_8205276534984544055"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+  "images": [
+    {
+      "url": "http://cdn.makeawesomeapps.com/mtools/beatmusic/image/Garcello_song1__0.png",
+      "key": "c2f2cbbf969d1703c1e9a8dd7ec85bed6eaff93436610cadf28c1853549abc87",
+      "sha256": "e682700762a435f0f795d041a8d5472118d8ae7544fe12441985021668cc95c1",
+      "kind": "HeadacheCover"
+    },
+    {
+      "url": "http://cdn.makeawesomeapps.com/mtools/beatmusic/image/Hex_all_xmas.png",
+      "key": "a197a9e28f96190a7c10ba8449ff2d7ed5b0df214f464400198fb08c08ca0b5a",
+      "sha256": "5ef852869b50a1c741f31521d7a98e1b7de0bdc505c37776f934acacbde0edf0",
+      "kind": "DunkCover"
+    }
+  ]
+}

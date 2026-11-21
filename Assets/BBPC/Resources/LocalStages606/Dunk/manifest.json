@@ -1,0 +1,21 @@
+{
+  "version": "6.0.6",
+  "items": [
+    {
+      "variant": "dunk",
+      "sid": "lJY",
+      "aid": "MZm",
+      "title": "Dunk",
+      "artist": "Vs. Hex",
+      "chartResource": "LocalStages606/Dunk/chart",
+      "chartSha256": "7ed8568e05df10b31a01e36d4397a1e99127389f0608a89a0085cbeba896822a",
+      "audioFile": "Dunk.mp3",
+      "audioSha256": "64c7d04a9ca73a740b18ffc884caa74570aa0c7381f36dceb46e9d7f90b16a4e",
+      "hp": 3,
+      "difficulty": 1,
+      "playType": 0,
+      "declaredDurationMs": 94248,
+      "actions": 207
+    }
+  ]
+}

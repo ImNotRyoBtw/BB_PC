@@ -1,0 +1,49 @@
+{
+  "sid": "gEYv",
+  "aid": "9m6w",
+  "title": "Elastic Destruction",
+  "artist": "Pibby Full Week",
+  "difficulty": 5,
+  "difficulty_v2": 6,
+  "duration": 184000,
+  "bpm": 180.0,
+  "hp": 1,
+  "play_type": 0,
+  "game_config": {
+    "bf": "BF_Default",
+    "bfs": [
+      "BF_Default",
+      "BF_Default_blue",
+      "BF_Default_orange"
+    ],
+    "gf": "NoAnimation",
+    "gfs": [
+      "NoAnimation"
+    ],
+    "boss": "pibby_fullweek_jake",
+    "bosses": [
+      "pibby_fullweek_jake",
+      "pibby_fullweek_jake_blue",
+      "pibby_fullweek_jake_orange"
+    ],
+    "bg": "bg_pibby_classroom",
+    "bgs": [
+      "bg_pibby_classroom",
+      "bg_pibby_classroom_black"
+    ],
+    "others": [],
+    "groups": [],
+    "asset": {
+      "android_bundle_basename": "Android_pibby_elastic3",
+      "encrypted_md5": "51d2a95d1a3f72c98bc78229e0c77fa8"
+    }
+  },
+  "beatmap": {
+    "encrypted_basename": "7mBta3ukZt75cx1hqvsEnuE0ixlS6mumehLKtPbFBGTM5Fr0sZdCD8F1DUX1indhrmfbdSprtQ5.bpm",
+    "encrypted_md5": "619354a6bcc00c5c6f0b6e75deb3bddc"
+  },
+  "beatmap_data": {
+    "encrypted_basename": "KnQtg1hkBtKDI56H2qfBntgRiaESLDHKBSe0H40FODsWKc9VC82FBjtmDFkwigdhVvHjxUzm.bpmd",
+    "encrypted_md5": "cd1aa7387e28c693db0ae6f0fa252323"
+  }
+}

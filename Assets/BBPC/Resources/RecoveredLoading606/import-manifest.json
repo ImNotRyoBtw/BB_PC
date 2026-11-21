@@ -1,0 +1,35 @@
+{
+  "complete": true,
+  "sourceVersion": "6.0.6",
+  "files": [
+    {
+      "path": "dialogs.json",
+      "sha256": "879b8c426359d3544a48db5daf740927d59be6d7bfcf905920d748ec8d5e7171"
+    },
+    {
+      "path": "Sprites/CAB-95b4509ffedfadad6d5e856ece52e29d_-9155981551599697757.png",
+      "sha256": "65e62e5c9e4082bd684943af5f905c2bae4d4af4f472ea9656a9695ea62872ff"
+    },
+    {
+      "path": "Sprites/CAB-95b4509ffedfadad6d5e856ece52e29d_-9155981551599697757.png.meta",
+      "sha256": "3c718cb873b0afb27403a32c775c73a952892fc3ac9a381e7840e809484515e8"
+    }
+  ],
+  "objects": 3,
+  "assets": 1,
+  "pendingComponents": [
+    {
+      "id": "CAB-95b4509ffedfadad6d5e856ece52e29d:8074992492985073853",
+      "script": "NMNH.Game.LoadingDialog",
+      "error": "Exception: Parsed 120 of 132",
+      "bytes": 132,
+      "consumed": 120
+    }
+  ],
+  "gameplayVerified": false,
+  "animationsVerified": false,
+  "limits": [
+    "Partial controller fields are excluded from bindings.",
+    "Toggle behavior, UIShiny and original animations remain pending."
+  ]
+}

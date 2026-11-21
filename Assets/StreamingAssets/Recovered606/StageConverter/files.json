@@ -1,0 +1,85 @@
+﻿{
+    "version":  1,
+    "files":  [
+                  {
+                      "path":  "AssetStudio.dll",
+                      "sha256":  "79e1c82b483921c0c6b5c90759c418b7c7444e9754a7d8334e9b5322fc4314b1"
+                  },
+                  {
+                      "path":  "AssetStudio.PInvoke.dll",
+                      "sha256":  "2364b712984d460915772cd5e592f482b4ea7b9cc40cf04ce0338d52e69f5e12"
+                  },
+                  {
+                      "path":  "AssetStudioUtility.dll",
+                      "sha256":  "4f05dfb689c6defbfe431c1ee961ddca1b40051897bd38b389df4fa083334b6b"
+                  },
+                  {
+                      "path":  "defaults.json",
+                      "sha256":  "7e7f5f8fb8de21cb5939f48514a206c568211589d44f251441505e9042d6eabb"
+                  },
+                  {
+                      "path":  "K4os.Compression.LZ4.dll",
+                      "sha256":  "899b76dcdc1b4f0dc6de8edeaf6b15fe78e29d2a8e24dc150e7b252cafcc38b8"
+                  },
+                  {
+                      "path":  "Mono.Cecil.dll",
+                      "sha256":  "96fa99d63cd84b76eb37505afc603d404e12fd5cb27e8caa1581aad97b74ae69"
+                  },
+                  {
+                      "path":  "Newtonsoft.Json.dll",
+                      "sha256":  "b624949df8b0e3a6153fdfb730a7c6f4990b6592ee0d922e1788433d276610f3"
+                  },
+                  {
+                      "path":  "schema.bundle",
+                      "sha256":  "cff849e664641219d0eb6867690a46f86d3acc134707d57c3822437cf4a9b660"
+                  },
+                  {
+                      "path":  "SixLabors.Fonts.dll",
+                      "sha256":  "81a7b5e02b4cc257c5be2a1c1910a835a4a4454ed4c95af195fe95645b31e823"
+                  },
+                  {
+                      "path":  "SixLabors.ImageSharp.dll",
+                      "sha256":  "d754a4c1e8d85e3dc94d067b00b1a42e4ead360f13c93d0431e36b408600a4cd"
+                  },
+                  {
+                      "path":  "SixLabors.ImageSharp.Drawing.dll",
+                      "sha256":  "c5dda86365cb375e499f05889939dec8ecdd34d2ee867b520f8a38f569a3c972"
+                  },
+                  {
+                      "path":  "StagePackWorker.exe",
+                      "sha256":  "c5cbacce6686ff6b8e8506fbea651dfd09bfc5909eaa99e3deec86068e7c1cb3"
+                  },
+                  {
+                      "path":  "StagePackWorker.exe.config",
+                      "sha256":  "ef2fd8bcf23ec6095ca731f85583042b3dc14061f718997d4c74c9958e21bbd4"
+                  },
+                  {
+                      "path":  "System.Buffers.dll",
+                      "sha256":  "accccfbe45d9f08ffeed9916e37b33e98c65be012cfff6e7fa7b67210ce1fefb"
+                  },
+                  {
+                      "path":  "System.Memory.dll",
+                      "sha256":  "8e76318e8b06692abf7dab1169d27d15557f7f0a34d36af6463eff0fe21213c7"
+                  },
+                  {
+                      "path":  "System.Numerics.Vectors.dll",
+                      "sha256":  "1d3ef8698281e7cf7371d1554afef5872b39f96c26da772210a33da041ba1183"
+                  },
+                  {
+                      "path":  "System.Runtime.CompilerServices.Unsafe.dll",
+                      "sha256":  "92d535dd1653250da662c3a5b92943c8030651176c81a509cd74e2b4bec26cff"
+                  },
+                  {
+                      "path":  "System.ValueTuple.dll",
+                      "sha256":  "e905d102585b22c6df04f219af5cbdbfa7bc165979e9788b62df6dcc165e10f4"
+                  },
+                  {
+                      "path":  "Texture2DDecoderWrapper.dll",
+                      "sha256":  "dbc09cb13cce4028f76f95705dd26400f9b2ab4c804b712be33946bdf6fc5de1"
+                  },
+                  {
+                      "path":  "x64/Texture2DDecoderNative.dll",
+                      "sha256":  "5e16918277c475217ad7fc13c91278c9cdef52af381cf537e84f66b91fdb6bca"
+                  }
+              ]
+}

@@ -1,0 +1,7622 @@
+{
+ "sourceVersion": "6.0.6",
+ "scenes": [
+  {
+   "name": "BFStoreDialog",
+   "objects": [
+    {
+     "id": "BFStoreDialog:1",
+     "name": "BFStoreDialog",
+     "active": true,
+     "transformId": "BFStoreDialog:2",
+     "parent": "",
+     "children": [
+      "BFStoreDialog:4"
+     ],
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "BFStoreDialog"
+     ],
+     "sourceHash": "",
+     "rect": []
+    },
+    {
+     "id": "BFStoreDialog:3",
+     "name": "Canvas",
+     "active": true,
+     "transformId": "BFStoreDialog:4",
+     "parent": "BFStoreDialog:2",
+     "children": [
+      "BFStoreDialog:6"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      0.0,
+      0.0,
+      1
+     ],
+     "canvas": true,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "Canvas",
+      "UnityEngine.UI.CanvasScaler",
+      "UnityEngine.UI.GraphicRaycaster",
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "canvasSettings": {
+      "enabled": true,
+      "overrideSorting": false,
+      "sortingOrder": 0,
+      "mode": 0,
+      "cameraFile": 0,
+      "targetDisplay": 0,
+      "cameraId": 0,
+      "planeDistance": 100
+     },
+     "scaler": {
+      "mode": 1,
+      "resolution": [
+       828.0,
+       1792.0
+      ],
+      "match": 1.0,
+      "ppu": 100.0
+     },
+     "image": {
+      "sprite": "",
+      "color": [
+       0.757,
+       0.204,
+       0.537,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreDialog:5",
+     "name": "Container",
+     "active": true,
+     "transformId": "BFStoreDialog:6",
+     "parent": "BFStoreDialog:4",
+     "children": [
+      "BFStoreDialog:8",
+      "BFStoreDialog:16",
+      "BFStoreDialog:18"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "id": "BFStoreDialog:7",
+     "name": "UserDiamondBar",
+     "active": true,
+     "transformId": "BFStoreDialog:8",
+     "parent": "BFStoreDialog:6",
+     "children": [
+      "BFStoreDialog:10",
+      "BFStoreDialog:12",
+      "BFStoreDialog:14"
+     ],
+     "position": [
+      150.0,
+      -65.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "UserDiamondBar"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      150.0,
+      -65.0,
+      226.0,
+      63.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:zuanshijilvd",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreDialog:9",
+     "name": "DiamondIcon",
+     "active": true,
+     "transformId": "BFStoreDialog:10",
+     "parent": "BFStoreDialog:8",
+     "children": [],
+     "position": [
+      -93.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      -93.0,
+      0.0,
+      89.0,
+      70.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:zuanshicg",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreDialog:11",
+     "name": "DiamondsText",
+     "active": true,
+     "transformId": "BFStoreDialog:12",
+     "parent": "BFStoreDialog:8",
+     "children": [],
+     "position": [
+      8.75,
+      0.57,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      8.75,
+      0.57,
+      127.47,
+      51.6,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "99999999",
+      "key": "",
+      "font": "unity default resources:10102",
+      "size": 40,
+      "style": 0,
+      "alignment": 4,
+      "minSize": 3,
+      "maxSize": 40,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     }
+    },
+    {
+     "id": "BFStoreDialog:13",
+     "name": "AddIcon",
+     "active": true,
+     "transformId": "BFStoreDialog:14",
+     "parent": "BFStoreDialog:8",
+     "children": [],
+     "position": [
+      100.7,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": true,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "UnityEngine.UI.Button"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      100.7,
+      0.0,
+      63.0,
+      69.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:jiazuanshianniu",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreDialog:15",
+     "name": "BackButton",
+     "active": true,
+     "transformId": "BFStoreDialog:16",
+     "parent": "BFStoreDialog:6",
+     "children": [],
+     "position": [
+      -59.2,
+      -67.11,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": true,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "UnityEngine.UI.Button"
+     ],
+     "sourceHash": "",
+     "rect": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      -59.2,
+      -67.11,
+      100.0,
+      90.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:return",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreDialog:17",
+     "name": "Cotent",
+     "active": true,
+     "transformId": "BFStoreDialog:18",
+     "parent": "BFStoreDialog:6",
+     "children": [
+      "BFStoreDialog:20",
+      "BFStoreDialog:26",
+      "BFStoreDialog:46"
+     ],
+     "position": [
+      0.0,
+      -75.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.VerticalLayoutGroup"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      -75.0,
+      0.0,
+      -150.0,
+      0.5,
+      0.5
+     ],
+     "layout": {
+      "enabled": true,
+      "kind": 1,
+      "alignment": 1,
+      "startCorner": 0,
+      "startAxis": 0,
+      "constraint": 0,
+      "constraintCount": 0,
+      "padding": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "spacing": [
+       0.0,
+       0.0
+      ],
+      "cellSize": [
+       0,
+       0
+      ],
+      "flags": [
+       true,
+       false,
+       true,
+       true,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "id": "BFStoreDialog:19",
+     "name": "BFStoreTitle",
+     "active": true,
+     "transformId": "BFStoreDialog:20",
+     "parent": "BFStoreDialog:18",
+     "children": [
+      "BFStoreDialog:22"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.LayoutElement"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "layoutElement": {
+      "enabled": true,
+      "ignore": false,
+      "priority": 1,
+      "sizes": [
+       -1.0,
+       100.0,
+       -1.0,
+       100.0,
+       -1.0,
+       -1.0
+      ]
+     }
+    },
+    {
+     "id": "BFStoreDialog:21",
+     "name": "Image",
+     "active": true,
+     "transformId": "BFStoreDialog:22",
+     "parent": "BFStoreDialog:20",
+     "children": [
+      "BFStoreDialog:24"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      1.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      648.0,
+      99.0,
+      0.5,
+      1.0
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:zszbt",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreDialog:23",
+     "name": "Text",
+     "active": true,
+     "transformId": "BFStoreDialog:24",
+     "parent": "BFStoreDialog:22",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow",
+      "Universal.Modules.Base.LocalizedText"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      180.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "BF Store",
+      "key": "bfstore_title",
+      "font": "unity default resources:10102",
+      "size": 60,
+      "style": 0,
+      "alignment": 4,
+      "minSize": 3,
+      "maxSize": 60,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       0.0,
+       0.0,
+       0.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "distance": [
+        3.0,
+        -3.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "BFStoreDialog:25",
+     "name": "BFStoreDiscountBar",
+     "active": true,
+     "transformId": "BFStoreDialog:26",
+     "parent": "BFStoreDialog:18",
+     "children": [
+      "BFStoreDialog:28",
+      "BFStoreDialog:32"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "BFStoreDiscountBar",
+      "UnityEngine.UI.LayoutElement"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "layoutElement": {
+      "enabled": true,
+      "ignore": false,
+      "priority": 1,
+      "sizes": [
+       -1.0,
+       20.0,
+       -1.0,
+       145.0,
+       -1.0,
+       -1.0
+      ]
+     }
+    },
+    {
+     "id": "BFStoreDialog:27",
+     "name": "GetDicountButton",
+     "active": true,
+     "transformId": "BFStoreDialog:28",
+     "parent": "BFStoreDialog:26",
+     "children": [
+      "BFStoreDialog:30"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": true,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "UnityEngine.UI.Button"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      1.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      269.0,
+      90.0,
+      0.5,
+      1.0
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:anniu",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreDialog:29",
+     "name": "Text",
+     "active": true,
+     "transformId": "BFStoreDialog:30",
+     "parent": "BFStoreDialog:28",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "Get Random Discount",
+      "key": "",
+      "font": "unity default resources:10102",
+      "size": 30,
+      "style": 0,
+      "alignment": 4,
+      "minSize": 18,
+      "maxSize": 30,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        3.0,
+        3.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "BFStoreDialog:31",
+     "name": "DiscoountContent",
+     "active": false,
+     "transformId": "BFStoreDialog:32",
+     "parent": "BFStoreDialog:26",
+     "children": [
+      "BFStoreDialog:34",
+      "BFStoreDialog:42"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.5,
+      1.0,
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      143.0,
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "id": "BFStoreDialog:33",
+     "name": "DiscountInfo",
+     "active": true,
+     "transformId": "BFStoreDialog:34",
+     "parent": "BFStoreDialog:32",
+     "children": [
+      "BFStoreDialog:36",
+      "BFStoreDialog:40"
+     ],
+     "position": [
+      -7.0,
+      1.5,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      -7.0,
+      1.5,
+      -68.0,
+      88.0,
+      1.0,
+      1.0
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:dazhed",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreDialog:35",
+     "name": "Sale",
+     "active": true,
+     "transformId": "BFStoreDialog:36",
+     "parent": "BFStoreDialog:34",
+     "children": [
+      "BFStoreDialog:38"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.5,
+      0.0,
+      0.5,
+      0.0,
+      0.0,
+      90.0,
+      90.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:yuannan",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreDialog:37",
+     "name": "Text",
+     "active": true,
+     "transformId": "BFStoreDialog:38",
+     "parent": "BFStoreDialog:36",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.5,
+      1.0,
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      30.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "SALE",
+      "key": "",
+      "font": "unity default resources:10102",
+      "size": 28,
+      "style": 0,
+      "alignment": 4,
+      "minSize": 2,
+      "maxSize": 40,
+      "horizontal": 1,
+      "vertical": 1,
+      "enabled": true,
+      "bestFit": false,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        3.0,
+        3.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "BFStoreDialog:39",
+     "name": "DiscountInfoText",
+     "active": true,
+     "transformId": "BFStoreDialog:40",
+     "parent": "BFStoreDialog:34",
+     "children": [],
+     "position": [
+      -4.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      -4.0,
+      0.0,
+      -92.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "<color=#FF5656>70%OFF</color> for Next 3 Purchase",
+      "key": "",
+      "font": "unity default resources:10102",
+      "size": 36,
+      "style": 0,
+      "alignment": 4,
+      "minSize": 2,
+      "maxSize": 54,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": false,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        3.0,
+        3.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "BFStoreDialog:41",
+     "name": "DiscountRemainTime",
+     "active": true,
+     "transformId": "BFStoreDialog:42",
+     "parent": "BFStoreDialog:32",
+     "children": [
+      "BFStoreDialog:44"
+     ],
+     "position": [
+      0.0,
+      -86.5,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      -86.5,
+      0.0,
+      55.0,
+      0.5,
+      1.0
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:sytd",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreDialog:43",
+     "name": "DiscountRemainTimeText",
+     "active": true,
+     "transformId": "BFStoreDialog:44",
+     "parent": "BFStoreDialog:42",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "Remaining time: <color=#FFCC00>7 days</color>",
+      "key": "",
+      "font": "unity default resources:10102",
+      "size": 28,
+      "style": 0,
+      "alignment": 4,
+      "minSize": 10,
+      "maxSize": 40,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": false,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        3.0,
+        3.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "BFStoreDialog:45",
+     "name": "ScrollView",
+     "active": true,
+     "transformId": "BFStoreDialog:46",
+     "parent": "BFStoreDialog:18",
+     "children": [
+      "BFStoreDialog:48"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": true,
+     "maskGraphic": true,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "UnityEngine.UI.ScrollRect",
+      "EnhancedUI.EnhancedScroller.EnhancedScroller",
+      "UnityEngine.UI.LayoutElement",
+      "UnityEngine.UI.Mask"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:Background",
+      "color": [
+       0.902,
+       0.243,
+       0.639,
+       0.004
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 1,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     },
+     "scroll": {
+      "content": "BFStoreDialog:50",
+      "viewport": "BFStoreDialog:48",
+      "horizontal": false,
+      "vertical": true,
+      "inertia": true,
+      "movement": 2,
+      "elasticity": 0.10000000149011612,
+      "deceleration": 0.13500000536441803,
+      "sensitivity": 1.0
+     },
+     "layoutElement": {
+      "enabled": true,
+      "ignore": false,
+      "priority": 1,
+      "sizes": [
+       -1.0,
+       100.0,
+       -1.0,
+       -1.0,
+       -1.0,
+       1.0
+      ]
+     }
+    },
+    {
+     "id": "BFStoreDialog:47",
+     "name": "Viewport",
+     "active": true,
+     "transformId": "BFStoreDialog:48",
+     "parent": "BFStoreDialog:46",
+     "children": [
+      "BFStoreDialog:50"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": true,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "UnityEngine.UI.Mask"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:UIMask",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 1,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreDialog:49",
+     "name": "Content",
+     "active": true,
+     "transformId": "BFStoreDialog:50",
+     "parent": "BFStoreDialog:48",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "name": "BFStoreRowCell",
+   "objects": [
+    {
+     "id": "BFStoreRowCell:1",
+     "name": "BFStoreRowCell",
+     "active": true,
+     "transformId": "BFStoreRowCell:2",
+     "parent": "",
+     "children": [
+      "BFStoreRowCell:4"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "BFStoreRowCell"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      407.0,
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:3",
+     "name": "GameObject",
+     "active": true,
+     "transformId": "BFStoreRowCell:4",
+     "parent": "BFStoreRowCell:2",
+     "children": [
+      "BFStoreRowCell:6",
+      "BFStoreRowCell:60",
+      "BFStoreRowCell:114"
+     ],
+     "position": [
+      0.0,
+      -203.5,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "UnityEngine.UI.HorizontalLayoutGroup"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      -203.5,
+      0.0,
+      100.0,
+      0.5,
+      0.5
+     ],
+     "layout": {
+      "enabled": true,
+      "kind": 0,
+      "alignment": 4,
+      "startCorner": 0,
+      "startAxis": 0,
+      "constraint": 0,
+      "constraintCount": 0,
+      "padding": [
+       18,
+       18,
+       0,
+       0
+      ],
+      "spacing": [
+       4.0,
+       0.0
+      ],
+      "cellSize": [
+       0,
+       0
+      ],
+      "flags": [
+       true,
+       false,
+       true,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "id": "BFStoreRowCell:5",
+     "name": "BFStoreCell",
+     "active": true,
+     "transformId": "BFStoreRowCell:6",
+     "parent": "BFStoreRowCell:4",
+     "children": [
+      "BFStoreRowCell:8"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": true,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "BFStoreCell",
+      "UnityEngine.UI.Button"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      407.0,
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:7",
+     "name": "Container",
+     "active": true,
+     "transformId": "BFStoreRowCell:8",
+     "parent": "BFStoreRowCell:6",
+     "children": [
+      "BFStoreRowCell:10",
+      "BFStoreRowCell:12",
+      "BFStoreRowCell:24",
+      "BFStoreRowCell:56"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:9",
+     "name": "Background",
+     "active": true,
+     "transformId": "BFStoreRowCell:10",
+     "parent": "BFStoreRowCell:8",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:jiagedi",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreRowCell:11",
+     "name": "BFCover",
+     "active": true,
+     "transformId": "BFStoreRowCell:12",
+     "parent": "BFStoreRowCell:8",
+     "children": [
+      "BFStoreRowCell:14",
+      "BFStoreRowCell:16",
+      "BFStoreRowCell:18"
+     ],
+     "position": [
+      0.0,
+      50.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "BFCoverComponent"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      50.0,
+      189.0,
+      181.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:bk",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreRowCell:13",
+     "name": "BFIcon",
+     "active": false,
+     "transformId": "BFStoreRowCell:14",
+     "parent": "BFStoreRowCell:12",
+     "children": [],
+     "position": [
+      1.8,
+      7.5,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.RawImage"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      1.8,
+      7.5,
+      200.0,
+      200.0,
+      0.5,
+      0.5
+     ],
+     "rawImage": {
+      "texture": "",
+      "pending": "",
+      "enabled": true,
+      "raycast": false,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "uv": [
+       0.0,
+       0.0,
+       1.0,
+       1.0
+      ]
+     }
+    },
+    {
+     "id": "BFStoreRowCell:15",
+     "name": "RarityIcon",
+     "active": true,
+     "transformId": "BFStoreRowCell:16",
+     "parent": "BFStoreRowCell:12",
+     "children": [],
+     "position": [
+      70.0,
+      -60.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      0.7,
+      0.7,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      70.0,
+      -60.0,
+      100.0,
+      100.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:r",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": false,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreRowCell:17",
+     "name": "UpgradeIcon",
+     "active": true,
+     "transformId": "BFStoreRowCell:18",
+     "parent": "BFStoreRowCell:12",
+     "children": [
+      "BFStoreRowCell:20",
+      "BFStoreRowCell:22"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:empty",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreRowCell:19",
+     "name": "Upgrade",
+     "active": false,
+     "transformId": "BFStoreRowCell:20",
+     "parent": "BFStoreRowCell:18",
+     "children": [],
+     "position": [
+      -76.5,
+      30.6,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      -76.5,
+      30.6,
+      47.34,
+      63.12,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:shengjijiantou",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreRowCell:21",
+     "name": "MAX",
+     "active": false,
+     "transformId": "BFStoreRowCell:22",
+     "parent": "BFStoreRowCell:18",
+     "children": [],
+     "position": [
+      -106.5,
+      28.62,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      -106.5,
+      28.62,
+      100.0,
+      53.49,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "MAX",
+      "key": "",
+      "font": "unity default resources:10102",
+      "size": 14,
+      "style": 0,
+      "alignment": 5,
+      "minSize": 10,
+      "maxSize": 40,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        3.0,
+        -3.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:23",
+     "name": "SaleInfo",
+     "active": true,
+     "transformId": "BFStoreRowCell:24",
+     "parent": "BFStoreRowCell:8",
+     "children": [
+      "BFStoreRowCell:26",
+      "BFStoreRowCell:28",
+      "BFStoreRowCell:40",
+      "BFStoreRowCell:48"
+     ],
+     "position": [
+      0.0,
+      -122.1,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.VerticalLayoutGroup"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      -122.1,
+      0.0,
+      -278.4,
+      0.5,
+      0.5
+     ],
+     "layout": {
+      "enabled": true,
+      "kind": 1,
+      "alignment": 7,
+      "startCorner": 0,
+      "startAxis": 0,
+      "constraint": 0,
+      "constraintCount": 0,
+      "padding": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "spacing": [
+       0.0,
+       0.0
+      ],
+      "cellSize": [
+       0,
+       0
+      ],
+      "flags": [
+       true,
+       true,
+       true,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "id": "BFStoreRowCell:25",
+     "name": "Name",
+     "active": true,
+     "transformId": "BFStoreRowCell:26",
+     "parent": "BFStoreRowCell:24",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      32.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "BF Name",
+      "key": "",
+      "font": "unity default resources:10102",
+      "size": 30,
+      "style": 0,
+      "alignment": 4,
+      "minSize": 2,
+      "maxSize": 30,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        3.0,
+        3.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:27",
+     "name": "Original",
+     "active": true,
+     "transformId": "BFStoreRowCell:28",
+     "parent": "BFStoreRowCell:24",
+     "children": [
+      "BFStoreRowCell:30"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      30.0,
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:29",
+     "name": "OriginalPrice",
+     "active": true,
+     "transformId": "BFStoreRowCell:30",
+     "parent": "BFStoreRowCell:28",
+     "children": [
+      "BFStoreRowCell:32",
+      "BFStoreRowCell:38"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:31",
+     "name": "Price",
+     "active": true,
+     "transformId": "BFStoreRowCell:32",
+     "parent": "BFStoreRowCell:30",
+     "children": [
+      "BFStoreRowCell:34",
+      "BFStoreRowCell:36"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "UnityEngine.UI.HorizontalLayoutGroup"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+     ],
+     "layout": {
+      "enabled": true,
+      "kind": 0,
+      "alignment": 4,
+      "startCorner": 0,
+      "startAxis": 0,
+      "constraint": 0,
+      "constraintCount": 0,
+      "padding": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "spacing": [
+       6.0,
+       0.0
+      ],
+      "cellSize": [
+       0,
+       0
+      ],
+      "flags": [
+       false,
+       true,
+       true,
+       true,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "id": "BFStoreRowCell:33",
+     "name": "PriceImage",
+     "active": true,
+     "transformId": "BFStoreRowCell:34",
+     "parent": "BFStoreRowCell:32",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "UnityEngine.UI.LayoutElement"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:zuanshicg",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": true,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     },
+     "layoutElement": {
+      "enabled": true,
+      "ignore": false,
+      "priority": 1,
+      "sizes": [
+       0.0,
+       0.0,
+       38.0,
+       30.0,
+       -1.0,
+       -1.0
+      ]
+     }
+    },
+    {
+     "id": "BFStoreRowCell:35",
+     "name": "PriceText",
+     "active": true,
+     "transformId": "BFStoreRowCell:36",
+     "parent": "BFStoreRowCell:32",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "30000",
+      "key": "",
+      "font": "unity default resources:10102",
+      "size": 28,
+      "style": 0,
+      "alignment": 3,
+      "minSize": 14,
+      "maxSize": 28,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       0.204,
+       0.851,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        4.0,
+        4.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:37",
+     "name": "Line",
+     "active": true,
+     "transformId": "BFStoreRowCell:38",
+     "parent": "BFStoreRowCell:30",
+     "children": [],
+     "position": [
+      6.08,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      0.6,
+      0.6,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      6.08,
+      0.0,
+      46.14,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:hx",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": true,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreRowCell:39",
+     "name": "Price",
+     "active": true,
+     "transformId": "BFStoreRowCell:40",
+     "parent": "BFStoreRowCell:24",
+     "children": [
+      "BFStoreRowCell:42"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      50.0,
+      1.0,
+      0.0
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:41",
+     "name": "Price",
+     "active": true,
+     "transformId": "BFStoreRowCell:42",
+     "parent": "BFStoreRowCell:40",
+     "children": [
+      "BFStoreRowCell:44",
+      "BFStoreRowCell:46"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "UnityEngine.UI.HorizontalLayoutGroup"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+     ],
+     "layout": {
+      "enabled": true,
+      "kind": 0,
+      "alignment": 4,
+      "startCorner": 0,
+      "startAxis": 0,
+      "constraint": 0,
+      "constraintCount": 0,
+      "padding": [
+       -10,
+       0,
+       0,
+       0
+      ],
+      "spacing": [
+       12.0,
+       0.0
+      ],
+      "cellSize": [
+       0,
+       0
+      ],
+      "flags": [
+       false,
+       true,
+       true,
+       true,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "id": "BFStoreRowCell:43",
+     "name": "PriceImage",
+     "active": true,
+     "transformId": "BFStoreRowCell:44",
+     "parent": "BFStoreRowCell:42",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "UnityEngine.UI.LayoutElement"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:zuanshicg",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": false,
+      "preserve": true,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     },
+     "layoutElement": {
+      "enabled": true,
+      "ignore": false,
+      "priority": 1,
+      "sizes": [
+       65.0,
+       50.0,
+       65.0,
+       50.0,
+       -1.0,
+       -1.0
+      ]
+     }
+    },
+    {
+     "id": "BFStoreRowCell:45",
+     "name": "PriceText",
+     "active": true,
+     "transformId": "BFStoreRowCell:46",
+     "parent": "BFStoreRowCell:42",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "1500",
+      "key": "",
+      "font": "unity default resources:10102",
+      "size": 42,
+      "style": 0,
+      "alignment": 3,
+      "minSize": 0,
+      "maxSize": 42,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       0.204,
+       0.851,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        4.0,
+        4.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:47",
+     "name": "Owned",
+     "active": false,
+     "transformId": "BFStoreRowCell:48",
+     "parent": "BFStoreRowCell:24",
+     "children": [
+      "BFStoreRowCell:50"
+     ],
+     "position": [
+      0.0,
+      -60.9,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.5,
+      1.0,
+      0.5,
+      0.0,
+      -60.9,
+      0.0,
+      50.0,
+      1.0,
+      0.0
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:49",
+     "name": "Owned",
+     "active": true,
+     "transformId": "BFStoreRowCell:50",
+     "parent": "BFStoreRowCell:48",
+     "children": [
+      "BFStoreRowCell:52",
+      "BFStoreRowCell:54"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "UnityEngine.UI.HorizontalLayoutGroup"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+     ],
+     "layout": {
+      "enabled": true,
+      "kind": 0,
+      "alignment": 4,
+      "startCorner": 0,
+      "startAxis": 0,
+      "constraint": 0,
+      "constraintCount": 0,
+      "padding": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "spacing": [
+       2.0,
+       0.0
+      ],
+      "cellSize": [
+       0,
+       0
+      ],
+      "flags": [
+       false,
+       true,
+       false,
+       true,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "id": "BFStoreRowCell:51",
+     "name": "Image",
+     "active": true,
+     "transformId": "BFStoreRowCell:52",
+     "parent": "BFStoreRowCell:50",
+     "children": [],
+     "position": [
+      76.5,
+      -50.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      76.5,
+      -50.0,
+      54.0,
+      50.0,
+      1.0,
+      0.0
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:yl",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": false,
+      "preserve": true,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreRowCell:53",
+     "name": "Text",
+     "active": true,
+     "transformId": "BFStoreRowCell:54",
+     "parent": "BFStoreRowCell:50",
+     "children": [],
+     "position": [
+      158.5,
+      -25.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow",
+      "Universal.Modules.Base.LocalizedText"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      158.5,
+      -25.0,
+      160.0,
+      50.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "owned",
+      "key": "already_owned",
+      "font": "unity default resources:10102",
+      "size": 42,
+      "style": 0,
+      "alignment": 3,
+      "minSize": 0,
+      "maxSize": 42,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       0.204,
+       0.859,
+       0.043,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        4.0,
+        4.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:55",
+     "name": "Discount",
+     "active": false,
+     "transformId": "BFStoreRowCell:56",
+     "parent": "BFStoreRowCell:8",
+     "children": [
+      "BFStoreRowCell:58"
+     ],
+     "position": [
+      6.0,
+      6.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      6.0,
+      6.0,
+      119.0,
+      75.0,
+      1.0,
+      1.0
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:dzjb",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": false,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreRowCell:57",
+     "name": "DiscountText",
+     "active": true,
+     "transformId": "BFStoreRowCell:58",
+     "parent": "BFStoreRowCell:56",
+     "children": [],
+     "position": [
+      10.26,
+      -1.43,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      10.26,
+      -1.43,
+      -20.52,
+      -2.87,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "30%\noff",
+      "key": "",
+      "font": "unity default resources:10102",
+      "size": 27,
+      "style": 0,
+      "alignment": 4,
+      "minSize": 10,
+      "maxSize": 40,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": false,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        3.0,
+        3.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:59",
+     "name": "BFStoreCell (1)",
+     "active": true,
+     "transformId": "BFStoreRowCell:60",
+     "parent": "BFStoreRowCell:4",
+     "children": [
+      "BFStoreRowCell:62"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": true,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "BFStoreCell",
+      "UnityEngine.UI.Button"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      407.0,
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:61",
+     "name": "Container",
+     "active": true,
+     "transformId": "BFStoreRowCell:62",
+     "parent": "BFStoreRowCell:60",
+     "children": [
+      "BFStoreRowCell:64",
+      "BFStoreRowCell:66",
+      "BFStoreRowCell:78",
+      "BFStoreRowCell:110"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:63",
+     "name": "Background",
+     "active": true,
+     "transformId": "BFStoreRowCell:64",
+     "parent": "BFStoreRowCell:62",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:jiagedi",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreRowCell:65",
+     "name": "BFCover",
+     "active": true,
+     "transformId": "BFStoreRowCell:66",
+     "parent": "BFStoreRowCell:62",
+     "children": [
+      "BFStoreRowCell:68",
+      "BFStoreRowCell:70",
+      "BFStoreRowCell:72"
+     ],
+     "position": [
+      0.0,
+      50.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "BFCoverComponent"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      50.0,
+      189.0,
+      181.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:bk",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreRowCell:67",
+     "name": "BFIcon",
+     "active": false,
+     "transformId": "BFStoreRowCell:68",
+     "parent": "BFStoreRowCell:66",
+     "children": [],
+     "position": [
+      1.8,
+      7.5,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.RawImage"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      1.8,
+      7.5,
+      200.0,
+      200.0,
+      0.5,
+      0.5
+     ],
+     "rawImage": {
+      "texture": "",
+      "pending": "",
+      "enabled": true,
+      "raycast": false,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "uv": [
+       0.0,
+       0.0,
+       1.0,
+       1.0
+      ]
+     }
+    },
+    {
+     "id": "BFStoreRowCell:69",
+     "name": "RarityIcon",
+     "active": true,
+     "transformId": "BFStoreRowCell:70",
+     "parent": "BFStoreRowCell:66",
+     "children": [],
+     "position": [
+      70.0,
+      -60.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      0.7,
+      0.7,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      70.0,
+      -60.0,
+      100.0,
+      100.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:r",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": false,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreRowCell:71",
+     "name": "UpgradeIcon",
+     "active": true,
+     "transformId": "BFStoreRowCell:72",
+     "parent": "BFStoreRowCell:66",
+     "children": [
+      "BFStoreRowCell:74",
+      "BFStoreRowCell:76"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:empty",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreRowCell:73",
+     "name": "Upgrade",
+     "active": false,
+     "transformId": "BFStoreRowCell:74",
+     "parent": "BFStoreRowCell:72",
+     "children": [],
+     "position": [
+      -76.5,
+      30.6,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      -76.5,
+      30.6,
+      47.34,
+      63.12,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:shengjijiantou",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreRowCell:75",
+     "name": "MAX",
+     "active": false,
+     "transformId": "BFStoreRowCell:76",
+     "parent": "BFStoreRowCell:72",
+     "children": [],
+     "position": [
+      -106.5,
+      28.62,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      -106.5,
+      28.62,
+      100.0,
+      53.49,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "MAX",
+      "key": "",
+      "font": "unity default resources:10102",
+      "size": 14,
+      "style": 0,
+      "alignment": 5,
+      "minSize": 10,
+      "maxSize": 40,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        3.0,
+        -3.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:77",
+     "name": "SaleInfo",
+     "active": true,
+     "transformId": "BFStoreRowCell:78",
+     "parent": "BFStoreRowCell:62",
+     "children": [
+      "BFStoreRowCell:80",
+      "BFStoreRowCell:82",
+      "BFStoreRowCell:94",
+      "BFStoreRowCell:102"
+     ],
+     "position": [
+      0.0,
+      -122.1,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.VerticalLayoutGroup"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      -122.1,
+      0.0,
+      -278.4,
+      0.5,
+      0.5
+     ],
+     "layout": {
+      "enabled": true,
+      "kind": 1,
+      "alignment": 7,
+      "startCorner": 0,
+      "startAxis": 0,
+      "constraint": 0,
+      "constraintCount": 0,
+      "padding": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "spacing": [
+       0.0,
+       0.0
+      ],
+      "cellSize": [
+       0,
+       0
+      ],
+      "flags": [
+       true,
+       true,
+       true,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "id": "BFStoreRowCell:79",
+     "name": "Name",
+     "active": true,
+     "transformId": "BFStoreRowCell:80",
+     "parent": "BFStoreRowCell:78",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      32.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "BF Name",
+      "key": "",
+      "font": "unity default resources:10102",
+      "size": 30,
+      "style": 0,
+      "alignment": 4,
+      "minSize": 2,
+      "maxSize": 30,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        3.0,
+        3.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:81",
+     "name": "Original",
+     "active": true,
+     "transformId": "BFStoreRowCell:82",
+     "parent": "BFStoreRowCell:78",
+     "children": [
+      "BFStoreRowCell:84"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      30.0,
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:83",
+     "name": "OriginalPrice",
+     "active": true,
+     "transformId": "BFStoreRowCell:84",
+     "parent": "BFStoreRowCell:82",
+     "children": [
+      "BFStoreRowCell:86",
+      "BFStoreRowCell:92"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:85",
+     "name": "Price",
+     "active": true,
+     "transformId": "BFStoreRowCell:86",
+     "parent": "BFStoreRowCell:84",
+     "children": [
+      "BFStoreRowCell:88",
+      "BFStoreRowCell:90"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "UnityEngine.UI.HorizontalLayoutGroup"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+     ],
+     "layout": {
+      "enabled": true,
+      "kind": 0,
+      "alignment": 4,
+      "startCorner": 0,
+      "startAxis": 0,
+      "constraint": 0,
+      "constraintCount": 0,
+      "padding": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "spacing": [
+       6.0,
+       0.0
+      ],
+      "cellSize": [
+       0,
+       0
+      ],
+      "flags": [
+       false,
+       true,
+       true,
+       true,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "id": "BFStoreRowCell:87",
+     "name": "PriceImage",
+     "active": true,
+     "transformId": "BFStoreRowCell:88",
+     "parent": "BFStoreRowCell:86",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "UnityEngine.UI.LayoutElement"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:zuanshicg",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": true,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     },
+     "layoutElement": {
+      "enabled": true,
+      "ignore": false,
+      "priority": 1,
+      "sizes": [
+       0.0,
+       0.0,
+       38.0,
+       30.0,
+       -1.0,
+       -1.0
+      ]
+     }
+    },
+    {
+     "id": "BFStoreRowCell:89",
+     "name": "PriceText",
+     "active": true,
+     "transformId": "BFStoreRowCell:90",
+     "parent": "BFStoreRowCell:86",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "30000",
+      "key": "",
+      "font": "unity default resources:10102",
+      "size": 28,
+      "style": 0,
+      "alignment": 3,
+      "minSize": 14,
+      "maxSize": 28,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       0.204,
+       0.851,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        4.0,
+        4.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:91",
+     "name": "Line",
+     "active": true,
+     "transformId": "BFStoreRowCell:92",
+     "parent": "BFStoreRowCell:84",
+     "children": [],
+     "position": [
+      6.08,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      0.6,
+      0.6,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      6.08,
+      0.0,
+      46.14,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:hx",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": true,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreRowCell:93",
+     "name": "Price",
+     "active": true,
+     "transformId": "BFStoreRowCell:94",
+     "parent": "BFStoreRowCell:78",
+     "children": [
+      "BFStoreRowCell:96"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      50.0,
+      1.0,
+      0.0
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:95",
+     "name": "Price",
+     "active": true,
+     "transformId": "BFStoreRowCell:96",
+     "parent": "BFStoreRowCell:94",
+     "children": [
+      "BFStoreRowCell:98",
+      "BFStoreRowCell:100"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "UnityEngine.UI.HorizontalLayoutGroup"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+     ],
+     "layout": {
+      "enabled": true,
+      "kind": 0,
+      "alignment": 4,
+      "startCorner": 0,
+      "startAxis": 0,
+      "constraint": 0,
+      "constraintCount": 0,
+      "padding": [
+       -10,
+       0,
+       0,
+       0
+      ],
+      "spacing": [
+       12.0,
+       0.0
+      ],
+      "cellSize": [
+       0,
+       0
+      ],
+      "flags": [
+       false,
+       true,
+       true,
+       true,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "id": "BFStoreRowCell:97",
+     "name": "PriceImage",
+     "active": true,
+     "transformId": "BFStoreRowCell:98",
+     "parent": "BFStoreRowCell:96",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "UnityEngine.UI.LayoutElement"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:zuanshicg",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": false,
+      "preserve": true,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     },
+     "layoutElement": {
+      "enabled": true,
+      "ignore": false,
+      "priority": 1,
+      "sizes": [
+       65.0,
+       50.0,
+       65.0,
+       50.0,
+       -1.0,
+       -1.0
+      ]
+     }
+    },
+    {
+     "id": "BFStoreRowCell:99",
+     "name": "PriceText",
+     "active": true,
+     "transformId": "BFStoreRowCell:100",
+     "parent": "BFStoreRowCell:96",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "1500",
+      "key": "",
+      "font": "unity default resources:10102",
+      "size": 42,
+      "style": 0,
+      "alignment": 3,
+      "minSize": 0,
+      "maxSize": 42,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       0.204,
+       0.851,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        4.0,
+        4.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:101",
+     "name": "Owned",
+     "active": false,
+     "transformId": "BFStoreRowCell:102",
+     "parent": "BFStoreRowCell:78",
+     "children": [
+      "BFStoreRowCell:104"
+     ],
+     "position": [
+      0.0,
+      -60.9,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.5,
+      1.0,
+      0.5,
+      0.0,
+      -60.9,
+      0.0,
+      50.0,
+      1.0,
+      0.0
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:103",
+     "name": "Owned",
+     "active": true,
+     "transformId": "BFStoreRowCell:104",
+     "parent": "BFStoreRowCell:102",
+     "children": [
+      "BFStoreRowCell:106",
+      "BFStoreRowCell:108"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "UnityEngine.UI.HorizontalLayoutGroup"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+     ],
+     "layout": {
+      "enabled": true,
+      "kind": 0,
+      "alignment": 4,
+      "startCorner": 0,
+      "startAxis": 0,
+      "constraint": 0,
+      "constraintCount": 0,
+      "padding": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "spacing": [
+       2.0,
+       0.0
+      ],
+      "cellSize": [
+       0,
+       0
+      ],
+      "flags": [
+       false,
+       true,
+       false,
+       true,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "id": "BFStoreRowCell:105",
+     "name": "Image",
+     "active": true,
+     "transformId": "BFStoreRowCell:106",
+     "parent": "BFStoreRowCell:104",
+     "children": [],
+     "position": [
+      76.5,
+      -50.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      76.5,
+      -50.0,
+      54.0,
+      50.0,
+      1.0,
+      0.0
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:yl",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": false,
+      "preserve": true,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreRowCell:107",
+     "name": "Text",
+     "active": true,
+     "transformId": "BFStoreRowCell:108",
+     "parent": "BFStoreRowCell:104",
+     "children": [],
+     "position": [
+      158.5,
+      -25.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow",
+      "Universal.Modules.Base.LocalizedText"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      158.5,
+      -25.0,
+      160.0,
+      50.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "owned",
+      "key": "already_owned",
+      "font": "unity default resources:10102",
+      "size": 42,
+      "style": 0,
+      "alignment": 3,
+      "minSize": 0,
+      "maxSize": 42,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       0.204,
+       0.859,
+       0.043,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        4.0,
+        4.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:109",
+     "name": "Discount",
+     "active": false,
+     "transformId": "BFStoreRowCell:110",
+     "parent": "BFStoreRowCell:62",
+     "children": [
+      "BFStoreRowCell:112"
+     ],
+     "position": [
+      6.0,
+      6.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      6.0,
+      6.0,
+      119.0,
+      75.0,
+      1.0,
+      1.0
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:dzjb",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": false,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreRowCell:111",
+     "name": "DiscountText",
+     "active": true,
+     "transformId": "BFStoreRowCell:112",
+     "parent": "BFStoreRowCell:110",
+     "children": [],
+     "position": [
+      10.26,
+      -1.43,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      10.26,
+      -1.43,
+      -20.52,
+      -2.87,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "30%\noff",
+      "key": "",
+      "font": "unity default resources:10102",
+      "size": 27,
+      "style": 0,
+      "alignment": 4,
+      "minSize": 10,
+      "maxSize": 40,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": false,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        3.0,
+        3.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:113",
+     "name": "BFStoreCell (2)",
+     "active": true,
+     "transformId": "BFStoreRowCell:114",
+     "parent": "BFStoreRowCell:4",
+     "children": [
+      "BFStoreRowCell:116"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": true,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "BFStoreCell",
+      "UnityEngine.UI.Button"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      407.0,
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:115",
+     "name": "Container",
+     "active": true,
+     "transformId": "BFStoreRowCell:116",
+     "parent": "BFStoreRowCell:114",
+     "children": [
+      "BFStoreRowCell:118",
+      "BFStoreRowCell:120",
+      "BFStoreRowCell:132",
+      "BFStoreRowCell:164"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:117",
+     "name": "Background",
+     "active": true,
+     "transformId": "BFStoreRowCell:118",
+     "parent": "BFStoreRowCell:116",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:jiagedi",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreRowCell:119",
+     "name": "BFCover",
+     "active": true,
+     "transformId": "BFStoreRowCell:120",
+     "parent": "BFStoreRowCell:116",
+     "children": [
+      "BFStoreRowCell:122",
+      "BFStoreRowCell:124",
+      "BFStoreRowCell:126"
+     ],
+     "position": [
+      0.0,
+      50.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "BFCoverComponent"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      50.0,
+      189.0,
+      181.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:bk",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreRowCell:121",
+     "name": "BFIcon",
+     "active": false,
+     "transformId": "BFStoreRowCell:122",
+     "parent": "BFStoreRowCell:120",
+     "children": [],
+     "position": [
+      1.8,
+      7.5,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.RawImage"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      1.8,
+      7.5,
+      200.0,
+      200.0,
+      0.5,
+      0.5
+     ],
+     "rawImage": {
+      "texture": "",
+      "pending": "",
+      "enabled": true,
+      "raycast": false,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "uv": [
+       0.0,
+       0.0,
+       1.0,
+       1.0
+      ]
+     }
+    },
+    {
+     "id": "BFStoreRowCell:123",
+     "name": "RarityIcon",
+     "active": true,
+     "transformId": "BFStoreRowCell:124",
+     "parent": "BFStoreRowCell:120",
+     "children": [],
+     "position": [
+      70.0,
+      -60.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      0.7,
+      0.7,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      70.0,
+      -60.0,
+      100.0,
+      100.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:r",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": false,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreRowCell:125",
+     "name": "UpgradeIcon",
+     "active": true,
+     "transformId": "BFStoreRowCell:126",
+     "parent": "BFStoreRowCell:120",
+     "children": [
+      "BFStoreRowCell:128",
+      "BFStoreRowCell:130"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:empty",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreRowCell:127",
+     "name": "Upgrade",
+     "active": false,
+     "transformId": "BFStoreRowCell:128",
+     "parent": "BFStoreRowCell:126",
+     "children": [],
+     "position": [
+      -76.5,
+      30.6,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      -76.5,
+      30.6,
+      47.34,
+      63.12,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:shengjijiantou",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreRowCell:129",
+     "name": "MAX",
+     "active": false,
+     "transformId": "BFStoreRowCell:130",
+     "parent": "BFStoreRowCell:126",
+     "children": [],
+     "position": [
+      -106.5,
+      28.62,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      -106.5,
+      28.62,
+      100.0,
+      53.49,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "MAX",
+      "key": "",
+      "font": "unity default resources:10102",
+      "size": 14,
+      "style": 0,
+      "alignment": 5,
+      "minSize": 10,
+      "maxSize": 40,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        3.0,
+        -3.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:131",
+     "name": "SaleInfo",
+     "active": true,
+     "transformId": "BFStoreRowCell:132",
+     "parent": "BFStoreRowCell:116",
+     "children": [
+      "BFStoreRowCell:134",
+      "BFStoreRowCell:136",
+      "BFStoreRowCell:148",
+      "BFStoreRowCell:156"
+     ],
+     "position": [
+      0.0,
+      -122.1,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.VerticalLayoutGroup"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      -122.1,
+      0.0,
+      -278.4,
+      0.5,
+      0.5
+     ],
+     "layout": {
+      "enabled": true,
+      "kind": 1,
+      "alignment": 7,
+      "startCorner": 0,
+      "startAxis": 0,
+      "constraint": 0,
+      "constraintCount": 0,
+      "padding": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "spacing": [
+       0.0,
+       0.0
+      ],
+      "cellSize": [
+       0,
+       0
+      ],
+      "flags": [
+       true,
+       true,
+       true,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "id": "BFStoreRowCell:133",
+     "name": "Name",
+     "active": true,
+     "transformId": "BFStoreRowCell:134",
+     "parent": "BFStoreRowCell:132",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      32.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "BF Name",
+      "key": "",
+      "font": "unity default resources:10102",
+      "size": 30,
+      "style": 0,
+      "alignment": 4,
+      "minSize": 2,
+      "maxSize": 30,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        3.0,
+        3.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:135",
+     "name": "Original",
+     "active": true,
+     "transformId": "BFStoreRowCell:136",
+     "parent": "BFStoreRowCell:132",
+     "children": [
+      "BFStoreRowCell:138"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      30.0,
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:137",
+     "name": "OriginalPrice",
+     "active": true,
+     "transformId": "BFStoreRowCell:138",
+     "parent": "BFStoreRowCell:136",
+     "children": [
+      "BFStoreRowCell:140",
+      "BFStoreRowCell:146"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:139",
+     "name": "Price",
+     "active": true,
+     "transformId": "BFStoreRowCell:140",
+     "parent": "BFStoreRowCell:138",
+     "children": [
+      "BFStoreRowCell:142",
+      "BFStoreRowCell:144"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "UnityEngine.UI.HorizontalLayoutGroup"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+     ],
+     "layout": {
+      "enabled": true,
+      "kind": 0,
+      "alignment": 4,
+      "startCorner": 0,
+      "startAxis": 0,
+      "constraint": 0,
+      "constraintCount": 0,
+      "padding": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "spacing": [
+       6.0,
+       0.0
+      ],
+      "cellSize": [
+       0,
+       0
+      ],
+      "flags": [
+       false,
+       true,
+       true,
+       true,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "id": "BFStoreRowCell:141",
+     "name": "PriceImage",
+     "active": true,
+     "transformId": "BFStoreRowCell:142",
+     "parent": "BFStoreRowCell:140",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "UnityEngine.UI.LayoutElement"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:zuanshicg",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": true,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     },
+     "layoutElement": {
+      "enabled": true,
+      "ignore": false,
+      "priority": 1,
+      "sizes": [
+       0.0,
+       0.0,
+       38.0,
+       30.0,
+       -1.0,
+       -1.0
+      ]
+     }
+    },
+    {
+     "id": "BFStoreRowCell:143",
+     "name": "PriceText",
+     "active": true,
+     "transformId": "BFStoreRowCell:144",
+     "parent": "BFStoreRowCell:140",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "30000",
+      "key": "",
+      "font": "unity default resources:10102",
+      "size": 28,
+      "style": 0,
+      "alignment": 3,
+      "minSize": 14,
+      "maxSize": 28,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       0.204,
+       0.851,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        4.0,
+        4.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:145",
+     "name": "Line",
+     "active": true,
+     "transformId": "BFStoreRowCell:146",
+     "parent": "BFStoreRowCell:138",
+     "children": [],
+     "position": [
+      6.08,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      0.6,
+      0.6,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      6.08,
+      0.0,
+      46.14,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:hx",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": true,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreRowCell:147",
+     "name": "Price",
+     "active": true,
+     "transformId": "BFStoreRowCell:148",
+     "parent": "BFStoreRowCell:132",
+     "children": [
+      "BFStoreRowCell:150"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      50.0,
+      1.0,
+      0.0
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:149",
+     "name": "Price",
+     "active": true,
+     "transformId": "BFStoreRowCell:150",
+     "parent": "BFStoreRowCell:148",
+     "children": [
+      "BFStoreRowCell:152",
+      "BFStoreRowCell:154"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "UnityEngine.UI.HorizontalLayoutGroup"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+     ],
+     "layout": {
+      "enabled": true,
+      "kind": 0,
+      "alignment": 4,
+      "startCorner": 0,
+      "startAxis": 0,
+      "constraint": 0,
+      "constraintCount": 0,
+      "padding": [
+       -10,
+       0,
+       0,
+       0
+      ],
+      "spacing": [
+       12.0,
+       0.0
+      ],
+      "cellSize": [
+       0,
+       0
+      ],
+      "flags": [
+       false,
+       true,
+       true,
+       true,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "id": "BFStoreRowCell:151",
+     "name": "PriceImage",
+     "active": true,
+     "transformId": "BFStoreRowCell:152",
+     "parent": "BFStoreRowCell:150",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "UnityEngine.UI.LayoutElement"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:zuanshicg",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": false,
+      "preserve": true,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     },
+     "layoutElement": {
+      "enabled": true,
+      "ignore": false,
+      "priority": 1,
+      "sizes": [
+       65.0,
+       50.0,
+       65.0,
+       50.0,
+       -1.0,
+       -1.0
+      ]
+     }
+    },
+    {
+     "id": "BFStoreRowCell:153",
+     "name": "PriceText",
+     "active": true,
+     "transformId": "BFStoreRowCell:154",
+     "parent": "BFStoreRowCell:150",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "1500",
+      "key": "",
+      "font": "unity default resources:10102",
+      "size": 42,
+      "style": 0,
+      "alignment": 3,
+      "minSize": 0,
+      "maxSize": 42,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       0.204,
+       0.851,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        4.0,
+        4.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:155",
+     "name": "Owned",
+     "active": false,
+     "transformId": "BFStoreRowCell:156",
+     "parent": "BFStoreRowCell:132",
+     "children": [
+      "BFStoreRowCell:158"
+     ],
+     "position": [
+      0.0,
+      -60.9,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.5,
+      1.0,
+      0.5,
+      0.0,
+      -60.9,
+      0.0,
+      50.0,
+      1.0,
+      0.0
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:157",
+     "name": "Owned",
+     "active": true,
+     "transformId": "BFStoreRowCell:158",
+     "parent": "BFStoreRowCell:156",
+     "children": [
+      "BFStoreRowCell:160",
+      "BFStoreRowCell:162"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "UnityEngine.UI.HorizontalLayoutGroup"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+     ],
+     "layout": {
+      "enabled": true,
+      "kind": 0,
+      "alignment": 4,
+      "startCorner": 0,
+      "startAxis": 0,
+      "constraint": 0,
+      "constraintCount": 0,
+      "padding": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "spacing": [
+       2.0,
+       0.0
+      ],
+      "cellSize": [
+       0,
+       0
+      ],
+      "flags": [
+       false,
+       true,
+       false,
+       true,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "id": "BFStoreRowCell:159",
+     "name": "Image",
+     "active": true,
+     "transformId": "BFStoreRowCell:160",
+     "parent": "BFStoreRowCell:158",
+     "children": [],
+     "position": [
+      76.5,
+      -50.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      76.5,
+      -50.0,
+      54.0,
+      50.0,
+      1.0,
+      0.0
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:yl",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": false,
+      "preserve": true,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreRowCell:161",
+     "name": "Text",
+     "active": true,
+     "transformId": "BFStoreRowCell:162",
+     "parent": "BFStoreRowCell:158",
+     "children": [],
+     "position": [
+      158.5,
+      -25.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow",
+      "Universal.Modules.Base.LocalizedText"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      158.5,
+      -25.0,
+      160.0,
+      50.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "owned",
+      "key": "already_owned",
+      "font": "unity default resources:10102",
+      "size": 42,
+      "style": 0,
+      "alignment": 3,
+      "minSize": 0,
+      "maxSize": 42,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       0.204,
+       0.859,
+       0.043,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        4.0,
+        4.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "BFStoreRowCell:163",
+     "name": "Discount",
+     "active": false,
+     "transformId": "BFStoreRowCell:164",
+     "parent": "BFStoreRowCell:116",
+     "children": [
+      "BFStoreRowCell:166"
+     ],
+     "position": [
+      6.0,
+      6.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      6.0,
+      6.0,
+      119.0,
+      75.0,
+      1.0,
+      1.0
+     ],
+     "image": {
+      "sprite": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:dzjb",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": false,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "BFStoreRowCell:165",
+     "name": "DiscountText",
+     "active": true,
+     "transformId": "BFStoreRowCell:166",
+     "parent": "BFStoreRowCell:164",
+     "children": [],
+     "position": [
+      10.26,
+      -1.43,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      10.26,
+      -1.43,
+      -20.52,
+      -2.87,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "30%\noff",
+      "key": "",
+      "font": "unity default resources:10102",
+      "size": 27,
+      "style": 0,
+      "alignment": 4,
+      "minSize": 10,
+      "maxSize": 40,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": false,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        3.0,
+        3.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "assets": [
+  {
+   "id": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:zuanshijilvd",
+   "name": "zuanshijilvd",
+   "type": "Sprite",
+   "path": "Sprites/zuanshijilvd.png",
+   "sha256": "de98214c3ff7817292d8af99bceea0e9d5a356056a1eeae8f6211491e44777a5",
+   "resource": "RecoveredBfStore606/Sprites/zuanshijilvd"
+  },
+  {
+   "id": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:zuanshicg",
+   "name": "zuanshicg",
+   "type": "Sprite",
+   "path": "Sprites/zuanshicg.png",
+   "sha256": "1c20d4b01298a233823e3be47e5f8eced46ce7aa021937a8ce95f704d915ec98",
+   "resource": "RecoveredBfStore606/Sprites/zuanshicg"
+  },
+  {
+   "id": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:jiazuanshianniu",
+   "name": "jiazuanshianniu",
+   "type": "Sprite",
+   "path": "Sprites/jiazuanshianniu.png",
+   "sha256": "fdbcfb64dc366f0c853b66772708883cefd58069b698828621860a3c5e0d0a54",
+   "resource": "RecoveredBfStore606/Sprites/jiazuanshianniu"
+  },
+  {
+   "id": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:return",
+   "name": "return",
+   "type": "Sprite",
+   "path": "Sprites/return.png",
+   "sha256": "03afde846920eb8b4b4ac42254451693ab237609b14301cc05eb2b63db40ec72",
+   "resource": "RecoveredBfStore606/Sprites/return"
+  },
+  {
+   "id": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:zszbt",
+   "name": "zszbt",
+   "type": "Sprite",
+   "path": "Sprites/zszbt.png",
+   "sha256": "599632e56395610588b1b97856a14ea72717ae5d8e634257b759779295e7e1d0",
+   "resource": "RecoveredBfStore606/Sprites/zszbt"
+  },
+  {
+   "id": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:anniu",
+   "name": "anniu",
+   "type": "Sprite",
+   "path": "Sprites/anniu.png",
+   "sha256": "178bb5750f55896213d077d9947373ae3cab419ba4fd604546be6caf56430386",
+   "resource": "RecoveredBfStore606/Sprites/anniu"
+  },
+  {
+   "id": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:dazhed",
+   "name": "dazhed",
+   "type": "Sprite",
+   "path": "Sprites/dazhed.png",
+   "sha256": "09d077aec4e6b265db75bf5bdac1564343e7fa46be6d98e17abee375a4b4bbf7",
+   "resource": "RecoveredBfStore606/Sprites/dazhed"
+  },
+  {
+   "id": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:yuannan",
+   "name": "yuannan",
+   "type": "Sprite",
+   "path": "Sprites/yuannan.png",
+   "sha256": "6caf1190f92598d37c3db435051f0b46efc4e34247d62ac30a409c8af70f14e1",
+   "resource": "RecoveredBfStore606/Sprites/yuannan"
+  },
+  {
+   "id": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:sytd",
+   "name": "sytd",
+   "type": "Sprite",
+   "path": "Sprites/sytd.png",
+   "sha256": "cec05a1371642a20b449712da1e25a0605e1b826c4fd937671df93fbc82b3526",
+   "resource": "RecoveredBfStore606/Sprites/sytd"
+  },
+  {
+   "id": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:Background",
+   "name": "Background",
+   "type": "Sprite",
+   "path": "Sprites/Background.png",
+   "sha256": "7bf2ecf061df211489a9cdca7ddceb0ed40161401d40277404ee06764dded8e7",
+   "resource": "RecoveredBfStore606/Sprites/Background"
+  },
+  {
+   "id": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:UIMask",
+   "name": "UIMask",
+   "type": "Sprite",
+   "path": "Sprites/UIMask.png",
+   "sha256": "89a0ec7e3cf6ce0de93392bdf6d43f6b0e92286aa77780f49df8d5167ba1d334",
+   "resource": "RecoveredBfStore606/Sprites/UIMask"
+  },
+  {
+   "id": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:jiagedi",
+   "name": "jiagedi",
+   "type": "Sprite",
+   "path": "Sprites/jiagedi.png",
+   "sha256": "a46dd2ec4a6634ebf7973f5fdaad1d1d6e12f693d60eb70aef849551eaee6300",
+   "resource": "RecoveredBfStore606/Sprites/jiagedi"
+  },
+  {
+   "id": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:bk",
+   "name": "bk",
+   "type": "Sprite",
+   "path": "Sprites/bk.png",
+   "sha256": "7c63cc39e6e0eda45305b953d058b45c81659137cb8c57bc07048daf91e57aec",
+   "resource": "RecoveredBfStore606/Sprites/bk"
+  },
+  {
+   "id": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:r",
+   "name": "r",
+   "type": "Sprite",
+   "path": "Sprites/r.png",
+   "sha256": "7b5aacba4f8d963e44bb69ea5dae076159086141f34deccc799977658f2f5e84",
+   "resource": "RecoveredBfStore606/Sprites/r"
+  },
+  {
+   "id": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:empty",
+   "name": "empty",
+   "type": "Sprite",
+   "path": "Sprites/empty.png",
+   "sha256": "0ac4f07beb5c3b4d89626e06ddb5aaa52f02337a459f10b4a1f2b79768955751",
+   "resource": "RecoveredBfStore606/Sprites/empty"
+  },
+  {
+   "id": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:shengjijiantou",
+   "name": "shengjijiantou",
+   "type": "Sprite",
+   "path": "Sprites/shengjijiantou.png",
+   "sha256": "2cfa275bf243a0cd7cb38e8fbe5f9007a9db6b1a04218d424daf072c1e5509da",
+   "resource": "RecoveredBfStore606/Sprites/shengjijiantou"
+  },
+  {
+   "id": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:hx",
+   "name": "hx",
+   "type": "Sprite",
+   "path": "Sprites/hx.png",
+   "sha256": "b347dbc8e317df202ae9b2847e3054845ae3ac6faf9efc06cf21978f7c582165",
+   "resource": "RecoveredBfStore606/Sprites/hx"
+  },
+  {
+   "id": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:yl",
+   "name": "yl",
+   "type": "Sprite",
+   "path": "Sprites/yl.png",
+   "sha256": "5758922548225b64c46ebb70730ae7adbcad56363dae9fe16a30b70fce23ecf9",
+   "resource": "RecoveredBfStore606/Sprites/yl"
+  },
+  {
+   "id": "CAB-368de27254a83dc4327fa188f99cfc01:Sprite:dzjb",
+   "name": "dzjb",
+   "type": "Sprite",
+   "path": "Sprites/dzjb.png",
+   "sha256": "6219861819c22fe13a4daa8e73b49bd9f42c489c1c61fc905fce95048a9be6a9",
+   "resource": "RecoveredBfStore606/Sprites/dzjb"
+  }
+ ]
+}

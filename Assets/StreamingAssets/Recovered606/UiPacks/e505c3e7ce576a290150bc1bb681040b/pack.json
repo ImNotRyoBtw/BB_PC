@@ -1,0 +1,1340 @@
+{
+ "sourceVersion": "6.0.6",
+ "scenes": [
+  {
+   "name": "Image",
+   "objects": [
+    {
+     "id": "Image:1",
+     "name": "Image",
+     "active": true,
+     "transformId": "Image:2",
+     "parent": "",
+     "children": [
+      "Image:4",
+      "Image:62"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-927018ba8bc08da0c2527e7609e71f19:Sprite:bg",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "Image:3",
+     "name": "Sorting",
+     "active": true,
+     "transformId": "Image:4",
+     "parent": "Image:2",
+     "children": [
+      "Image:6",
+      "Image:54",
+      "Image:58"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "SortingGroup"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "id": "Image:5",
+     "name": "bf_voiidmatt_ex6",
+     "active": true,
+     "transformId": "Image:6",
+     "parent": "Image:4",
+     "children": [
+      "Image:8"
+     ],
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      -111.531,
+      111.531,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "Pages.MainRoom.Component.RectTransformSpriteScaler"
+     ],
+     "sourceHash": "",
+     "rect": []
+    },
+    {
+     "id": "Image:7",
+     "name": "bf_play_ugoku",
+     "active": true,
+     "transformId": "Image:8",
+     "parent": "Image:6",
+     "children": [
+      "Image:10",
+      "Image:14"
+     ],
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "Animator"
+     ],
+     "sourceHash": "",
+     "rect": []
+    },
+    {
+     "id": "Image:9",
+     "name": "bf_voiidmatt_ex5",
+     "active": true,
+     "transformId": "Image:10",
+     "parent": "Image:8",
+     "children": [
+      "Image:12"
+     ],
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      -0.75,
+      0.75,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "Animator",
+      "PlayRoom.Animators.BoyAnimator"
+     ],
+     "sourceHash": "",
+     "rect": []
+    },
+    {
+     "id": "Image:11",
+     "name": "bf_voiidmatt_ex5",
+     "active": true,
+     "transformId": "Image:12",
+     "parent": "Image:10",
+     "children": [],
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "SpriteRenderer"
+     ],
+     "sourceHash": "",
+     "rect": []
+    },
+    {
+     "id": "Image:13",
+     "name": "inv",
+     "active": true,
+     "transformId": "Image:14",
+     "parent": "Image:8",
+     "children": [
+      "Image:16"
+     ],
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "Animator"
+     ],
+     "sourceHash": "",
+     "rect": []
+    },
+    {
+     "id": "Image:15",
+     "name": "Matt_EX6",
+     "active": true,
+     "transformId": "Image:16",
+     "parent": "Image:14",
+     "children": [
+      "Image:18",
+      "Image:22",
+      "Image:40",
+      "Image:46",
+      "Image:50"
+     ],
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      -0.75,
+      0.75,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [],
+     "sourceHash": "",
+     "rect": []
+    },
+    {
+     "id": "Image:17",
+     "name": "Matt_FootWisps",
+     "active": true,
+     "transformId": "Image:18",
+     "parent": "Image:16",
+     "children": [
+      "Image:20"
+     ],
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      0.86,
+      0.86,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [],
+     "sourceHash": "",
+     "rect": []
+    },
+    {
+     "id": "Image:19",
+     "name": "Matt_Crystals",
+     "active": true,
+     "transformId": "Image:20",
+     "parent": "Image:18",
+     "children": [],
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "ParticleSystem",
+      "ParticleSystemRenderer"
+     ],
+     "sourceHash": "",
+     "rect": []
+    },
+    {
+     "id": "Image:21",
+     "name": "Matt_FloatingCrystals",
+     "active": true,
+     "transformId": "Image:22",
+     "parent": "Image:16",
+     "children": [
+      "Image:24",
+      "Image:26",
+      "Image:28",
+      "Image:30",
+      "Image:32",
+      "Image:34",
+      "Image:36",
+      "Image:38"
+     ],
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      0.86,
+      0.86,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [],
+     "sourceHash": "",
+     "rect": []
+    },
+    {
+     "id": "Image:23",
+     "name": "Matt_Crystals_0",
+     "active": true,
+     "transformId": "Image:24",
+     "parent": "Image:22",
+     "children": [],
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "ParticleSystem",
+      "ParticleSystemRenderer"
+     ],
+     "sourceHash": "",
+     "rect": []
+    },
+    {
+     "id": "Image:25",
+     "name": "Matt_Crystals_1",
+     "active": true,
+     "transformId": "Image:26",
+     "parent": "Image:22",
+     "children": [],
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "ParticleSystem",
+      "ParticleSystemRenderer"
+     ],
+     "sourceHash": "",
+     "rect": []
+    },
+    {
+     "id": "Image:27",
+     "name": "Matt_Crystals_2",
+     "active": true,
+     "transformId": "Image:28",
+     "parent": "Image:22",
+     "children": [],
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "ParticleSystem",
+      "ParticleSystemRenderer"
+     ],
+     "sourceHash": "",
+     "rect": []
+    },
+    {
+     "id": "Image:29",
+     "name": "Matt_Crystals_3",
+     "active": true,
+     "transformId": "Image:30",
+     "parent": "Image:22",
+     "children": [],
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "ParticleSystem",
+      "ParticleSystemRenderer"
+     ],
+     "sourceHash": "",
+     "rect": []
+    },
+    {
+     "id": "Image:31",
+     "name": "Matt_Crystals_4",
+     "active": true,
+     "transformId": "Image:32",
+     "parent": "Image:22",
+     "children": [],
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "ParticleSystem",
+      "ParticleSystemRenderer"
+     ],
+     "sourceHash": "",
+     "rect": []
+    },
+    {
+     "id": "Image:33",
+     "name": "Matt_Crystals_5",
+     "active": true,
+     "transformId": "Image:34",
+     "parent": "Image:22",
+     "children": [],
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "ParticleSystem",
+      "ParticleSystemRenderer"
+     ],
+     "sourceHash": "",
+     "rect": []
+    },
+    {
+     "id": "Image:35",
+     "name": "Matt_Crystals_6",
+     "active": true,
+     "transformId": "Image:36",
+     "parent": "Image:22",
+     "children": [],
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "ParticleSystem",
+      "ParticleSystemRenderer"
+     ],
+     "sourceHash": "",
+     "rect": []
+    },
+    {
+     "id": "Image:37",
+     "name": "Matt_Crystals_7",
+     "active": true,
+     "transformId": "Image:38",
+     "parent": "Image:22",
+     "children": [],
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "ParticleSystem",
+      "ParticleSystemRenderer"
+     ],
+     "sourceHash": "",
+     "rect": []
+    },
+    {
+     "id": "Image:39",
+     "name": "Matt_InfernoWings",
+     "active": true,
+     "transformId": "Image:40",
+     "parent": "Image:16",
+     "children": [
+      "Image:42",
+      "Image:44"
+     ],
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [],
+     "sourceHash": "",
+     "rect": []
+    },
+    {
+     "id": "Image:41",
+     "name": "Matt_Inferno_0",
+     "active": true,
+     "transformId": "Image:42",
+     "parent": "Image:40",
+     "children": [],
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "ParticleSystem",
+      "ParticleSystemRenderer"
+     ],
+     "sourceHash": "",
+     "rect": []
+    },
+    {
+     "id": "Image:43",
+     "name": "Matt_Inferno_1",
+     "active": true,
+     "transformId": "Image:44",
+     "parent": "Image:40",
+     "children": [],
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "ParticleSystem",
+      "ParticleSystemRenderer"
+     ],
+     "sourceHash": "",
+     "rect": []
+    },
+    {
+     "id": "Image:45",
+     "name": "Matt_ThunderCrown",
+     "active": true,
+     "transformId": "Image:46",
+     "parent": "Image:16",
+     "children": [
+      "Image:48"
+     ],
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [],
+     "sourceHash": "",
+     "rect": []
+    },
+    {
+     "id": "Image:47",
+     "name": "Matt_Crown",
+     "active": true,
+     "transformId": "Image:48",
+     "parent": "Image:46",
+     "children": [],
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "ParticleSystem",
+      "ParticleSystemRenderer"
+     ],
+     "sourceHash": "",
+     "rect": []
+    },
+    {
+     "id": "Image:49",
+     "name": "Matt_VioletEmbers",
+     "active": true,
+     "transformId": "Image:50",
+     "parent": "Image:16",
+     "children": [
+      "Image:52"
+     ],
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [],
+     "sourceHash": "",
+     "rect": []
+    },
+    {
+     "id": "Image:51",
+     "name": "AscendingVioletMotes",
+     "active": true,
+     "transformId": "Image:52",
+     "parent": "Image:50",
+     "children": [],
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "ParticleSystem",
+      "ParticleSystemRenderer"
+     ],
+     "sourceHash": "",
+     "rect": []
+    },
+    {
+     "id": "Image:53",
+     "name": "bf_aux_flchan",
+     "active": true,
+     "transformId": "Image:54",
+     "parent": "Image:4",
+     "children": [
+      "Image:56"
+     ],
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      -63.649,
+      63.649,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "Animator",
+      "PlayRoom.Animators.BoyAnimator",
+      "Pages.MainRoom.Component.RectTransformSpriteScaler"
+     ],
+     "sourceHash": "",
+     "rect": []
+    },
+    {
+     "id": "Image:55",
+     "name": "bf_flchan",
+     "active": true,
+     "transformId": "Image:56",
+     "parent": "Image:54",
+     "children": [],
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "SpriteRenderer"
+     ],
+     "sourceHash": "",
+     "rect": []
+    },
+    {
+     "id": "Image:57",
+     "name": "bf_aux_ski-sport",
+     "active": true,
+     "transformId": "Image:58",
+     "parent": "Image:4",
+     "children": [
+      "Image:60"
+     ],
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      33.189,
+      33.189,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "Animator",
+      "PlayRoom.Animators.BoyAnimator",
+      "Pages.MainRoom.Component.RectTransformSpriteScaler"
+     ],
+     "sourceHash": "",
+     "rect": []
+    },
+    {
+     "id": "Image:59",
+     "name": "bf_ski-sport",
+     "active": true,
+     "transformId": "Image:60",
+     "parent": "Image:58",
+     "children": [],
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "SpriteRenderer"
+     ],
+     "sourceHash": "",
+     "rect": []
+    },
+    {
+     "id": "Image:61",
+     "name": "Canvas",
+     "active": true,
+     "transformId": "Image:62",
+     "parent": "Image:2",
+     "children": [
+      "Image:64",
+      "Image:66"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": true,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "Canvas",
+      "UnityEngine.UI.GraphicRaycaster"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "canvasSettings": {
+      "enabled": true,
+      "overrideSorting": false,
+      "sortingOrder": 0,
+      "mode": 0,
+      "cameraFile": 0,
+      "targetDisplay": 0,
+      "cameraId": 0,
+      "planeDistance": 100
+     }
+    },
+    {
+     "id": "Image:63",
+     "name": "Image",
+     "active": true,
+     "transformId": "Image:64",
+     "parent": "Image:62",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.13,
+      0.75,
+      0.84,
+      1.02,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-927018ba8bc08da0c2527e7609e71f19:Sprite:title",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": true,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "Image:65",
+     "name": "Image",
+     "active": true,
+     "transformId": "Image:66",
+     "parent": "Image:62",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.56,
+      0.18,
+      0.74,
+      0.43,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-927018ba8bc08da0c2527e7609e71f19:Sprite:ex",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": true,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    }
+   ]
+  }
+ ],
+ "assets": [
+  {
+   "id": "CAB-927018ba8bc08da0c2527e7609e71f19:Sprite:bg",
+   "name": "bg",
+   "type": "Sprite",
+   "path": "Sprites/bg.png",
+   "sha256": "d5c435656730d921766cc71961a9d7cafe8a8a0b8d1bc2c11c0f4d522cd7a39a",
+   "resource": "file:e505c3e7ce576a290150bc1bb681040b/Sprites/bg.png",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-927018ba8bc08da0c2527e7609e71f19:Sprite:title",
+   "name": "title",
+   "type": "Sprite",
+   "path": "Sprites/title.png",
+   "sha256": "f276f24a817c93059a1b09f944ec28a745cf81361d8efb26a206e1a08f28fe70",
+   "resource": "file:e505c3e7ce576a290150bc1bb681040b/Sprites/title.png",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-927018ba8bc08da0c2527e7609e71f19:Sprite:ex",
+   "name": "ex",
+   "type": "Sprite",
+   "path": "Sprites/ex.png",
+   "sha256": "1a5031f7b06c2a55f809f7a079ffc63bc59ebba6bb23f1a151b5077bbd2fd557",
+   "resource": "file:e505c3e7ce576a290150bc1bb681040b/Sprites/ex.png",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  }
+ ]
+}

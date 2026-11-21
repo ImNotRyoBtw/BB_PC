@@ -1,0 +1,7 @@
+{
+  "name": "BBPC.Unity",
+  "references": [
+    "BBPC.Core",
+    "UnityEngine.UI"
+  ]
+}

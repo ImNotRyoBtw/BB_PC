@@ -1,0 +1,4801 @@
+{
+ "sourceVersion": "6.0.6",
+ "scenes": [
+  {
+   "name": "ExplainDialog",
+   "objects": [
+    {
+     "id": "ExplainDialog:1",
+     "name": "ExplainDialog",
+     "active": true,
+     "transformId": "ExplainDialog:2",
+     "parent": "",
+     "children": [
+      "ExplainDialog:4"
+     ],
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "ExplainDialog"
+     ],
+     "sourceHash": "",
+     "rect": []
+    },
+    {
+     "id": "ExplainDialog:3",
+     "name": "Canvas",
+     "active": true,
+     "transformId": "ExplainDialog:4",
+     "parent": "ExplainDialog:2",
+     "children": [
+      "ExplainDialog:6"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      0.0,
+      0.0,
+      1
+     ],
+     "canvas": true,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "Canvas",
+      "UnityEngine.UI.CanvasScaler",
+      "UnityEngine.UI.GraphicRaycaster",
+      "CanvasRenderer",
+      "UnityEngine.UI.RawImage"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "canvasSettings": {
+      "enabled": true,
+      "overrideSorting": false,
+      "sortingOrder": 0,
+      "mode": 0,
+      "cameraFile": 0,
+      "targetDisplay": 0,
+      "cameraId": 0,
+      "planeDistance": 100
+     },
+     "scaler": {
+      "mode": 1,
+      "resolution": [
+       828.0,
+       1792.0
+      ],
+      "match": 1.0,
+      "ppu": 100.0
+     },
+     "rawImage": {
+      "texture": "",
+      "pending": "",
+      "enabled": true,
+      "raycast": true,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "uv": [
+       0.0,
+       0.0,
+       1.0,
+       1.0
+      ]
+     }
+    },
+    {
+     "id": "ExplainDialog:5",
+     "name": "Panel",
+     "active": true,
+     "transformId": "ExplainDialog:6",
+     "parent": "ExplainDialog:4",
+     "children": [
+      "ExplainDialog:8",
+      "ExplainDialog:10",
+      "ExplainDialog:14",
+      "ExplainDialog:16",
+      "ExplainDialog:18"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "id": "ExplainDialog:7",
+     "name": "Mask",
+     "active": true,
+     "transformId": "ExplainDialog:8",
+     "parent": "ExplainDialog:6",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "",
+      "color": [
+       0.0,
+       0.0,
+       0.0,
+       0.6
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "ExplainDialog:9",
+     "name": "Background",
+     "active": true,
+     "transformId": "ExplainDialog:10",
+     "parent": "ExplainDialog:6",
+     "children": [
+      "ExplainDialog:12"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      0.0,
+      692.0,
+      996.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-4f267793085e37d3f54bbd283d5a09ba:Sprite:banner",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "ExplainDialog:11",
+     "name": "Close",
+     "active": true,
+     "transformId": "ExplainDialog:12",
+     "parent": "ExplainDialog:10",
+     "children": [],
+     "position": [
+      -50.0,
+      -40.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": true,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "UnityEngine.UI.Button"
+     ],
+     "sourceHash": "",
+     "rect": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      -50.0,
+      -40.0,
+      84.0,
+      76.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-4f267793085e37d3f54bbd283d5a09ba:Sprite:close",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "ExplainDialog:13",
+     "name": "TitleText",
+     "active": true,
+     "transformId": "ExplainDialog:14",
+     "parent": "ExplainDialog:6",
+     "children": [],
+     "position": [
+      0.0,
+      470.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow",
+      "Universal.Modules.Base.LocalizedText"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      470.0,
+      600.0,
+      100.0,
+      0.5,
+      1.0
+     ],
+     "text": {
+      "value": "Explain",
+      "key": "percentage_notify",
+      "font": "unity default resources:10102",
+      "size": 40,
+      "style": 0,
+      "alignment": 4,
+      "minSize": 40,
+      "maxSize": 60,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        5.0,
+        -5.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "ExplainDialog:15",
+     "name": "Image",
+     "active": true,
+     "transformId": "ExplainDialog:16",
+     "parent": "ExplainDialog:6",
+     "children": [],
+     "position": [
+      0.0,
+      360.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      360.0,
+      557.0,
+      6.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-4f267793085e37d3f54bbd283d5a09ba:Sprite:fengex",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "ExplainDialog:17",
+     "name": "Scroll View",
+     "active": true,
+     "transformId": "ExplainDialog:18",
+     "parent": "ExplainDialog:6",
+     "children": [
+      "ExplainDialog:20"
+     ],
+     "position": [
+      0.0,
+      -20.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "UnityEngine.UI.ScrollRect"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      -20.0,
+      650.0,
+      720.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-4f267793085e37d3f54bbd283d5a09ba:Sprite:Background",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 1,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     },
+     "scroll": {
+      "content": "ExplainDialog:22",
+      "viewport": "ExplainDialog:20",
+      "horizontal": false,
+      "vertical": true,
+      "inertia": true,
+      "movement": 2,
+      "elasticity": 0.10000000149011612,
+      "deceleration": 0.13500000536441803,
+      "sensitivity": 1.0
+     }
+    },
+    {
+     "id": "ExplainDialog:19",
+     "name": "Viewport",
+     "active": true,
+     "transformId": "ExplainDialog:20",
+     "parent": "ExplainDialog:18",
+     "children": [
+      "ExplainDialog:22"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": true,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "UnityEngine.UI.Mask"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "image": {
+      "sprite": "CAB-4f267793085e37d3f54bbd283d5a09ba:Sprite:UIMask",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 1,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "ExplainDialog:21",
+     "name": "Content",
+     "active": true,
+     "transformId": "ExplainDialog:22",
+     "parent": "ExplainDialog:20",
+     "children": [
+      "ExplainDialog:24"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "UnityEngine.UI.GridLayoutGroup"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      680.0,
+      0.0,
+      1.0
+     ],
+     "layout": {
+      "enabled": true,
+      "kind": 2,
+      "alignment": 0,
+      "startCorner": 0,
+      "startAxis": 0,
+      "constraint": 0,
+      "constraintCount": 2,
+      "padding": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "spacing": [
+       0.0,
+       10.0
+      ],
+      "cellSize": [
+       650.0,
+       150.0
+      ],
+      "flags": [
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "id": "ExplainDialog:23",
+     "name": "Explain",
+     "active": true,
+     "transformId": "ExplainDialog:24",
+     "parent": "ExplainDialog:22",
+     "children": [
+      "ExplainDialog:26",
+      "ExplainDialog:28"
+     ],
+     "position": [
+      325.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      325.0,
+      0.0,
+      650.0,
+      150.0,
+      0.5,
+      1.0
+     ]
+    },
+    {
+     "id": "ExplainDialog:25",
+     "name": "Image",
+     "active": true,
+     "transformId": "ExplainDialog:26",
+     "parent": "ExplainDialog:24",
+     "children": [],
+     "position": [
+      0.0,
+      -15.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      1.0,
+      0.5,
+      1.0,
+      0.0,
+      -15.0,
+      557.0,
+      6.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-4f267793085e37d3f54bbd283d5a09ba:Sprite:fengex",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "ExplainDialog:27",
+     "name": "Text",
+     "active": true,
+     "transformId": "ExplainDialog:28",
+     "parent": "ExplainDialog:24",
+     "children": [],
+     "position": [
+      0.0,
+      -240.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      -240.0,
+      -100.0,
+      420.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "    You will get an animation for at most ten draws. The progress bar shows the most draws left to get. Once you get an animation, the progress bar will be reset. We regularly update the prize pool. Some draw prize pool may be removed once you get the ultimate prize.  If there're no more animation prize available, the animation will be replaced with gems.\r\n\r\n    The activity is not related to Apple Inc. The final interpretation right belongs to the game operator.",
+      "key": "",
+      "font": "unity default resources:10102",
+      "size": 32,
+      "style": 1,
+      "alignment": 0,
+      "minSize": 1,
+      "maxSize": 40,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": false,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "GlPanel",
+   "objects": [
+    {
+     "id": "GlPanel:1",
+     "name": "GlPanel",
+     "active": true,
+     "transformId": "GlPanel:2",
+     "parent": "",
+     "children": [
+      "GlPanel:4",
+      "GlPanel:6",
+      "GlPanel:18",
+      "GlPanel:24",
+      "GlPanel:78",
+      "GlPanel:88",
+      "GlPanel:98",
+      "GlPanel:100"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "GlPanel",
+      "RewardDisplay"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      650.0,
+      150.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "GlPanel:3",
+     "name": "BgImage",
+     "active": true,
+     "transformId": "GlPanel:4",
+     "parent": "GlPanel:2",
+     "children": [],
+     "position": [
+      -205.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      -205.0,
+      0.0,
+      140.0,
+      140.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-4f267793085e37d3f54bbd283d5a09ba:Sprite:xxk",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "GlPanel:5",
+     "name": "BFCover",
+     "active": false,
+     "transformId": "GlPanel:6",
+     "parent": "GlPanel:2",
+     "children": [
+      "GlPanel:8",
+      "GlPanel:10",
+      "GlPanel:12"
+     ],
+     "position": [
+      -205.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "BFCoverComponent",
+      "Pages.MainRoom.Reward.BFCoverPresenter"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      -205.0,
+      0.0,
+      150.0,
+      145.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-4f267793085e37d3f54bbd283d5a09ba:Sprite:bk",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "GlPanel:7",
+     "name": "BFIcon",
+     "active": false,
+     "transformId": "GlPanel:8",
+     "parent": "GlPanel:6",
+     "children": [],
+     "position": [
+      0.0,
+      3.5,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.RawImage"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      3.5,
+      140.0,
+      140.0,
+      0.5,
+      0.5
+     ],
+     "rawImage": {
+      "texture": "",
+      "pending": "",
+      "enabled": true,
+      "raycast": true,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "uv": [
+       0.0,
+       0.0,
+       1.0,
+       1.0
+      ]
+     }
+    },
+    {
+     "id": "GlPanel:9",
+     "name": "RarityIcon",
+     "active": true,
+     "transformId": "GlPanel:10",
+     "parent": "GlPanel:6",
+     "children": [],
+     "position": [
+      45.0,
+      -45.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      0.7,
+      0.7,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      45.0,
+      -45.0,
+      75.0,
+      75.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-4f267793085e37d3f54bbd283d5a09ba:Sprite:r",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "GlPanel:11",
+     "name": "UpgradeIcon",
+     "active": true,
+     "transformId": "GlPanel:12",
+     "parent": "GlPanel:6",
+     "children": [
+      "GlPanel:14",
+      "GlPanel:16"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-4f267793085e37d3f54bbd283d5a09ba:Sprite:empty",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "GlPanel:13",
+     "name": "Upgrade",
+     "active": false,
+     "transformId": "GlPanel:14",
+     "parent": "GlPanel:12",
+     "children": [],
+     "position": [
+      -76.5,
+      30.6,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      -76.5,
+      30.6,
+      47.34,
+      63.12,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-4f267793085e37d3f54bbd283d5a09ba:Sprite:shengjijiantou",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "GlPanel:15",
+     "name": "MAX",
+     "active": false,
+     "transformId": "GlPanel:16",
+     "parent": "GlPanel:12",
+     "children": [],
+     "position": [
+      -106.5,
+      28.62,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      -106.5,
+      28.62,
+      100.0,
+      53.49,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "MAX",
+      "key": "",
+      "font": "unity default resources:10102",
+      "size": 14,
+      "style": 0,
+      "alignment": 5,
+      "minSize": 10,
+      "maxSize": 40,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        3.0,
+        -3.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "GlPanel:17",
+     "name": "DecorCover",
+     "active": false,
+     "transformId": "GlPanel:18",
+     "parent": "GlPanel:2",
+     "children": [
+      "GlPanel:20",
+      "GlPanel:22"
+     ],
+     "position": [
+      -205.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "DecorCoverComponent"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      -205.0,
+      0.0,
+      150.0,
+      145.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-4f267793085e37d3f54bbd283d5a09ba:Sprite:bk",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": false,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "GlPanel:19",
+     "name": "DecorIcon",
+     "active": false,
+     "transformId": "GlPanel:20",
+     "parent": "GlPanel:18",
+     "children": [],
+     "position": [
+      0.0,
+      3.5,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.RawImage"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      3.5,
+      140.0,
+      140.0,
+      0.5,
+      0.5
+     ],
+     "rawImage": {
+      "texture": "",
+      "pending": "",
+      "enabled": true,
+      "raycast": true,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "uv": [
+       0.0,
+       0.0,
+       1.0,
+       1.0
+      ]
+     }
+    },
+    {
+     "id": "GlPanel:21",
+     "name": "IconImage",
+     "active": true,
+     "transformId": "GlPanel:22",
+     "parent": "GlPanel:18",
+     "children": [],
+     "position": [
+      -30.0,
+      30.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      -30.0,
+      30.0,
+      60.0,
+      60.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": false,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "GlPanel:23",
+     "name": "NameBoxComponent",
+     "active": true,
+     "transformId": "GlPanel:24",
+     "parent": "GlPanel:2",
+     "children": [
+      "GlPanel:26",
+      "GlPanel:38",
+      "GlPanel:40",
+      "GlPanel:70"
+     ],
+     "position": [
+      -205.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "?",
+      "Pages.MainRoom.Reward.NameBoxPresenter"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      -205.0,
+      0.0,
+      120.0,
+      120.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": false,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 1,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "GlPanel:25",
+     "name": "NameParent",
+     "active": true,
+     "transformId": "GlPanel:26",
+     "parent": "GlPanel:24",
+     "children": [
+      "GlPanel:28",
+      "GlPanel:36"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "UnityEngine.UI.VerticalLayoutGroup"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      -30.0,
+      -30.0,
+      0.5,
+      0.5
+     ],
+     "layout": {
+      "enabled": true,
+      "kind": 1,
+      "alignment": 4,
+      "startCorner": 0,
+      "startAxis": 0,
+      "constraint": 0,
+      "constraintCount": 0,
+      "padding": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "spacing": [
+       0.0,
+       0.0
+      ],
+      "cellSize": [
+       0,
+       0
+      ],
+      "flags": [
+       true,
+       true,
+       true,
+       true,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "id": "GlPanel:27",
+     "name": "GuildParent",
+     "active": true,
+     "transformId": "GlPanel:28",
+     "parent": "GlPanel:26",
+     "children": [
+      "GlPanel:30"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "UnityEngine.UI.VerticalLayoutGroup"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "layout": {
+      "enabled": true,
+      "kind": 1,
+      "alignment": 0,
+      "startCorner": 0,
+      "startAxis": 0,
+      "constraint": 0,
+      "constraintCount": 0,
+      "padding": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "spacing": [
+       0.0,
+       0.0
+      ],
+      "cellSize": [
+       0,
+       0
+      ],
+      "flags": [
+       true,
+       true,
+       true,
+       true,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "id": "GlPanel:29",
+     "name": "Horizontal",
+     "active": false,
+     "transformId": "GlPanel:30",
+     "parent": "GlPanel:28",
+     "children": [
+      "GlPanel:32",
+      "GlPanel:34"
+     ],
+     "position": [
+      205.0,
+      -11.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "UnityEngine.UI.HorizontalLayoutGroup"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      205.0,
+      -11.0,
+      410.0,
+      22.0,
+      0.5,
+      0.5
+     ],
+     "layout": {
+      "enabled": true,
+      "kind": 0,
+      "alignment": 4,
+      "startCorner": 0,
+      "startAxis": 0,
+      "constraint": 0,
+      "constraintCount": 0,
+      "padding": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "spacing": [
+       0.0,
+       0.0
+      ],
+      "cellSize": [
+       0,
+       0
+      ],
+      "flags": [
+       false,
+       true,
+       true,
+       true,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "id": "GlPanel:31",
+     "name": "Icon",
+     "active": true,
+     "transformId": "GlPanel:32",
+     "parent": "GlPanel:30",
+     "children": [],
+     "position": [
+      143.5,
+      -11.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "UnityEngine.UI.LayoutElement"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      143.5,
+      -11.0,
+      20.0,
+      22.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": true,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     },
+     "layoutElement": {
+      "enabled": true,
+      "ignore": false,
+      "priority": 1,
+      "sizes": [
+       -1.0,
+       -1.0,
+       20.0,
+       20.0,
+       -1.0,
+       -1.0
+      ]
+     }
+    },
+    {
+     "id": "GlPanel:33",
+     "name": "GuildTextInside",
+     "active": true,
+     "transformId": "GlPanel:34",
+     "parent": "GlPanel:30",
+     "children": [],
+     "position": [
+      215.0,
+      -11.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      215.0,
+      -11.0,
+      123.0,
+      22.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "guild name",
+      "key": "",
+      "font": "unity default resources:10102",
+      "size": 20,
+      "style": 0,
+      "alignment": 4,
+      "minSize": 10,
+      "maxSize": 20,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.100000023841858,
+      "color": [
+       0.89,
+       0.671,
+       0.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        2.0,
+        -2.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "GlPanel:35",
+     "name": "NameText",
+     "active": true,
+     "transformId": "GlPanel:36",
+     "parent": "GlPanel:26",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow",
+      "UnityEngine.UI.LayoutElement"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "",
+      "key": "",
+      "font": "unity default resources:10102",
+      "size": 40,
+      "style": 0,
+      "alignment": 4,
+      "minSize": 10,
+      "maxSize": 40,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.100000023841858,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        2.0,
+        -2.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ],
+     "layoutElement": {
+      "enabled": true,
+      "ignore": false,
+      "priority": 1,
+      "sizes": [
+       -1.0,
+       -1.0,
+       -1.0,
+       1.0,
+       -1.0,
+       1000000.0
+      ]
+     }
+    },
+    {
+     "id": "GlPanel:37",
+     "name": "rankingText",
+     "active": false,
+     "transformId": "GlPanel:38",
+     "parent": "GlPanel:24",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow",
+      "?"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      100.0,
+      40.0,
+      0.0,
+      1.0
+     ],
+     "text": {
+      "value": "",
+      "key": "",
+      "font": "unity default resources:10102",
+      "size": 40,
+      "style": 0,
+      "alignment": 3,
+      "minSize": 3,
+      "maxSize": 40,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       0.981,
+       0.808,
+       0.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        2.0,
+        -2.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "GlPanel:39",
+     "name": "FriendOrEmoji",
+     "active": true,
+     "transformId": "GlPanel:40",
+     "parent": "GlPanel:24",
+     "children": [
+      "GlPanel:42",
+      "GlPanel:68"
+     ],
+     "position": [
+      35.0,
+      10.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "?"
+     ],
+     "sourceHash": "",
+     "rect": [
+      1.0,
+      0.5,
+      1.0,
+      0.5,
+      35.0,
+      10.0,
+      100.0,
+      100.0,
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "id": "GlPanel:41",
+     "name": "EmoticonComponent",
+     "active": true,
+     "transformId": "GlPanel:42",
+     "parent": "GlPanel:40",
+     "children": [
+      "GlPanel:44",
+      "GlPanel:52",
+      "GlPanel:66"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      0.6,
+      0.6,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "?"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      0.0,
+      100.0,
+      100.0,
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "id": "GlPanel:43",
+     "name": "DialogImage",
+     "active": true,
+     "transformId": "GlPanel:44",
+     "parent": "GlPanel:42",
+     "children": [
+      "GlPanel:46"
+     ],
+     "position": [
+      -85.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      -85.0,
+      0.0,
+      540.0,
+      176.0,
+      1.0,
+      0.1
+     ],
+     "image": {
+      "sprite": "",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "GlPanel:45",
+     "name": "EmojiScrollView",
+     "active": true,
+     "transformId": "GlPanel:46",
+     "parent": "GlPanel:44",
+     "children": [
+      "GlPanel:48"
+     ],
+     "position": [
+      -20.0,
+      11.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": true,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "UnityEngine.UI.ScrollRect",
+      "?",
+      "?",
+      "UnityEngine.UI.Mask"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      -20.0,
+      11.0,
+      -60.0,
+      -42.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-4f267793085e37d3f54bbd283d5a09ba:Sprite:Background",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       0.392
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 1,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     },
+     "scroll": {
+      "content": "GlPanel:50",
+      "viewport": "GlPanel:48",
+      "horizontal": true,
+      "vertical": false,
+      "inertia": true,
+      "movement": 2,
+      "elasticity": 0.10000000149011612,
+      "deceleration": 0.13500000536441803,
+      "sensitivity": 1.0
+     }
+    },
+    {
+     "id": "GlPanel:47",
+     "name": "Viewport",
+     "active": true,
+     "transformId": "GlPanel:48",
+     "parent": "GlPanel:46",
+     "children": [
+      "GlPanel:50"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": true,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "UnityEngine.UI.Mask"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "image": {
+      "sprite": "CAB-4f267793085e37d3f54bbd283d5a09ba:Sprite:UIMask",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 1,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "GlPanel:49",
+     "name": "Content",
+     "active": true,
+     "transformId": "GlPanel:50",
+     "parent": "GlPanel:48",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "UnityEngine.UI.HorizontalLayoutGroup"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      480.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "layout": {
+      "enabled": true,
+      "kind": 0,
+      "alignment": 0,
+      "startCorner": 0,
+      "startAxis": 0,
+      "constraint": 0,
+      "constraintCount": 0,
+      "padding": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "spacing": [
+       10.0,
+       0.0
+      ],
+      "cellSize": [
+       0,
+       0
+      ],
+      "flags": [
+       false,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "id": "GlPanel:51",
+     "name": "PopupWindow",
+     "active": true,
+     "transformId": "GlPanel:52",
+     "parent": "GlPanel:42",
+     "children": [
+      "GlPanel:54",
+      "GlPanel:58",
+      "GlPanel:60"
+     ],
+     "position": [
+      0.0,
+      90.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "?"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      90.0,
+      500.0,
+      150.0,
+      0.5,
+      -0.1
+     ]
+    },
+    {
+     "id": "GlPanel:53",
+     "name": "Angle",
+     "active": true,
+     "transformId": "GlPanel:54",
+     "parent": "GlPanel:52",
+     "children": [
+      "GlPanel:56"
+     ],
+     "position": [
+      0.0,
+      -8.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.0,
+      0.5,
+      0.0,
+      0.0,
+      -8.0,
+      40.0,
+      28.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "GlPanel:55",
+     "name": "mask",
+     "active": true,
+     "transformId": "GlPanel:56",
+     "parent": "GlPanel:54",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      1.0
+     ],
+     "image": {
+      "sprite": "",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "GlPanel:57",
+     "name": "Window",
+     "active": true,
+     "transformId": "GlPanel:58",
+     "parent": "GlPanel:52",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 1,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "GlPanel:59",
+     "name": "EmojiScrollView",
+     "active": true,
+     "transformId": "GlPanel:60",
+     "parent": "GlPanel:52",
+     "children": [
+      "GlPanel:62"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": true,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "UnityEngine.UI.ScrollRect",
+      "?",
+      "?",
+      "UnityEngine.UI.Mask"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      -20.0,
+      -16.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-4f267793085e37d3f54bbd283d5a09ba:Sprite:Background",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       0.392
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 1,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     },
+     "scroll": {
+      "content": "GlPanel:64",
+      "viewport": "GlPanel:62",
+      "horizontal": true,
+      "vertical": false,
+      "inertia": true,
+      "movement": 2,
+      "elasticity": 0.10000000149011612,
+      "deceleration": 0.13500000536441803,
+      "sensitivity": 1.0
+     }
+    },
+    {
+     "id": "GlPanel:61",
+     "name": "Viewport",
+     "active": true,
+     "transformId": "GlPanel:62",
+     "parent": "GlPanel:60",
+     "children": [
+      "GlPanel:64"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": true,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "UnityEngine.UI.Mask"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "image": {
+      "sprite": "CAB-4f267793085e37d3f54bbd283d5a09ba:Sprite:UIMask",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 1,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "GlPanel:63",
+     "name": "Content",
+     "active": true,
+     "transformId": "GlPanel:64",
+     "parent": "GlPanel:62",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "UnityEngine.UI.HorizontalLayoutGroup"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      480.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "layout": {
+      "enabled": true,
+      "kind": 0,
+      "alignment": 0,
+      "startCorner": 0,
+      "startAxis": 0,
+      "constraint": 0,
+      "constraintCount": 0,
+      "padding": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "spacing": [
+       10.0,
+       0.0
+      ],
+      "cellSize": [
+       0,
+       0
+      ],
+      "flags": [
+       false,
+       true,
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "id": "GlPanel:65",
+     "name": "EmojiButton",
+     "active": true,
+     "transformId": "GlPanel:66",
+     "parent": "GlPanel:42",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": true,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "UnityEngine.UI.Button"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      0.0,
+      128.0,
+      128.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "GlPanel:67",
+     "name": "FriendButton",
+     "active": true,
+     "transformId": "GlPanel:68",
+     "parent": "GlPanel:40",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": true,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "UnityEngine.UI.Button"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      0.0,
+      70.0,
+      70.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": false,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "GlPanel:69",
+     "name": "GuildParent",
+     "active": true,
+     "transformId": "GlPanel:70",
+     "parent": "GlPanel:24",
+     "children": [
+      "GlPanel:72"
+     ],
+     "position": [
+      0.0,
+      29.75,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      29.75,
+      -30.0,
+      59.5,
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "id": "GlPanel:71",
+     "name": "Horizontal",
+     "active": false,
+     "transformId": "GlPanel:72",
+     "parent": "GlPanel:70",
+     "children": [
+      "GlPanel:74",
+      "GlPanel:76"
+     ],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "UnityEngine.UI.HorizontalLayoutGroup"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "layout": {
+      "enabled": true,
+      "kind": 0,
+      "alignment": 4,
+      "startCorner": 0,
+      "startAxis": 0,
+      "constraint": 0,
+      "constraintCount": 0,
+      "padding": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "spacing": [
+       0.0,
+       0.0
+      ],
+      "cellSize": [
+       0,
+       0
+      ],
+      "flags": [
+       false,
+       true,
+       true,
+       true,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "id": "GlPanel:73",
+     "name": "Icon",
+     "active": true,
+     "transformId": "GlPanel:74",
+     "parent": "GlPanel:72",
+     "children": [],
+     "position": [
+      112.0,
+      -29.75,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image",
+      "UnityEngine.UI.LayoutElement"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      112.0,
+      -29.75,
+      60.0,
+      59.5,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": true,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     },
+     "layoutElement": {
+      "enabled": true,
+      "ignore": false,
+      "priority": 1,
+      "sizes": [
+       -1.0,
+       -1.0,
+       60.0,
+       -1.0,
+       -1.0,
+       -1.0
+      ]
+     }
+    },
+    {
+     "id": "GlPanel:75",
+     "name": "GuildTextOutside",
+     "active": true,
+     "transformId": "GlPanel:76",
+     "parent": "GlPanel:72",
+     "children": [],
+     "position": [
+      235.0,
+      -29.75,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      235.0,
+      -29.75,
+      186.0,
+      59.5,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "guild name",
+      "key": "",
+      "font": "unity default resources:10102",
+      "size": 30,
+      "style": 0,
+      "alignment": 4,
+      "minSize": 2,
+      "maxSize": 30,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.100000023841858,
+      "color": [
+       0.89,
+       0.671,
+       0.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        2.0,
+        -2.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "GlPanel:77",
+     "name": "KeepStar",
+     "active": false,
+     "transformId": "GlPanel:78",
+     "parent": "GlPanel:2",
+     "children": [
+      "GlPanel:80",
+      "GlPanel:82",
+      "GlPanel:84",
+      "GlPanel:86"
+     ],
+     "position": [
+      -205.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      0.35,
+      0.35,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "KeepStarComponent",
+      "Pages.MainRoom.Reward.KeepStarPresenterWithMultiplier"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      -205.0,
+      0.0,
+      300.0,
+      300.0,
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "id": "GlPanel:79",
+     "name": "TitleText",
+     "active": false,
+     "transformId": "GlPanel:80",
+     "parent": "GlPanel:78",
+     "children": [],
+     "position": [
+      0.0,
+      300.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow",
+      "Universal.Modules.Base.LocalizedText"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      300.0,
+      788.0,
+      120.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "Keep Star Card",
+      "key": "star_keeper",
+      "font": "unity default resources:10102",
+      "size": 60,
+      "style": 1,
+      "alignment": 4,
+      "minSize": 10,
+      "maxSize": 60,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        5.0,
+        -5.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "GlPanel:81",
+     "name": "CardRawImage",
+     "active": true,
+     "transformId": "GlPanel:82",
+     "parent": "GlPanel:78",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-4f267793085e37d3f54bbd283d5a09ba:Sprite:baoxingka",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": true,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "GlPanel:83",
+     "name": "ShowText",
+     "active": false,
+     "transformId": "GlPanel:84",
+     "parent": "GlPanel:78",
+     "children": [],
+     "position": [
+      0.0,
+      -300.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow",
+      "Universal.Modules.Base.LocalizedText"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      -300.0,
+      780.0,
+      120.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "keep your star when losing in vs battle",
+      "key": "star_keeper_explain",
+      "font": "unity default resources:10102",
+      "size": 45,
+      "style": 0,
+      "alignment": 4,
+      "minSize": 20,
+      "maxSize": 45,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        5.0,
+        -5.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "GlPanel:85",
+     "name": "CountText",
+     "active": true,
+     "transformId": "GlPanel:86",
+     "parent": "GlPanel:78",
+     "children": [],
+     "position": [
+      95.0,
+      -140.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      95.0,
+      -140.0,
+      110.0,
+      60.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "",
+      "key": "",
+      "font": "unity default resources:10102",
+      "size": 45,
+      "style": 1,
+      "alignment": 4,
+      "minSize": 20,
+      "maxSize": 45,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        5.0,
+        -5.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "GlPanel:87",
+     "name": "StarBooster",
+     "active": false,
+     "transformId": "GlPanel:88",
+     "parent": "GlPanel:2",
+     "children": [
+      "GlPanel:90",
+      "GlPanel:92",
+      "GlPanel:94",
+      "GlPanel:96"
+     ],
+     "position": [
+      -205.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      0.35,
+      0.35,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "StarBoosterComponent",
+      "Pages.MainRoom.Reward.StarBoosterPresenterWithMultiplier"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      -205.0,
+      0.0,
+      300.0,
+      300.0,
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "id": "GlPanel:89",
+     "name": "TitleText",
+     "active": false,
+     "transformId": "GlPanel:90",
+     "parent": "GlPanel:88",
+     "children": [],
+     "position": [
+      0.0,
+      270.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow",
+      "Universal.Modules.Base.LocalizedText"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      270.0,
+      788.0,
+      120.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "Star Booster Card",
+      "key": "star_booster",
+      "font": "unity default resources:10102",
+      "size": 60,
+      "style": 1,
+      "alignment": 4,
+      "minSize": 10,
+      "maxSize": 60,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        5.0,
+        -5.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "GlPanel:91",
+     "name": "CardRawImage",
+     "active": true,
+     "transformId": "GlPanel:92",
+     "parent": "GlPanel:88",
+     "children": [],
+     "position": [
+      0.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Image"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     "image": {
+      "sprite": "CAB-4f267793085e37d3f54bbd283d5a09ba:Sprite:jiasuka",
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "enabled": true,
+      "raycast": true,
+      "preserve": true,
+      "clockwise": true,
+      "fillCenter": true,
+      "useSpriteMesh": false,
+      "type": 0,
+      "fillMethod": 0,
+      "fillOrigin": 0,
+      "fill": 1.0,
+      "ppuMultiplier": 1.0
+     }
+    },
+    {
+     "id": "GlPanel:93",
+     "name": "ShowText",
+     "active": false,
+     "transformId": "GlPanel:94",
+     "parent": "GlPanel:88",
+     "children": [],
+     "position": [
+      0.0,
+      -220.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow",
+      "Universal.Modules.Base.LocalizedText"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      -220.0,
+      780.0,
+      120.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "boost your star bonus bar",
+      "key": "star_booster_explain",
+      "font": "unity default resources:10102",
+      "size": 45,
+      "style": 0,
+      "alignment": 4,
+      "minSize": 20,
+      "maxSize": 45,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        5.0,
+        -5.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "GlPanel:95",
+     "name": "CountText",
+     "active": true,
+     "transformId": "GlPanel:96",
+     "parent": "GlPanel:88",
+     "children": [],
+     "position": [
+      95.0,
+      -140.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      95.0,
+      -140.0,
+      110.0,
+      60.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "",
+      "key": "",
+      "font": "unity default resources:10102",
+      "size": 45,
+      "style": 1,
+      "alignment": 4,
+      "minSize": 20,
+      "maxSize": 45,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        5.0,
+        -5.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "GlPanel:97",
+     "name": "NameText",
+     "active": true,
+     "transformId": "GlPanel:98",
+     "parent": "GlPanel:2",
+     "children": [],
+     "position": [
+      15.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      15.0,
+      0.0,
+      255.0,
+      100.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "0",
+      "key": "",
+      "font": "unity default resources:10102",
+      "size": 33,
+      "style": 0,
+      "alignment": 3,
+      "minSize": 30,
+      "maxSize": 45,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        3.0,
+        -3.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    },
+    {
+     "id": "GlPanel:99",
+     "name": "GlText",
+     "active": true,
+     "transformId": "GlPanel:100",
+     "parent": "GlPanel:2",
+     "children": [],
+     "position": [
+      230.0,
+      0.0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "scale": [
+      1,
+      1,
+      1
+     ],
+     "canvas": false,
+     "button": false,
+     "mask": false,
+     "maskGraphic": false,
+     "scripts": [
+      "CanvasRenderer",
+      "UnityEngine.UI.Text",
+      "Coffee.UIEffects.UIShadow"
+     ],
+     "sourceHash": "",
+     "rect": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      230.0,
+      0.0,
+      130.0,
+      100.0,
+      0.5,
+      0.5
+     ],
+     "text": {
+      "value": "1%",
+      "key": "",
+      "font": "unity default resources:10102",
+      "size": 40,
+      "style": 0,
+      "alignment": 4,
+      "minSize": 4,
+      "maxSize": 40,
+      "horizontal": 0,
+      "vertical": 0,
+      "enabled": true,
+      "bestFit": true,
+      "rich": true,
+      "raycast": true,
+      "lineSpacing": 1.0,
+      "color": [
+       0.0,
+       1.0,
+       0.177,
+       1.0
+      ]
+     },
+     "shadows": [
+      {
+       "enabled": true,
+       "style": 3,
+       "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+       ],
+       "distance": [
+        3.0,
+        -3.0
+       ],
+       "useGraphicAlpha": true,
+       "blur": 1.0
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "assets": [
+  {
+   "id": "CAB-4f267793085e37d3f54bbd283d5a09ba:Sprite:banner",
+   "name": "banner",
+   "type": "Sprite",
+   "path": "Sprites/banner.png",
+   "sha256": "50cde60a001a51faae8829c06fb2a3f0c724664dc67d0283d00d54a16223fff2",
+   "resource": "Explain/Sprites/banner",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-4f267793085e37d3f54bbd283d5a09ba:Sprite:close",
+   "name": "close",
+   "type": "Sprite",
+   "path": "Sprites/close.png",
+   "sha256": "8f5a9f4c92fdfc318c8c0548707863d82f71cbead9531cde32269974cf83259c",
+   "resource": "Explain/Sprites/close",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-4f267793085e37d3f54bbd283d5a09ba:Sprite:fengex",
+   "name": "fengex",
+   "type": "Sprite",
+   "path": "Sprites/fengex.png",
+   "sha256": "eb948eb11b992030e9cc53dbb086f3a93ecfc157f5066856f797f4a19dfe0763",
+   "resource": "Explain/Sprites/fengex",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-4f267793085e37d3f54bbd283d5a09ba:Sprite:Background",
+   "name": "Background",
+   "type": "Sprite",
+   "path": "Sprites/Background.png",
+   "sha256": "7bf2ecf061df211489a9cdca7ddceb0ed40161401d40277404ee06764dded8e7",
+   "resource": "Explain/Sprites/Background",
+   "ppu": 200.0,
+   "border": [
+    10.0,
+    10.0,
+    10.0,
+    10.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-4f267793085e37d3f54bbd283d5a09ba:Sprite:UIMask",
+   "name": "UIMask",
+   "type": "Sprite",
+   "path": "Sprites/UIMask.png",
+   "sha256": "89a0ec7e3cf6ce0de93392bdf6d43f6b0e92286aa77780f49df8d5167ba1d334",
+   "resource": "Explain/Sprites/UIMask",
+   "ppu": 200.0,
+   "border": [
+    10.0,
+    10.0,
+    10.0,
+    10.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-4f267793085e37d3f54bbd283d5a09ba:Sprite:xxk",
+   "name": "xxk",
+   "type": "Sprite",
+   "path": "Sprites/xxk.png",
+   "sha256": "efb4eb527638b1cf1ffb4bb765bbcbedfec1d90da95cf91de193bf4f14a528a4",
+   "resource": "Explain/Sprites/xxk",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-4f267793085e37d3f54bbd283d5a09ba:Sprite:bk",
+   "name": "bk",
+   "type": "Sprite",
+   "path": "Sprites/bk.png",
+   "sha256": "7c63cc39e6e0eda45305b953d058b45c81659137cb8c57bc07048daf91e57aec",
+   "resource": "Explain/Sprites/bk",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-4f267793085e37d3f54bbd283d5a09ba:Sprite:r",
+   "name": "r",
+   "type": "Sprite",
+   "path": "Sprites/r.png",
+   "sha256": "7b5aacba4f8d963e44bb69ea5dae076159086141f34deccc799977658f2f5e84",
+   "resource": "Explain/Sprites/r",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-4f267793085e37d3f54bbd283d5a09ba:Sprite:empty",
+   "name": "empty",
+   "type": "Sprite",
+   "path": "Sprites/empty.png",
+   "sha256": "0ac4f07beb5c3b4d89626e06ddb5aaa52f02337a459f10b4a1f2b79768955751",
+   "resource": "Explain/Sprites/empty",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-4f267793085e37d3f54bbd283d5a09ba:Sprite:shengjijiantou",
+   "name": "shengjijiantou",
+   "type": "Sprite",
+   "path": "Sprites/shengjijiantou.png",
+   "sha256": "2cfa275bf243a0cd7cb38e8fbe5f9007a9db6b1a04218d424daf072c1e5509da",
+   "resource": "Explain/Sprites/shengjijiantou",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-4f267793085e37d3f54bbd283d5a09ba:Sprite:baoxingka",
+   "name": "baoxingka",
+   "type": "Sprite",
+   "path": "Sprites/baoxingka.png",
+   "sha256": "6ce20a7565e123c3458ea1034dbbe2153a5a89d4cb611d2c66c58e224eb97331",
+   "resource": "Explain/Sprites/baoxingka",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "CAB-4f267793085e37d3f54bbd283d5a09ba:Sprite:jiasuka",
+   "name": "jiasuka",
+   "type": "Sprite",
+   "path": "Sprites/jiasuka.png",
+   "sha256": "951db8110ce084d9be165d0bf308a3a854010fbdfc1a5126fcf6184b21eaede7",
+   "resource": "Explain/Sprites/jiasuka",
+   "ppu": 100.0,
+   "border": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ]
+  }
+ ]
+}

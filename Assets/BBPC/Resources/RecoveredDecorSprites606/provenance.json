@@ -1,0 +1,606 @@
+{
+  "source": "C:\\Users\\elpri\\Downloads\\BB_PC\\analysis\\p2\\inputs\\data.unity3d",
+  "source_sha256": "6cd00629121b2fdf5e67eb250796c0ce6d7d62ba3655f038ca42bba87dbecdb8",
+  "paths": {
+    "decoricon/available": "resources.assets:1603",
+    "decoricon/equipped": "resources.assets:1565",
+    "decoricon/l": "resources.assets:1447",
+    "decoricon/lr": "resources.assets:1542",
+    "decoricon/noornament": "resources.assets:1694",
+    "decoricon/occupied": "resources.assets:1425",
+    "decoricon/preview": "resources.assets:1390",
+    "decoricon/r": "resources.assets:1434",
+    "decoricon/t": "resources.assets:1599",
+    "decoricon/tl": "resources.assets:1550",
+    "decoricon/tlr": "resources.assets:1700",
+    "decoricon/tr": "resources.assets:1523",
+    "decoricon/unavailable": "resources.assets:1674"
+  },
+  "assets": [
+    {
+      "id": "resources.assets:1390",
+      "name": "Preview",
+      "type": "Sprite",
+      "path": "Sprites/resources.assets_1390.png",
+      "sourceRect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 276.0,
+        "height": 364.0
+      },
+      "pivot": {
+        "X": 0.5,
+        "Y": 0.5
+      },
+      "border": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 0.0
+      },
+      "pixelsPerUnit": 100.0,
+      "texture": "resources.assets:91",
+      "effectiveTexture": "resources.assets:91",
+      "atlasRect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 276.0,
+        "height": 364.0
+      },
+      "trimOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "downscale": 1.0,
+      "cropPath": null,
+      "cropWidth": 276,
+      "cropHeight": 364,
+      "roundingClipPixels": 0,
+      "paddingLeft": 0,
+      "paddingTop": 0,
+      "width": 276,
+      "height": 364,
+      "sha256": "e15ecc40bdc184beb259aaa6c204bf439d89cbbc27255f625f0f079b2b1098a6"
+    },
+    {
+      "id": "resources.assets:1425",
+      "name": "Occupied",
+      "type": "Sprite",
+      "path": "Sprites/resources.assets_1425.png",
+      "sourceRect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 276.0,
+        "height": 364.0
+      },
+      "pivot": {
+        "X": 0.5,
+        "Y": 0.5
+      },
+      "border": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 0.0
+      },
+      "pixelsPerUnit": 100.0,
+      "texture": "resources.assets:133",
+      "effectiveTexture": "resources.assets:133",
+      "atlasRect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 276.0,
+        "height": 364.0
+      },
+      "trimOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "downscale": 1.0,
+      "cropPath": null,
+      "cropWidth": 276,
+      "cropHeight": 364,
+      "roundingClipPixels": 0,
+      "paddingLeft": 0,
+      "paddingTop": 0,
+      "width": 276,
+      "height": 364,
+      "sha256": "e6c3569c3547acd6414e63b9318ef38ac7a5b3314f12a887e726416fd15fe1a5"
+    },
+    {
+      "id": "resources.assets:1434",
+      "name": "R",
+      "type": "Sprite",
+      "path": "Sprites/resources.assets_1434.png",
+      "sourceRect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 256.0,
+        "height": 256.0
+      },
+      "pivot": {
+        "X": 0.5,
+        "Y": 0.5
+      },
+      "border": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 0.0
+      },
+      "pixelsPerUnit": 100.0,
+      "texture": "resources.assets:143",
+      "effectiveTexture": "resources.assets:143",
+      "atlasRect": {
+        "x": 10.07612,
+        "y": 11.07612,
+        "width": 235.847748,
+        "height": 234.847748
+      },
+      "trimOffset": {
+        "X": 10.07612,
+        "Y": 11.07612
+      },
+      "downscale": 1.0,
+      "cropPath": "CroppedSprites/resources.assets_1434.png",
+      "cropWidth": 236,
+      "cropHeight": 235,
+      "roundingClipPixels": 0,
+      "paddingLeft": 10,
+      "paddingTop": 10,
+      "width": 256,
+      "height": 256,
+      "sha256": "5d3e6d4021bbba0e431947b2531015df4fb3e9dcfefb91edd41220600364f409"
+    },
+    {
+      "id": "resources.assets:1447",
+      "name": "L",
+      "type": "Sprite",
+      "path": "Sprites/resources.assets_1447.png",
+      "sourceRect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 256.0,
+        "height": 256.0
+      },
+      "pivot": {
+        "X": 0.5,
+        "Y": 0.5
+      },
+      "border": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 0.0
+      },
+      "pixelsPerUnit": 100.0,
+      "texture": "resources.assets:158",
+      "effectiveTexture": "resources.assets:158",
+      "atlasRect": {
+        "x": 10.07612,
+        "y": 11.07612,
+        "width": 235.847748,
+        "height": 234.847748
+      },
+      "trimOffset": {
+        "X": 10.07612,
+        "Y": 11.07612
+      },
+      "downscale": 1.0,
+      "cropPath": "CroppedSprites/resources.assets_1447.png",
+      "cropWidth": 236,
+      "cropHeight": 235,
+      "roundingClipPixels": 0,
+      "paddingLeft": 10,
+      "paddingTop": 10,
+      "width": 256,
+      "height": 256,
+      "sha256": "549bfe0a617f1c9bc808d0ee05db7f689c508cd5b39e53c9b9e63547473ede66"
+    },
+    {
+      "id": "resources.assets:1523",
+      "name": "TR",
+      "type": "Sprite",
+      "path": "Sprites/resources.assets_1523.png",
+      "sourceRect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 256.0,
+        "height": 256.0
+      },
+      "pivot": {
+        "X": 0.5,
+        "Y": 0.5
+      },
+      "border": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 0.0
+      },
+      "pixelsPerUnit": 100.0,
+      "texture": "resources.assets:252",
+      "effectiveTexture": "resources.assets:252",
+      "atlasRect": {
+        "x": 10.07612,
+        "y": 11.07612,
+        "width": 235.847748,
+        "height": 234.847748
+      },
+      "trimOffset": {
+        "X": 10.07612,
+        "Y": 11.07612
+      },
+      "downscale": 1.0,
+      "cropPath": "CroppedSprites/resources.assets_1523.png",
+      "cropWidth": 236,
+      "cropHeight": 235,
+      "roundingClipPixels": 0,
+      "paddingLeft": 10,
+      "paddingTop": 10,
+      "width": 256,
+      "height": 256,
+      "sha256": "7bf2a140dc7775d46381982f5df216d3bbce13c014eb490afd01f2d1e080ad2e"
+    },
+    {
+      "id": "resources.assets:1542",
+      "name": "LR",
+      "type": "Sprite",
+      "path": "Sprites/resources.assets_1542.png",
+      "sourceRect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 256.0,
+        "height": 256.0
+      },
+      "pivot": {
+        "X": 0.5,
+        "Y": 0.5
+      },
+      "border": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 0.0
+      },
+      "pixelsPerUnit": 100.0,
+      "texture": "resources.assets:276",
+      "effectiveTexture": "resources.assets:276",
+      "atlasRect": {
+        "x": 10.07612,
+        "y": 11.07612,
+        "width": 235.847748,
+        "height": 234.847748
+      },
+      "trimOffset": {
+        "X": 10.07612,
+        "Y": 11.07612
+      },
+      "downscale": 1.0,
+      "cropPath": "CroppedSprites/resources.assets_1542.png",
+      "cropWidth": 236,
+      "cropHeight": 235,
+      "roundingClipPixels": 0,
+      "paddingLeft": 10,
+      "paddingTop": 10,
+      "width": 256,
+      "height": 256,
+      "sha256": "41279e22f84f53e48818f7931bfda30e3abba87162a333724debc6d3e7df9e22"
+    },
+    {
+      "id": "resources.assets:1550",
+      "name": "TL",
+      "type": "Sprite",
+      "path": "Sprites/resources.assets_1550.png",
+      "sourceRect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 256.0,
+        "height": 256.0
+      },
+      "pivot": {
+        "X": 0.5,
+        "Y": 0.5
+      },
+      "border": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 0.0
+      },
+      "pixelsPerUnit": 100.0,
+      "texture": "resources.assets:287",
+      "effectiveTexture": "resources.assets:287",
+      "atlasRect": {
+        "x": 10.07612,
+        "y": 11.07612,
+        "width": 235.847748,
+        "height": 234.847748
+      },
+      "trimOffset": {
+        "X": 10.07612,
+        "Y": 11.07612
+      },
+      "downscale": 1.0,
+      "cropPath": "CroppedSprites/resources.assets_1550.png",
+      "cropWidth": 236,
+      "cropHeight": 235,
+      "roundingClipPixels": 0,
+      "paddingLeft": 10,
+      "paddingTop": 10,
+      "width": 256,
+      "height": 256,
+      "sha256": "179b717e0c6e53679d579dac005d4ec391817bbd2ab672d2e5bb9cf66c534472"
+    },
+    {
+      "id": "resources.assets:1565",
+      "name": "Equipped",
+      "type": "Sprite",
+      "path": "Sprites/resources.assets_1565.png",
+      "sourceRect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 276.0,
+        "height": 364.0
+      },
+      "pivot": {
+        "X": 0.5,
+        "Y": 0.5
+      },
+      "border": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 0.0
+      },
+      "pixelsPerUnit": 100.0,
+      "texture": "resources.assets:306",
+      "effectiveTexture": "resources.assets:306",
+      "atlasRect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 276.0,
+        "height": 364.0
+      },
+      "trimOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "downscale": 1.0,
+      "cropPath": null,
+      "cropWidth": 276,
+      "cropHeight": 364,
+      "roundingClipPixels": 0,
+      "paddingLeft": 0,
+      "paddingTop": 0,
+      "width": 276,
+      "height": 364,
+      "sha256": "6c91c0dce8ec168fd4c7ac67e5c21e8ccfccb7bd5bb571cd30ab17696032b78c"
+    },
+    {
+      "id": "resources.assets:1599",
+      "name": "T",
+      "type": "Sprite",
+      "path": "Sprites/resources.assets_1599.png",
+      "sourceRect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 256.0,
+        "height": 256.0
+      },
+      "pivot": {
+        "X": 0.5,
+        "Y": 0.5
+      },
+      "border": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 0.0
+      },
+      "pixelsPerUnit": 100.0,
+      "texture": "resources.assets:343",
+      "effectiveTexture": "resources.assets:343",
+      "atlasRect": {
+        "x": 10.07612,
+        "y": 11.07612,
+        "width": 235.847748,
+        "height": 234.847748
+      },
+      "trimOffset": {
+        "X": 10.07612,
+        "Y": 11.07612
+      },
+      "downscale": 1.0,
+      "cropPath": "CroppedSprites/resources.assets_1599.png",
+      "cropWidth": 236,
+      "cropHeight": 235,
+      "roundingClipPixels": 0,
+      "paddingLeft": 10,
+      "paddingTop": 10,
+      "width": 256,
+      "height": 256,
+      "sha256": "6f67ab4c2a806d5df8746eb39e1b15ff2450fb70727017a440b4b10ffbb1a2c3"
+    },
+    {
+      "id": "resources.assets:1603",
+      "name": "Available",
+      "type": "Sprite",
+      "path": "Sprites/resources.assets_1603.png",
+      "sourceRect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 276.0,
+        "height": 364.0
+      },
+      "pivot": {
+        "X": 0.5,
+        "Y": 0.5
+      },
+      "border": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 0.0
+      },
+      "pixelsPerUnit": 100.0,
+      "texture": "resources.assets:348",
+      "effectiveTexture": "resources.assets:348",
+      "atlasRect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 276.0,
+        "height": 364.0
+      },
+      "trimOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "downscale": 1.0,
+      "cropPath": null,
+      "cropWidth": 276,
+      "cropHeight": 364,
+      "roundingClipPixels": 0,
+      "paddingLeft": 0,
+      "paddingTop": 0,
+      "width": 276,
+      "height": 364,
+      "sha256": "76770b1d8aea1076b846da3a9b8e7703ec82e280148409e0a9634a33d0ec7850"
+    },
+    {
+      "id": "resources.assets:1674",
+      "name": "Unavailable",
+      "type": "Sprite",
+      "path": "Sprites/resources.assets_1674.png",
+      "sourceRect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 276.0,
+        "height": 364.0
+      },
+      "pivot": {
+        "X": 0.5,
+        "Y": 0.5
+      },
+      "border": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 0.0
+      },
+      "pixelsPerUnit": 100.0,
+      "texture": "resources.assets:429",
+      "effectiveTexture": "resources.assets:429",
+      "atlasRect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 276.0,
+        "height": 364.0
+      },
+      "trimOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "downscale": 1.0,
+      "cropPath": null,
+      "cropWidth": 276,
+      "cropHeight": 364,
+      "roundingClipPixels": 0,
+      "paddingLeft": 0,
+      "paddingTop": 0,
+      "width": 276,
+      "height": 364,
+      "sha256": "b14488ee6c1922f00eed247a6f3d808e8d6cf930819dd520040eb050662c39aa"
+    },
+    {
+      "id": "resources.assets:1694",
+      "name": "NoOrnament",
+      "type": "Sprite",
+      "path": "Sprites/resources.assets_1694.png",
+      "sourceRect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 276.0,
+        "height": 364.0
+      },
+      "pivot": {
+        "X": 0.5,
+        "Y": 0.5
+      },
+      "border": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 0.0
+      },
+      "pixelsPerUnit": 100.0,
+      "texture": "resources.assets:457",
+      "effectiveTexture": "resources.assets:457",
+      "atlasRect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 276.0,
+        "height": 364.0
+      },
+      "trimOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "downscale": 1.0,
+      "cropPath": null,
+      "cropWidth": 276,
+      "cropHeight": 364,
+      "roundingClipPixels": 0,
+      "paddingLeft": 0,
+      "paddingTop": 0,
+      "width": 276,
+      "height": 364,
+      "sha256": "237d85d83297bf23bb75f20186cb87437600f6e376434e6009e9756992edad7a"
+    },
+    {
+      "id": "resources.assets:1700",
+      "name": "TLR",
+      "type": "Sprite",
+      "path": "Sprites/resources.assets_1700.png",
+      "sourceRect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 256.0,
+        "height": 256.0
+      },
+      "pivot": {
+        "X": 0.5,
+        "Y": 0.5
+      },
+      "border": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "W": 0.0
+      },
+      "pixelsPerUnit": 100.0,
+      "texture": "resources.assets:466",
+      "effectiveTexture": "resources.assets:466",
+      "atlasRect": {
+        "x": 10.07612,
+        "y": 11.07612,
+        "width": 235.847748,
+        "height": 234.847748
+      },
+      "trimOffset": {
+        "X": 10.07612,
+        "Y": 11.07612
+      },
+      "downscale": 1.0,
+      "cropPath": "CroppedSprites/resources.assets_1700.png",
+      "cropWidth": 236,
+      "cropHeight": 235,
+      "roundingClipPixels": 0,
+      "paddingLeft": 10,
+      "paddingTop": 10,
+      "width": 256,
+      "height": 256,
+      "sha256": "5d786c63fe960bd5b7fb2e18771c3c5832c10b3a5b4385b84214d529264900f5"
+    }
+  ]
+}

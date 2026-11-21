@@ -1,0 +1,51 @@
+{
+  "stage": {
+    "sid": "2Nq",
+    "aid": "YZL",
+    "title": "Headache",
+    "artist": "Smoke 'Em Out Struggle",
+    "duration": 76000,
+    "hp": 3,
+    "play_type": 0,
+    "difficulty_v2": 1,
+    "asset_flag": 3,
+    "game_config": {
+      "bfs": [
+        "BF_Default"
+      ],
+      "bf": "BF_Default",
+      "gfs": [
+        "GF_Default"
+      ],
+      "gf": "GF_Default",
+      "bosses": [
+        "Garcello_song1"
+      ],
+      "boss": "Garcello_song1",
+      "bgs": [
+        "bg_garcello_normal"
+      ],
+      "bg": "bg_garcello_normal",
+      "others": [],
+      "groups": []
+    },
+    "beatmap": {
+      "url": "http://cdn.makeawesomeapps.com/mtools/beatmusic/beatmap/O4Ku52Cdruqdu8KI6niGau59sK8UL2cnks16cOrUveiMPTZ4SRXFvrTmwS9msxLH0NUKgHRbT8ZsBRhp5IE8hb9f42TWKtvK.bpm",
+      "md5": "5becc4bdde5e079c2b305f62b303ff0e",
+      "size": 0
+    },
+    "beatmap_data": {
+      "url": "http://cdn.makeawesomeapps.com/mtools/beatmusic/beatmap/e6mf5XCrKtjOHPmt7QF2OTw2SBDsjBI7Vh5XSXLiKn.bpmd",
+      "md5": "7839fa3a98e96d554e5a44ecc103fe4e",
+      "size": 0
+    },
+    "restriction": {
+      "unlock_type": 0,
+      "unlock_status": true
+    }
+  },
+  "restriction": {
+    "unlock_type": 0,
+    "unlock_status": true
+  }
+}

@@ -1,0 +1,474 @@
+{
+  "complete": true,
+  "sourceVersion": "6.0.6",
+  "files": [
+    {
+      "path": "dialogs.json",
+      "sha256": "35d976ae69e60e25bf3a769f044c3fd04f8d75532c4e2372aca434eeac1d6176"
+    },
+    {
+      "path": "Fonts/CAB-62586c4f7f88efe0e5bcce4ee70be241_4969962359865170450.ttf",
+      "sha256": "59b2e2c933cc269876bf935f08565faf386c21adebde60954079713d475df459"
+    },
+    {
+      "path": "Fonts/CAB-62586c4f7f88efe0e5bcce4ee70be241_8205276534984544055.ttf",
+      "sha256": "0cd1b13e35f124676d9e1de885249abebe6cbb2222a6bbf7f531d5bd37209829"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_-1066879722078336997.png",
+      "sha256": "1550ed6a88d4a8d7cee61414a0558932925d4347d9643c8ac17ff77c02d6ea46"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_-1066879722078336997.png.meta",
+      "sha256": "512f4c1f2ee8be70a3d0ad1a4e1cec69cba5b29d9467a2d39343761752b51d65"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_-2320101112833093935.png",
+      "sha256": "9510f9bbd05695d1c0eabfe440cd4db0abcc7162ec1f73202dda5e1cbe1bdccf"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_-2320101112833093935.png.meta",
+      "sha256": "f4a094ceb39aaa62a16f7cf9612c511cbfb5dac0169dd9c564a0055435b3b6b5"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_-6932470282978226757.png",
+      "sha256": "4d400955061c9ce925249ee44d72857631fbb622de757cd9c1bc13b63a6df575"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_-6932470282978226757.png.meta",
+      "sha256": "17fcf35b716c27cf1cc237b7eb04e982b12b438204e3d7d6241be550f98ec1b5"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_-8758801304134894840.png",
+      "sha256": "133443e606d4d1b524b5ddd17380b72f57d4062647fc91aa01177260b392aeee"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_-8758801304134894840.png.meta",
+      "sha256": "9b7c665fba767e01ac56c6c7b6187385a2e5c0a73b9e1be84232b1efea4d4103"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_-9005729306063195331.png",
+      "sha256": "8947e739851c0ef330cac8fbbb89a5c7bb8b79dbe563ef1ebcb74dc30971d973"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_-9005729306063195331.png.meta",
+      "sha256": "a054033fdf0599da9f8aab54be707374f620dd26658c8e56681a70dc364032d4"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_2192232178573932904.png",
+      "sha256": "b9fd8bc1aa41dfcef0f16075d1ce44cc3782f4bb4037fb2cfecc8ac7ed85438a"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_2192232178573932904.png.meta",
+      "sha256": "b6744338aa43c18ce42a26498af6ae986b72093e85dbd0e045d87af0772bdd24"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_4097082705410186026.png",
+      "sha256": "8ab50dbc36170db904939ad96cc217b3fdf40a4f02c8fccdf684420bb6eebe58"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_4097082705410186026.png.meta",
+      "sha256": "3ce49e0af7df4ddf6e05fc2e82707367630ac4aaa2d167c717e14dd253f902a1"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_5190587098678609905.png",
+      "sha256": "9b5adb8d83c27bf7344745f21e041bb5a1a628c23865582e114ca2373278f1a6"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_5190587098678609905.png.meta",
+      "sha256": "b71828dc9c740d47b03d079c39574447b3b58b03fd1703eb3a1b041d19378255"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_6637328766818709931.png",
+      "sha256": "0c413cc55b3ec4c383a9e93db09c7b70f0079d904fe8fb897d8e9eded7a486fb"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_6637328766818709931.png.meta",
+      "sha256": "53dec8394165728773109fe25fb16801f903004ba9e4e52ecba684ea20eb4ee2"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_6901270383998202774.png",
+      "sha256": "0801a91d80928a5d38ff0d380252ed64d0f3940760ca80c086752480bf1ed9ab"
+    },
+    {
+      "path": "Sprites/CAB-0f1722250cdb3040275ac492e66566b0_6901270383998202774.png.meta",
+      "sha256": "dcb0189d1d892ae68949e881a5c610a299948493fde32be55089646fdee217f1"
+    },
+    {
+      "path": "Sprites/CAB-49ec130333459bb476354f2002887b32_-1311476619742078248.png",
+      "sha256": "980acedffdb5416a20530dfb7a576d453340b5d5d0b9e232b39474fe0af7fe7c"
+    },
+    {
+      "path": "Sprites/CAB-49ec130333459bb476354f2002887b32_-1311476619742078248.png.meta",
+      "sha256": "61c0f26dd508121f9f2ac83f920dc10ef71e1b87c17e3d331ecbb0a25ba0fe72"
+    },
+    {
+      "path": "Sprites/CAB-49ec130333459bb476354f2002887b32_-3178656059869457393.png",
+      "sha256": "fd33bfe1ca1c1246fc600598b76011699b53b1291d63bd521ee05bab11cc677c"
+    },
+    {
+      "path": "Sprites/CAB-49ec130333459bb476354f2002887b32_-3178656059869457393.png.meta",
+      "sha256": "0784f53a1fdd358239f36a8fdd683d4351810190a7b5056e26f861558eb9992c"
+    },
+    {
+      "path": "Sprites/CAB-49ec130333459bb476354f2002887b32_-5780373452326651412.png",
+      "sha256": "c578077141c51e225e4f693e034eb2ccba0ba2daa8ce91953e87e199f42c2c85"
+    },
+    {
+      "path": "Sprites/CAB-49ec130333459bb476354f2002887b32_-5780373452326651412.png.meta",
+      "sha256": "d3f9908e2ae527a93bfcbf369c63b03a85fb06ef659504f38a5e3bc88844e6ba"
+    },
+    {
+      "path": "Sprites/CAB-49ec130333459bb476354f2002887b32_-6824733324472094451.png",
+      "sha256": "474a7c84600bacb783bec73e05c2d47226131a64b410e1852410a8bdb9f3cabb"
+    },
+    {
+      "path": "Sprites/CAB-49ec130333459bb476354f2002887b32_-6824733324472094451.png.meta",
+      "sha256": "10d3e9cd96c780d50e3e60ff7c42837e4eb09edfc936061ad4bb119487127873"
+    },
+    {
+      "path": "Sprites/CAB-49ec130333459bb476354f2002887b32_149398273806818007.png",
+      "sha256": "12f1397313229cc7bd0969661a84e6e3aed6a9c83545a4a47e557569a6e5a7bb"
+    },
+    {
+      "path": "Sprites/CAB-49ec130333459bb476354f2002887b32_149398273806818007.png.meta",
+      "sha256": "19c63f5705d79ab6711f04fb16ed244952e69abea754534a363b037fa384a4e2"
+    },
+    {
+      "path": "Sprites/CAB-49ec130333459bb476354f2002887b32_287269702203854365.png",
+      "sha256": "6988258d4f4973f08dc9026a350b3ce3ee3e128e3534b109d1c99fc9134a0531"
+    },
+    {
+      "path": "Sprites/CAB-49ec130333459bb476354f2002887b32_287269702203854365.png.meta",
+      "sha256": "609d4e95adbfdbfec18da873cf782492707c3161c020df6a2b1725754dbfa4de"
+    },
+    {
+      "path": "Sprites/CAB-49ec130333459bb476354f2002887b32_5804268624719558691.png",
+      "sha256": "a519da5c895b129b64b37f153a81a9bb0ce2a9150729061482fed789b8a94432"
+    },
+    {
+      "path": "Sprites/CAB-49ec130333459bb476354f2002887b32_5804268624719558691.png.meta",
+      "sha256": "799adcf1bc59450e7c7ae26ae8c9730f5e99a0f43f7f6ec591aecc6f9be72473"
+    },
+    {
+      "path": "Sprites/CAB-49ec130333459bb476354f2002887b32_6402701450866863360.png",
+      "sha256": "e4b2e3a34e7361a9c3be876ed6723597e91738361d8f7863273398c8f7a22b3a"
+    },
+    {
+      "path": "Sprites/CAB-49ec130333459bb476354f2002887b32_6402701450866863360.png.meta",
+      "sha256": "2e69c34e1fb542b2b680155e6058d0df7d1b58003c73d29e5bf168817411f1e1"
+    },
+    {
+      "path": "Sprites/CAB-49ec130333459bb476354f2002887b32_7579631514268908894.png",
+      "sha256": "7d390c699331668b54e075ddb7923427fe80e5b284fd0a4e12177a5ce4a84fa9"
+    },
+    {
+      "path": "Sprites/CAB-49ec130333459bb476354f2002887b32_7579631514268908894.png.meta",
+      "sha256": "dc890ca729bd490a93871e00cb64fb133b913c9de4cfec3ee730cce125e0ea36"
+    }
+  ],
+  "objects": 198,
+  "assets": 21,
+  "pendingComponents": [
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:8996924115525792657",
+      "script": ".GetRewardDialog",
+      "error": "Exception: Parsed 148 of 196",
+      "bytes": 196,
+      "consumed": 148
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:7792173911755343956",
+      "script": ".RewardDisplay",
+      "error": "Exception: Parsed 64 of 288",
+      "bytes": 288,
+      "consumed": 64
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:-7833880151335353042",
+      "script": ".BFCoverComponent",
+      "error": "Exception: Parsed 80 of 440",
+      "bytes": 440,
+      "consumed": 80
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:7078011074578763798",
+      "script": "Pages.MainRoom.Reward.BFCoverPresenter",
+      "error": null,
+      "bytes": 68,
+      "consumed": 68
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:8255822119247549645",
+      "script": "Pages.MainRoom.Reward.DecorCoverPresenter",
+      "error": null,
+      "bytes": 44,
+      "consumed": 44
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:703525929523212290",
+      "script": "Pages.MainRoom.Reward.NameBoxPresenter",
+      "error": null,
+      "bytes": 44,
+      "consumed": 44
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:5956523934991783355",
+      "script": "Coffee.UIEffects.UIShiny",
+      "error": null,
+      "bytes": 84,
+      "consumed": 84
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:551231251980496962",
+      "script": "EnhancedUI.EnhancedScroller.EnhancedScroller",
+      "error": null,
+      "bytes": 112,
+      "consumed": 112
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:3295356484169050081",
+      "script": "EnhancedUI.EnhancedScroller.EnhancedScroller",
+      "error": null,
+      "bytes": 112,
+      "consumed": 112
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:1971308492813867948",
+      "script": "Pages.MainRoom.Reward.KeepStarPresenterWithMultiplier",
+      "error": null,
+      "bytes": 44,
+      "consumed": 44
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:6411320661644016599",
+      "script": "Pages.MainRoom.Reward.StarBoosterPresenterWithMultiplier",
+      "error": null,
+      "bytes": 44,
+      "consumed": 44
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:8260583848910063012",
+      "script": "Pages.MainRoom.Reward.BFTicketPresenter",
+      "error": null,
+      "bytes": 76,
+      "consumed": 76
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:4359035454091125312",
+      "script": ".RewardDisplay",
+      "error": "Exception: Parsed 64 of 264",
+      "bytes": 264,
+      "consumed": 64
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:3087672984627753462",
+      "script": "Pages.MainRoom.Reward.NameBoxPresenter",
+      "error": null,
+      "bytes": 44,
+      "consumed": 44
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:7429216361521841681",
+      "script": "Coffee.UIEffects.UIShiny",
+      "error": null,
+      "bytes": 84,
+      "consumed": 84
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:-5810014384570116564",
+      "script": "EnhancedUI.EnhancedScroller.EnhancedScroller",
+      "error": null,
+      "bytes": 112,
+      "consumed": 112
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:245154143996527326",
+      "script": "EnhancedUI.EnhancedScroller.EnhancedScroller",
+      "error": null,
+      "bytes": 112,
+      "consumed": 112
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:-3135852180596178868",
+      "script": ".BFCoverComponent",
+      "error": "Exception: Parsed 80 of 440",
+      "bytes": 440,
+      "consumed": 80
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:-6127219862210890941",
+      "script": "Pages.MainRoom.Reward.BFCoverPresenter",
+      "error": null,
+      "bytes": 68,
+      "consumed": 68
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:1392622410033618505",
+      "script": "Pages.MainRoom.Reward.DecorCoverPresenter",
+      "error": null,
+      "bytes": 44,
+      "consumed": 44
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:-9164006577487130262",
+      "script": "Pages.MainRoom.Reward.KeepStarPresenterWithMultiplier",
+      "error": null,
+      "bytes": 44,
+      "consumed": 44
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:-3774781908931210887",
+      "script": "Pages.MainRoom.Reward.StarBoosterPresenterWithMultiplier",
+      "error": null,
+      "bytes": 44,
+      "consumed": 44
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:6662093870521460445",
+      "script": ".RewardDisplay",
+      "error": "Exception: Parsed 64 of 264",
+      "bytes": 264,
+      "consumed": 64
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:5981494136946304365",
+      "script": "Pages.MainRoom.Reward.NameBoxPresenter",
+      "error": null,
+      "bytes": 44,
+      "consumed": 44
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:9168107328370326301",
+      "script": "Coffee.UIEffects.UIShiny",
+      "error": null,
+      "bytes": 84,
+      "consumed": 84
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:6775534911494190736",
+      "script": "EnhancedUI.EnhancedScroller.EnhancedScroller",
+      "error": null,
+      "bytes": 112,
+      "consumed": 112
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:-4501130427973754334",
+      "script": "EnhancedUI.EnhancedScroller.EnhancedScroller",
+      "error": null,
+      "bytes": 112,
+      "consumed": 112
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:518497667184885955",
+      "script": ".BFCoverComponent",
+      "error": "Exception: Parsed 80 of 440",
+      "bytes": 440,
+      "consumed": 80
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:-6333698201268670560",
+      "script": "Pages.MainRoom.Reward.BFCoverPresenter",
+      "error": null,
+      "bytes": 68,
+      "consumed": 68
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:7291778136321223934",
+      "script": "Pages.MainRoom.Reward.DecorCoverPresenter",
+      "error": null,
+      "bytes": 44,
+      "consumed": 44
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:-8514435942794433012",
+      "script": "Pages.MainRoom.Reward.KeepStarPresenterWithMultiplier",
+      "error": null,
+      "bytes": 44,
+      "consumed": 44
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:206181664708764075",
+      "script": "Pages.MainRoom.Reward.StarBoosterPresenterWithMultiplier",
+      "error": null,
+      "bytes": 44,
+      "consumed": 44
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:-2678508546236566376",
+      "script": ".RewardDisplay",
+      "error": "Exception: Parsed 64 of 264",
+      "bytes": 264,
+      "consumed": 64
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:8299058144568071431",
+      "script": "Pages.MainRoom.Reward.NameBoxPresenter",
+      "error": null,
+      "bytes": 44,
+      "consumed": 44
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:-8490789775856190990",
+      "script": "Coffee.UIEffects.UIShiny",
+      "error": null,
+      "bytes": 84,
+      "consumed": 84
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:5893078609336802582",
+      "script": "EnhancedUI.EnhancedScroller.EnhancedScroller",
+      "error": null,
+      "bytes": 112,
+      "consumed": 112
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:692177845757308938",
+      "script": "EnhancedUI.EnhancedScroller.EnhancedScroller",
+      "error": null,
+      "bytes": 112,
+      "consumed": 112
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:4218926042549464110",
+      "script": ".BFCoverComponent",
+      "error": "Exception: Parsed 80 of 440",
+      "bytes": 440,
+      "consumed": 80
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:9118104790553353219",
+      "script": "Pages.MainRoom.Reward.BFCoverPresenter",
+      "error": null,
+      "bytes": 68,
+      "consumed": 68
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:3396109130507596566",
+      "script": "Pages.MainRoom.Reward.DecorCoverPresenter",
+      "error": null,
+      "bytes": 44,
+      "consumed": 44
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:-2210202493891520470",
+      "script": "Pages.MainRoom.Reward.KeepStarPresenterWithMultiplier",
+      "error": null,
+      "bytes": 44,
+      "consumed": 44
+    },
+    {
+      "id": "CAB-49ec130333459bb476354f2002887b32:-925449788633311519",
+      "script": "Pages.MainRoom.Reward.StarBoosterPresenterWithMultiplier",
+      "error": null,
+      "bytes": 44,
+      "consumed": 44
+    }
+  ],
+  "gameplayVerified": false,
+  "animationsVerified": false,
+  "limits": [
+    "Partial controller fields are excluded from bindings.",
+    "Toggle behavior, UIShiny and original animations remain pending."
+  ]
+}

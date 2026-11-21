@@ -36,7 +36,7 @@ namespace BBPC.UnityRuntime
             try
             {
                 var folder = Path.Combine(dir, "capture-" + DateTime.Now.ToString("yyyyMMdd-HHmmss")); Directory.CreateDirectory(folder);
-                ScreenCapture.CaptureScreenshot(Path.Combine(folder, "screenshot.png"));
+                StartCoroutine(Shot(Path.Combine(folder, "screenshot.png")));
                 var sb = new StringBuilder(); sb.AppendLine("screen " + Screen.width + "x" + Screen.height);
                 foreach (var canvas in FindObjectsOfType<Canvas>())
                 {
@@ -48,6 +48,21 @@ namespace BBPC.UnityRuntime
                 Debug.LogWarning("[BBPC.Debug] capture saved: " + folder);
             }
             catch (Exception e) { Debug.LogException(e); }
+        }
+
+        // The screencapture module is not in this project's manifest: read the frame buffer and encode with imageconversion (which is).
+        private System.Collections.IEnumerator Shot(string file)
+        {
+            yield return new WaitForEndOfFrame();
+            Texture2D tex = null;
+            try
+            {
+                tex = new Texture2D(Screen.width, Screen.height, TextureFormat.RGB24, false);
+                tex.ReadPixels(new Rect(0, 0, Screen.width, Screen.height), 0, 0); tex.Apply();
+                File.WriteAllBytes(file, tex.EncodeToPNG());
+            }
+            catch (Exception e) { Debug.LogException(e); }
+            if (tex != null) Destroy(tex);
         }
 
         private static void Dump(Transform t, int depth, StringBuilder sb)

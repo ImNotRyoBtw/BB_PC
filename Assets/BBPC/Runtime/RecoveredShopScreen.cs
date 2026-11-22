@@ -89,6 +89,12 @@ namespace BBPC.UnityRuntime
             try
             {
                 RecoveredShopPayload value = null;
+                // If the online bootstrap is still running, wait for it (max 90 s) instead of failing with "sin datos".
+                if (Services.Attempted && !Services.Finished)
+                {
+                    Say("Tienda: esperando identidad y hora…"); float giveUp = Time.unscaledTime + 90f;
+                    while (!Services.Finished && Time.unscaledTime < giveUp) yield return null;
+                }
                 yield return Services.FetchShopGoods(v => value = v);
                 if (value != null)
                 {

@@ -321,7 +321,15 @@ namespace BBPC.UnityRuntime
             else if(wealthProbe>=0&&wealthProbe+1<args.Length)yield return ValidateExistingAccount(args[wealthProbe+1],true);
             else if(probe>=0&&probe+1<args.Length)yield return ValidateExistingAccount(args[probe+1]);
             else if(online>=0&&online+1<args.Length)yield return ValidateOwnOnlineRead(args[online+1]);
-            else if(test<0&&RecoveredPreferences.GetInt("BBPC.Windows.OnlineEnabled",0)==1)StartOwnOnlineTest();
+            // -bbpc-online: used by the test driver (unity_mcp.py) to start the online bootstrap without touching the saved preference.
+            // Only with an identity that already exists on this machine: this flag never registers a new account.
+            else if(test<0)
+            {
+                bool flag=Array.IndexOf(args,"-bbpc-online")>=0;int pref=RecoveredPreferences.GetInt("BBPC.Windows.OnlineEnabled",0);bool hasId=Services.HasPersistedPair;
+                // -bbpc-online solo arranca si ya hay identidad guardada: nunca registra una cuenta nueva.
+                if(pref==1||(flag&&hasId)){Application.runInBackground=true;Debug.Log("[BBPC.Online] arranque online (OnlineEnabled="+pref+", flag -bbpc-online="+flag+", identidad guardada="+hasId+")");StartOwnOnlineTest();}
+                else Debug.Log("[BBPC.Online] arranque OFFLINE: OnlineEnabled="+pref+", flag -bbpc-online="+flag+", identidad guardada="+hasId);
+            }
         }
         private System.Collections.IEnumerator BootstrapLocalFrontend()
         {
@@ -400,11 +408,13 @@ namespace BBPC.UnityRuntime
             Bind("BattlePassBar", () => HomeDialogs.ShowBattlePass());
             if (FindObjectOfType<EventSystem>() == null) new GameObject("BB_PC input", typeof(EventSystem), typeof(StandaloneInputModule)).transform.SetParent(transform);
             if (GetComponent<RecoveredDebugCapture>() == null) gameObject.AddComponent<RecoveredDebugCapture>();
+            string driverFolder = RecoveredTestDriver.FolderFromArgs();
+            if (driverFolder != null && GetComponent<RecoveredTestDriver>() == null) gameObject.AddComponent<RecoveredTestDriver>().Begin(driverFolder);
             Services = GetComponent<RecoveredServiceClient>() ?? gameObject.AddComponent<RecoveredServiceClient>();
             Account = Services.Account;
             Services.AccountChanged = RefreshOwnAccountHud;
             Services.FavoritesChanged = () => FullCatalog?.ApplyServerFavorites(Services.ServerFavorites);
-            Services.Completed = () => ApplyCatalogArrival(Services.Catalog);
+            Services.Completed = () => { ApplyCatalogArrival(Services.Catalog); LogOnlineOutcome(); };
             // Navigation already builds the recovered Shop/Character pages. Do not cover them
             // with the procedural Windows shop controls; original data bindings remain pending.
             Results=gameObject.AddComponent<RecoveredResultPanel>();Results.Build(this);
@@ -607,6 +617,13 @@ namespace BBPC.UnityRuntime
                 foreach(var child in box.GetComponentsInChildren<Transform>(true))if(child.name=="GuildParent"||child.name=="FriendOrEmoji"||child.name=="rankingText")child.gameObject.SetActive(false);
             }
             foreach(var go in page.Objects.Values)if(go!=null&&go.name=="UserNameText"&&go.TryGetComponent<Text>(out var text)){text.supportRichText=false;text.text=screenName??"";}
+        }
+        // Diagnostic only: one line with the outcome of the online bootstrap (no ids, no bodies, no tokens).
+        private void LogOnlineOutcome()
+        {
+            var sb = new System.Text.StringBuilder();
+            foreach (var a in Services.ReadAttempts) sb.Append(a.route).Append(':').Append(a.http).Append(':').Append(a.result).Append(' ');
+            Debug.Log("[BBPC.Online] terminó status=\"" + Services.Status + "\" identity=" + Services.HasPersistedPair + " time=" + Services.TimeSynced + " config=" + Services.ConfigVerified + " profile=" + Services.ProfileVerified + " wealth=" + Services.WealthVerified + " roles=" + Services.OwnRolesVerified + " catalog=" + (Services.Catalog != null) + " requests=" + sb);
         }
         [ContextMenu("Online / initialize own Windows test identity once")]
         public void StartOwnOnlineTest()

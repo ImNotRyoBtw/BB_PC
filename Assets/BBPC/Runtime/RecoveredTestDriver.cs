@@ -97,7 +97,9 @@ namespace BBPC.UnityRuntime
         private IEnumerator Shot(string label)
         {
             yield return new WaitForEndOfFrame();
-            var tex = ScreenCapture.CaptureScreenshotAsTexture();
+            // screencapture module is not in Packages/manifest.json: read the frame buffer instead.
+            var tex = new Texture2D(Screen.width, Screen.height, TextureFormat.RGB24, false);
+            tex.ReadPixels(new Rect(0, 0, Screen.width, Screen.height), 0, 0); tex.Apply();
             try { File.WriteAllBytes(Path.Combine(folder, Regex.Replace(label, "[^A-Za-z0-9_-]", "_") + ".png"), ImageConversion.EncodeToPNG(tex)); Log("shot " + label); }
             finally { Destroy(tex); }
         }
